@@ -1,0 +1,270 @@
+{
+    "name": "Necrons",
+    "army-rule" : {
+        "name": "Reanimation Protocols",
+        "flavour": "The scattered dynasties of the Necrons pursue many different paths to dominance, embracing their own traditions and martial doctrines. All dynasties also benefit from the nigh-supernatural technologies that once saw them dominate the galaxy, perhaps the most unsettling of which are their reanimation protocols. Should a Necron be slain, its body becomes wreathed in an eerie glow. Crawling limbs reattach, sundered torsos and smashed skulls reform and the Necron rises again, shambling back into battle.",
+        "rules": "If your Army Faction is *Necrons*, at the end of your Command phase, each unit from your army with this ability activates its Reanimation Protocols and reanimates D3 wounds. Each time such a unit reanimates a wound:\n- If that unit contains one or more models with fewer than their starting number of wounds remaining, select one of those models; that model regains one lost wound.\n- If all models in that unit have their starting number of wounds, but that unit is not at its Starting Strength, one destroyed model is returned to that unit with one wound remaining.\nOnce such a unit is at its Starting Strength and all of its models have their starting number of wounds, nothing further happens."
+    },
+    "detachments": [
+        {
+            "name": "Awakened Dynasty",
+            "rule": {
+                "name": "Command Protocols",
+                "rules": "While a *Necrons Character* model is leading this unit, each time a model in this unit makes an attack, add 1 to the Hit roll.",
+                "flavour": "The Necron nobility make war in a codified and relentless fashion. Their command protocols crackle out across multi-dimensional spectra from carrier-wave projectors, compelling their semi-sentient soldiery into battle one overriding directive at a time."
+            },
+            "stratagems": [
+                {
+                    "name": "Protocol of the Eternal Guardian",
+                    "type": "Epic Deed Stratagem",
+                    "cost": "1CP",
+                    "flavour": "Necron rulers possess sophisticated self-repair systems that can reknit their corporeal forms so they can once more command their legions.",
+                    "when": "Any phase.",
+                    "target": "One *Necrons Infantry Character* model from your army that was just destroyed.",
+                    "effect": "Set your model back up on the battlefield as close as possible to where it was destroyed and more than 1\" away from all enemy models, with half of its starting number of wounds remaining.",
+                    "restrictions": "Each model can only be targeted with this Stratagem once per battle."
+                },
+                {
+                    "name": "Protocol of the Hungry Void",
+                    "type": "Battle Tactic Stratagem",
+                    "cost": "1CP",
+                    "flavour": "The Necrons strike with data-augmented accuracy, their murderous attacks as inescapable as the killing cold of space.",
+                    "when": "Fight phase",
+                    "target": "One *Necrons* unit from your army that has not been selected to fight this phase.",
+                    "effect": "Until the end of the phase, add 1 to the Strength characteristic of melee weapons equipped by models in your unit. In addition, If a *Necrons Character* is leading your unit, until the end of the phase, improve the Armour Penetration characteristic of melee weapons equipped by models in your unit by 1.",
+                    "restrictions": ""
+                },
+                {
+                    "name": "Protocol of the Conquering Tyrant",
+                    "type": "Battle Tactic Stratagem",
+                    "cost": "1CP",
+                    "flavour": "The legions employ the strategies of their masters in perfect synchronicity, laying down hails of mechanically coordinated fire.",
+                    "when": "Your Shooting phase.",
+                    "target": "One *Necrons* unit from your army that has not been selected to shoot this phase.",
+                    "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets a unit within half of the firing weapon's range, you can re-roll the Wound roll. If a *Necrons Character* is leading your unit, until the end of the phase, this effect applies at the firing weapon's full range instead.",
+                    "restrictions": ""
+                },
+                {
+                    "name": "Protocol of the Undying Legions",
+                    "type": "Strategic Ploy Stratagem",
+                    "cost": "1CP",
+                    "flavour": "At a hissing static signal, nanoscarabs are released in boiling black clouds that whirl about the legions and effect constant repairs.",
+                    "when": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has resolved its attacks.",
+                    "target": "One *Necrons* unit from your army that had one or more of its models destroyed as a result of the attacking unit's attacks.",
+                    "effect": "Your unit activates its Reanimation Protocols and reanimates D3 wounds. When doing so, if a *Necrons Character* is leading your unit, your unit reanimates D3+1 wounds instead.",
+                    "restrictions": ""
+                },
+                {
+                    "name": "Protocol of the Undying Stars",
+                    "type": "Strategic Ploy Stratagem",
+                    "cost": "1CP",
+                    "flavour": "In response to enemy attack, criss-cross fire leaps from the Necron ranks, forming a blazing corona of deadly energy from which there can be no escape.",
+                    "when": "Your opponent's Shooting phase, just after an enemy unit has resolved its attacks.",
+                    "target": "One *Necrons* unit from your army that had one or more of its models destroyed as a result of the attacking unit's attacks.",
+                    "effect": "Your unit can shoot as if it were your Shooting phase, but it must target the enemy unit that just attacked it, and can only do so if that enemy unit is an eligible target. In addition, if a *Necrons Character* is leading your unit, until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability.",
+                    "restrictions": ""
+                },
+                {
+                    "name": "Protocol of the Sudden Storm",
+                    "type": "Strategic Ploy Stratagem",
+                    "cost": "1CP",
+                    "flavour": "Arcing energies leap from one Necron unit to the next, lending speed to their limbs and causing their eye lenses to blaze.",
+                    "when": "Your Movement phase.",
+                    "target": "One *Necrons* unit from your army.",
+                    "effect": "Until the end of the turn, ranged weapons equipped by models in your unit have the [ASSAULT] ability. In addition, if a *Necrons Character* is leading your unit, until the end of the phase, you can re-roll Advance rolls made for your unit.",
+                    "restrictions": ""
+                }
+            ]
+        }
+    ],
+    "enhancements": [
+        {
+            "name": "Veil of Darkness",
+            "cost": "",
+            "flavour": "This device was fashioned from transpositanium, a substance so rare that it can only be found in a handful of places in the galaxy. It is highly sought after by the Necrons, and wars have been waged to secure it. Activated with a thought, the Veil causes space and time to warp around its user and those near them, enfolding them in a swirling darkness. As the darkness fades, the user and their comrades appear elsewhere on the battlefield, transported through a miracle of arcane science.",
+            "rules": "*Necrons* model only. Once per battle, at the end of your opponent's turn, if the bearer's unit is not within Engagement Range of any enemy units, the bearer can use this Enhancement. If it does, remove that unit from the battlefield. Then, in the Reinforcements step of your next Movement phase, set up that unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models."
+        },
+        {
+            "name": "The Sovereign Coronal (Aura)",
+            "cost": "",
+            "flavour": "A band of living quicksilver, this strange artefact is shot through with artificial networks of command-wave nano-circuitry. This strange pseudo-animate crown is gifted to especially prominent nobles. As it is donned it sinks through the metallic skin of its wearer's brow and meshes with their synthetic cortex, enhancing and projecting their dominating will through multiple spectra across a substantial distance.",
+            "rules": "*Necrons* model only. While a friendly *Necrons* unit is within 6\" of the bearer, that unit counts as being led by a *Necrons Character* model."
+        },
+        {
+            "name": "Hypermaterial Ablator",
+            "cost": "",
+            "flavour": "By simply pointing and activating this slender quasinium rod, the bearer shrouds their allies in a whirling field of accumulated hypermatter.",
+            "rules": "*Necrons* model only. While the bearer is leading a unit, models in that unit have the Stealth ability. In addition, each time a ranged attack targets the bearer's unit, if the attacker is not within 12\", models in that unit have the Benefit of Cover."
+        },
+        {
+            "name": "Sempiternal Weave",
+            "cost": "",
+            "flavour": "Only the finest Cryptek artificers know the secret of crafting a Sempiternal Weave. These gossamer-thin plates are formed from phase-hardened amarathine and threads of adamantine. They are then layered over the bearer's carapace of living metal, stiffening and contracting when struck to turn aside energy blades, bolt shells and even the searing heat of a plasma burst.",
+            "rules": "*Necrons* model only. The bearer has the Feel No Pain 4+ ability."
+        }
+    ],
+    "units" : [
+        {
+            "name": "Imotekh the Stormlord",
+            "cost": [
+                "100"
+            ],
+            "composition": [
+                "1"
+            ],
+            "stats": {
+                "M": "5\"",
+                "T": "%",
+                "Sv": "2+",
+                "W": "5",
+                "Ld": "6+",
+                "OC": "1"
+            },
+            "invuln": "4+",
+            "ranged-weapons": [
+                {
+                    "name": "Gauntlet of Fire",
+                    "abilities": ["IGNORES COVER"],
+                    "Range": "12\"",
+                    "A": "D6",
+                    "BS": "N/A",
+                    "S": "5",
+                    "AP": "-1",
+                    "D": "1"
+                },
+                {
+                    "name": "Staff of the Destroyer",
+                    "abilities": [],
+                    "Range": "18\"",
+                    "A": "3",
+                    "BS": "2+",
+                    "S": "6",
+                    "AP": "-3",
+                    "D": "2"
+                }
+            ],
+            "melee-weapons": [
+                {
+                    "name": "Staff of the Destroyer",
+                    "abilities": ["DEVASTATING WOUNDS"],
+                    "Range": "Melee",
+                    "A": "4",
+                    "WS": "2+",
+                    "S": "6",
+                    "AP": "-3",
+                    "D": "2"
+                }
+            ],
+            "core-abilities": ["Leader"],
+            "faction-abilities": ["Reanimation Protocols"],
+            "wargear-abilities": [],
+            "abilities": [
+                {
+                    "name": "Grand Strategist",
+                    "rules": "At the start of your Command phase, if this model is on the battlefield, you gain 1CP."
+                },
+                {
+                    "name": "Lord of the Storm",
+                    "rules": "Once per battle, at the end of your Command phase, this model can use this ability. If it does, roll one D6 for each enemy unit within 12\" of this model: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds."
+                }
+            ],
+            "keywords": ["Infantry", "Character", "Epic Hero", "Noble", "Imotekh the Stormlord"],
+            "faction-keywords": ["Necrons"],
+            "equipment": [
+                "Gauntlet of Fire",
+                "Staff of the Destroyer"
+            ],
+            "wargear-options": [],
+            "flavour": "Imotekh is a sublimely skilled strategist, wielding his armies with hyperlogical skill and unleashing deadly strategic ploys. In battle he incinerates enemies with his Gauntlet of Fire, blasts them with pan-dimensional energies from his Staff of the Destroyer or humbles them in punishing one-on-one duels."
+        },
+        {
+            "name": "Necron Warriors",
+            "cost": [
+                "110",
+                "220"
+            ],
+            "composition": [
+                "10",
+                "20"
+            ],
+            "stats": {
+                "M": "5\"",
+                "T": "4",
+                "Sv": "4+",
+                "W": "1",
+                "Ld": "7+",
+                "OC": "2"
+            },
+            "ranged-weapons": [
+                {
+                    "name": "Gauss flayer",
+                    "abilities": [
+                        "LETHAL HITS",
+                        "RAPID FIRE 1"
+                    ],
+                    "Range": "24\"",
+                    "A": "1",
+                    "BS": "4+",
+                    "S": "4",
+                    "AP": "0",
+                    "D": "1"
+                },
+                {
+                    "name": "Gauss reaper",
+                    "abilities": [
+                        "LETHAL HITS"
+                    ],
+                    "Range": "12\"",
+                    "A": "2",
+                    "BS": "4+",
+                    "S": "5",
+                    "AP": "-1",
+                    "D": "1"
+                }
+            ],
+            "melee-weapons": [
+                {
+                    "name": "Close combat weapon",
+                    "abilities": [],
+                    "Range": "Melee",
+                    "A": "1",
+                    "WS": "4+",
+                    "S": "4",
+                    "AP": "0",
+                    "D": "1"
+                }
+            ],
+            "core-abilities": [],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
+            "wargear-abilities": [],
+            "abilities": [
+                {
+                    "name": "Their Number is Legion",
+                    "rules": "Each time this unit's Reanimation Protocols activate, it reanimates D6 wounds instead of D3 wounds, unless it is within range of an objective marker you control, in which case it reanimates D3+3 wounds instead."
+                }
+            ],
+            "keywords": [
+                "Infantry",
+                "Battleline",
+                "Necron Warriors"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
+            "equipment": [
+                "Gauss flayer",
+                "Close combat weapon"
+            ],
+            "wargear-options": [
+                {
+                    "name": "Gauss reaper",
+                    "replaces": "Gauss flayer",
+                    "restricted": "No"
+                }
+            ],
+            "flavour": "Necron Warriors attack in rank upon shambling rank. Individually little more than mindless automata, they are relentless and deadly when commanded en masse. The Warriors’ metallic bodies can self-repair from even the most hideous damage, while their unceasing volleys of fire butcher the foe with mechanical efficiency"
+        }
+    ]
+}

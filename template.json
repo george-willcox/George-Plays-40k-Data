@@ -1,0 +1,115 @@
+{
+    "name": "",
+    "army-rule": {
+        "name": "",
+        "flavour": "",
+        "rules": "",
+        "example": ""
+    },
+    "detachments": [
+        {
+            "name": "",
+            "rule": {
+                "name": "",
+                "rules": "",
+                "flavour": ""
+            },
+            "stratagems": [
+                {
+                    "name": "",
+                    "type": "",
+                    "cost": "",
+                    "flavour": "",
+                    "when": "",
+                    "target": "",
+                    "effect": "",
+                    "restrictions": ""
+                },
+                {
+                    "name": "",
+                    "type": "",
+                    "cost": "",
+                    "flavour": "",
+                    "when": "",
+                    "target": "",
+                    "effect": "",
+                    "restrictions": ""
+                }
+            ]
+        }
+    ],
+    "enhancements": [
+        {
+            "name": "",
+            "cost": "",
+            "flavour": "",
+            "rules": ""
+        },
+        {
+            "name": "",
+            "cost": "",
+            "flavour": "",
+            "rules": ""
+        }
+    ],
+    "units": [
+        {
+            "name": "",
+            "cost": [""],
+            "composition": [""],
+            "stats": {
+                "M": "",
+                "T": "",
+                "Sv": "",
+                "W": "",
+                "Ld": "",
+                "OC": ""
+            },
+            "invuln": "",
+            "ranged-weapons": [
+                {
+                    "name": "",
+                    "abilities": [],
+                    "Range": "",
+                    "A": "",
+                    "BS": "",
+                    "S": "",
+                    "AP": "",
+                    "D": ""
+                }
+            ],
+            "melee-weapons": [
+                {
+                    "name": "",
+                    "abilities": [],
+                    "Range": "Melee",
+                    "A": "",
+                    "WS": "",
+                    "S": "",
+                    "AP": "",
+                    "D": ""
+                }
+            ],
+            "core-abilities": [],
+            "faction-abilities": [],
+            "wargear-abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "rules": ""
+                }
+            ],
+            "keywords": [],
+            "faction-keywords": [],
+            "equipment": [""],
+            "wargear-options": [
+                {
+                    "name": "",
+                    "replaces": "",
+                    "restricted": ""
+                }
+            ],
+            "flavour": ""
+        }
+    ]
+}
