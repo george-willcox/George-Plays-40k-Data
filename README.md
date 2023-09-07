@@ -8,6 +8,7 @@ All submitted units must have at least this, other fields can be added later and
 Detachments must have at least their name, enhancements must have at least their name and cost.
 
 Please keep all fields in the same order as shown in `template.json`
+
 Please keep units in alphabetical order.
 
 The Necron index is (partially) complete, please see this for examples.
