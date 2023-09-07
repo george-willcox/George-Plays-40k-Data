@@ -554,7 +554,7 @@
             ],
             "wargear-abilities": [],
             "damaged": {
-                "wounds": "1-4",
+                "wounds": "4",
                 "rules": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             },
             "keywords": ["Vehicle", "Walker", "Canoptek", "Doomstalker"],
@@ -1286,7 +1286,7 @@
             ],
             "wargear-abilities": [],
             "damaged": {
-                "wounds": "1-4",
+                "wounds": "4",
                 "rules": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             },
             "keywords": ["Vehicle", "Aircraft", "Fly", "Doom Scythe"],
@@ -1360,7 +1360,7 @@
             ],
             "wargear-abilities": [],
             "damaged": {
-                "wounds": "1-5",
+                "wounds": "5",
                 "rules": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             },
             "keywords": ["Vehicle", "Fly", "Doomsday Ark"],
@@ -1792,55 +1792,54 @@
                 "6"
             ],
             "stats": {
-                "M": "",
-                "T": "",
-                "Sv": "",
-                "W": "",
-                "Ld": "",
-                "OC": ""
+                "M": "7\"",
+                "T": "6",
+                "Sv": "3+",
+                "W": "3",
+                "Ld": "7+",
+                "OC": "2"
             },
-            "invuln": "",
             "ranged-weapons": [
                 {
-                    "name": "",
-                    "abilities": [],
-                    "Range": "",
-                    "A": "",
-                    "BS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "name": "Gauss cannon",
+                    "abilities": ["LETHAL HITS"],
+                    "Range": "24\"",
+                    "A": "3",
+                    "BS": "3+",
+                    "S": "5",
+                    "AP": "-2",
+                    "D": "2"
                 }
             ],
             "melee-weapons": [
                 {
-                    "name": "",
+                    "name": "Close combat weapon",
                     "abilities": [],
                     "Range": "Melee",
-                    "A": "",
-                    "WS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "A": "2",
+                    "WS": "3+",
+                    "S": "4",
+                    "AP": "0",
+                    "D": "1"
                 }
             ],
             "core-abilities": [],
-            "faction-abilities": [],
+            "faction-abilities": ["Reanimation Protocols"],
             "abilities": [
                 {
-                    "name": "",
-                    "rules": ""
+                    "name": "Hard-wired for Destruction",
+                    "rules": "Each time a model in this unit makes an attack that targets the closest eligible enemy unit, re-roll a Hit roll of 1."
                 }
             ],
             "wargear-abilities": [],
-            "keywords": [],
-            "faction-keywords": [],
+            "keywords": ["Mounted", "Fly", "Lokhust Destroyers"],
+            "faction-keywords": ["Necrons"],
             "equipment": [
-                ""
+                "Gauss cannon",
+                "Close combat weapon"
             ],
             "wargear-options": [],
-            "leads": [],
-            "flavour": ""
+            "flavour": "Lokhust Destroyers rely on speed and firepower to annihilate any life they encounter. Their repulsor-sled bodies and augmented kinetic compensators ensure they can fire on the move without reduction in efficiency, and their speed allows them to run even the swiftest prey to ground."
         },
         {
             "name": "Lokhust Heavy Destroyers",
@@ -1855,55 +1854,70 @@
                 "3"
             ],
             "stats": {
-                "M": "",
-                "T": "",
-                "Sv": "",
-                "W": "",
-                "Ld": "",
-                "OC": ""
+                "M": "7\"",
+                "T": "6",
+                "Sv": "3+",
+                "W": "4",
+                "Ld": "7+",
+                "OC": "2"
             },
-            "invuln": "",
             "ranged-weapons": [
                 {
-                    "name": "",
-                    "abilities": [],
-                    "Range": "",
-                    "A": "",
-                    "BS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "name": "Enmitic exterminator",
+                    "abilities": ["HEAVY", "RAPID FIRE 6", "SUSTAINED HITS 1"],
+                    "Range": "36\"",
+                    "A": "6",
+                    "BS": "3+",
+                    "S": "6",
+                    "AP": "-1",
+                    "D": "1"
+                },
+                {
+                    "name": "Gauss destructor",
+                    "abilities": ["HEAVY", "LETHAL HITS"],
+                    "Range": "48\"",
+                    "A": "1",
+                    "BS": "3+",
+                    "S": "14",
+                    "AP": "-4",
+                    "D": "6"
                 }
             ],
             "melee-weapons": [
                 {
-                    "name": "",
+                    "name": "Close combat weapon",
                     "abilities": [],
                     "Range": "Melee",
-                    "A": "",
-                    "WS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "A": "2",
+                    "WS": "3+",
+                    "S": "4",
+                    "AP": "0",
+                    "D": "1"
                 }
             ],
             "core-abilities": [],
-            "faction-abilities": [],
+            "faction-abilities": ["Reanimation Protocols"],
             "abilities": [
                 {
-                    "name": "",
-                    "rules": ""
+                    "name": "Optimised for Slaughter",
+                    "rules": "Each time a model in this unit makes an attack with an enmitic exterminator against an *Infantry* unit, re-roll a Wound roll of 1. Each time a model in this unit makes an attack with a gauss destructor against a *Monster* or *Vehicle* unit, re-roll a Wound roll of 1."
                 }
             ],
             "wargear-abilities": [],
-            "keywords": [],
-            "faction-keywords": [],
+            "keywords": ["Mounted", "Fly", "Lokhust Heavy Destroyers"],
+            "faction-keywords": ["Necrons"],
             "equipment": [
-                ""
+                "Gauss destructor",
+                "Close combat weapon"
             ],
-            "wargear-options": [],
-            "leads": [],
-            "flavour": ""
+            "wargear-options": [
+                {
+                    "name": "Enmitic exterminator",
+                    "replaces": "Gauss destructor",
+                    "restricted": "No"
+                }
+            ],
+            "flavour": "The Destroyer Cults think nothing of sacrificing their physical forms to optimise themselves for slaughter. Lokhust Heavy Destroyers skim to battle upon repulsor-sled bodies, their upper limbs bound into gauss destructors or enmitic exterminators with which they decimate their foes with devastating blasts from afar"
         },
         {
             "name": "Lokhust Lord",
@@ -1914,55 +1928,97 @@
                 "1"
             ],
             "stats": {
-                "M": "",
-                "T": "",
-                "Sv": "",
-                "W": "",
-                "Ld": "",
-                "OC": ""
+                "M": "7\"",
+                "T": "6",
+                "Sv": "3+",
+                "W": "6",
+                "Ld": "6+",
+                "OC": "2"
             },
-            "invuln": "",
+            "invuln": "4+",
             "ranged-weapons": [
                 {
-                    "name": "",
+                    "name": "Staff of light",
                     "abilities": [],
-                    "Range": "",
-                    "A": "",
-                    "BS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "Range": "18\"",
+                    "A": "3",
+                    "BS": "2+",
+                    "S": "5",
+                    "AP": "-2",
+                    "D": "1"
                 }
             ],
             "melee-weapons": [
                 {
-                    "name": "",
+                    "name": "Lord's blade",
+                    "abilities": ["DEVASTATING WOUNDS"],
+                    "Range": "Melee",
+                    "A": "4",
+                    "WS": "2+",
+                    "S": "8",
+                    "AP": "-3",
+                    "D": "2"
+                },
+                {
+                    "name": "Staff of light",
                     "abilities": [],
                     "Range": "Melee",
-                    "A": "",
-                    "WS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "A": "4",
+                    "WS": "2+",
+                    "S": "5",
+                    "AP": "-2",
+                    "D": "1"
                 }
             ],
-            "core-abilities": [],
-            "faction-abilities": [],
+            "core-abilities": ["Leader"],
+            "faction-abilities": ["Reanimation Protocols"],
             "abilities": [
                 {
-                    "name": "",
-                    "rules": ""
+                    "name": "Destroyer Cult",
+                    "rules": "While this model is leading a unit, each time a model in that unit makes a ranged attack, a successful unmodifed Hit roll of 5+ scores a Critical Hit."
+                },
+                {
+                    "name": "Driven by Hatred",
+                    "rules": " Each time this model makes an attack that targets an enemy unit that is Below Half-strength, you can re-roll the Hit roll and you can re-roll the Wound roll."
                 }
             ],
-            "wargear-abilities": [],
-            "keywords": [],
-            "faction-keywords": [],
-            "equipment": [
-                ""
+            "wargear-abilities": [
+                {
+                    "name": "Phylactery",
+                    "rules": "The bearer has the Feel No Pain 5+ ability."
+                },
+                {
+                    "name": "Resurrection Orb",
+                    "rules": "While the bearer is leading a unit, that unit’s Reanimation Protocols activate at the end of your opponent’s Command phase in addition to at the end of yours."
+                }
             ],
-            "wargear-options": [],
-            "leads": [],
-            "flavour": ""
+            "keywords": ["Mounted", "Character", "Fly", "Lokhust Lord"],
+            "faction-keywords": ["Necrons"],
+            "equipment": [
+                "Staff of light"
+            ],
+            "wargear-options": [
+                {
+                    "name": "Lord's blade",
+                    "replaces": "Staff of light",
+                    "restricted": "No"
+                },
+                {
+                    "name": "Phylactery",
+                    "replaces": "",
+                    "restricted": "Resurrection Orb"
+                },
+                {
+                    "name": "Resurrection Orb",
+                    "replaces": "",
+                    "restricted": "Phylactery"
+                }
+            ],
+            "leads": [
+                "Lokhust Destroyers",
+                "Lokhust Heavy Destroyers"
+            ],
+            "flavour": "Lokhust Lords skim into battle on swift grav-sled bodies. Driven by nihilistic hatred, their every optimised strike slaughters swathes of the foe. Meanwhile, should the enemy wound a Lokhust Lord, in return they must watch in despair as minute repair-scarabs spill from his phylactery in a silvery tide to repair his rent form."
         },
         {
             "name": "Lord",
@@ -1973,55 +2029,88 @@
                 "1"
             ],
             "stats": {
-                "M": "",
-                "T": "",
-                "Sv": "",
-                "W": "",
-                "Ld": "",
-                "OC": ""
+                "M": "5\"",
+                "T": "5",
+                "Sv": "3+",
+                "W": "4",
+                "Ld": "6+",
+                "OC": "1"
             },
-            "invuln": "",
             "ranged-weapons": [
                 {
-                    "name": "",
+                    "name": "Staff of light",
                     "abilities": [],
-                    "Range": "",
-                    "A": "",
-                    "BS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "Range": "18\"",
+                    "A": "3",
+                    "BS": "3+",
+                    "S": "5",
+                    "AP": "-2",
+                    "D": "1"
                 }
             ],
             "melee-weapons": [
                 {
-                    "name": "",
+                    "name": "Staff of light",
                     "abilities": [],
                     "Range": "Melee",
-                    "A": "",
-                    "WS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "A": "3",
+                    "WS": "3+",
+                    "S": "5",
+                    "AP": "-2",
+                    "D": "1"
+                },
+                {
+                    "name": "Lord's blade",
+                    "abilities": ["DEVASTATING WOUNDS"],
+                    "Range": "Melee",
+                    "A": "3",
+                    "WS": "3+",
+                    "S": "8",
+                    "AP": "-3",
+                    "D": "2"
                 }
             ],
-            "core-abilities": [],
-            "faction-abilities": [],
+            "core-abilities": ["Leader"],
+            "faction-abilities": ["Reanimation Protocols"],
             "abilities": [
                 {
-                    "name": "",
-                    "rules": ""
+                    "name": "Relentless March",
+                    "rules": "While this model is leading a unit, add 1\" to the Move characteristic of models in that unit."
+                },
+                {
+                    "name": "The Lord's Will",
+                    "rules": "While this model is leading a unit, you can target that unit with Stratagems even when it is Battle-shocked. "
                 }
             ],
-            "wargear-abilities": [],
-            "keywords": [],
-            "faction-keywords": [],
-            "equipment": [
-                ""
+            "wargear-abilities": [
+                {
+                    "name": "Resurrection Orb",
+                    "rules": "While the bearer is leading a unit, that unit’s Reanimation Protocols activate at the end of your opponent’s Command phase in addition to at the end of yours."
+                }
             ],
-            "wargear-options": [],
-            "leads": [],
-            "flavour": ""
+            "keywords": ["Infantry", "Character", "Noble", "Lord"],
+            "faction-keywords": ["Necrons"],
+            "equipment": [
+                "Staff of light"
+            ],
+            "wargear-options": [
+                {
+                    "name": "Lord's blade",
+                    "replaces": "Staff of light",
+                    "restricted": "No"
+                },
+                {
+                    "name": "Resurrection Orb",
+                    "replaces": "",
+                    "restricted": "No"
+                }
+            ],
+            "leads": [
+                "Immortals",
+                "Lychguard",
+                "Necron Warriors"
+            ],
+            "flavour": "The Royal Courts of Necron dynasties include many lesser lords amongst their number, while fringeworld forces may be led by such beings. They are possessed of formidable cunning and martial strength, and the resurrection orbs they carry to war can overcharge the self-repair systems of nearby Necrons."
         },
         {
             "name": "Lychguard",
@@ -2034,55 +2123,63 @@
                 "10"
             ],
             "stats": {
-                "M": "",
-                "T": "",
-                "Sv": "",
-                "W": "",
-                "Ld": "",
-                "OC": ""
+                "M": "5\"",
+                "T": "5",
+                "Sv": "3+",
+                "W": "2",
+                "Ld": "7+",
+                "OC": "1"
             },
-            "invuln": "",
-            "ranged-weapons": [
-                {
-                    "name": "",
-                    "abilities": [],
-                    "Range": "",
-                    "A": "",
-                    "BS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
-                }
-            ],
+            "ranged-weapons": [],
             "melee-weapons": [
                 {
-                    "name": "",
+                    "name": "Hyperphase Sword",
                     "abilities": [],
                     "Range": "Melee",
-                    "A": "",
-                    "WS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "A": "3",
+                    "WS": "3+",
+                    "S": "6",
+                    "AP": "-2",
+                    "D": "1"
+                },
+                {
+                    "name": "Warscythe",
+                    "abilities": ["DEVASTATING WOUNDS"],
+                    "Range": "Melee",
+                    "A": "2",
+                    "WS": "3+",
+                    "S": "8",
+                    "AP": "-3",
+                    "D": "2"
                 }
             ],
             "core-abilities": [],
-            "faction-abilities": [],
+            "faction-abilities": ["Reanimation Protocols"],
             "abilities": [
                 {
-                    "name": "",
-                    "rules": ""
+                    "name": "Guardian Protocols",
+                    "rules": "While a *Noble* model is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll."
                 }
             ],
-            "wargear-abilities": [],
-            "keywords": [],
-            "faction-keywords": [],
-            "equipment": [
-                ""
+            "wargear-abilities": [
+                {
+                    "name": "Dispersion Shield",
+                    "rules": "The bearer has a 4+ invulnerable save."
+                }
             ],
-            "wargear-options": [],
-            "leads": [],
-            "flavour": ""
+            "keywords": ["Infantry", "Lychguard"],
+            "faction-keywords": ["Necrons"],
+            "equipment": [
+                "Warscythe"
+            ],
+            "wargear-options": [
+                {
+                    "name": ["Hyperphase Sword", "Dispersion Shield"],
+                    "replaces": "Warscythe",
+                    "restricted": "Yes"
+                }
+            ],
+            "flavour": "Incapable of disloyalty and clad in forms as resilient and resplendent as their masters’, Lychguard are the ultimate protectors. Whether reaping the foe with warscythes or advancing with dispersion shields locked and hyperphase swords thrumming, at close quarters these bodyguards are nigh on unstoppable."
         },
         {
             "name": "Monolith",
@@ -2093,55 +2190,88 @@
                 "1"
             ],
             "stats": {
-                "M": "",
-                "T": "",
-                "Sv": "",
-                "W": "",
-                "Ld": "",
-                "OC": ""
+                "M": "7",
+                "T": "14",
+                "Sv": "2+",
+                "W": "20",
+                "Ld": "7+",
+                "OC": "8"
             },
-            "invuln": "",
             "ranged-weapons": [
                 {
-                    "name": "",
-                    "abilities": [],
-                    "Range": "",
-                    "A": "",
-                    "BS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "name": "Death ray",
+                    "abilities": ["SUSTAINED HITS D3"],
+                    "Range": "24\"",
+                    "A": "1",
+                    "BS": "3+",
+                    "S": "12",
+                    "AP": "-4",
+                    "D": "D6+1"
+                },
+                {
+                    "name": "Gauss flux arc",
+                    "abilities": ["LETHAL HITS", "RAPID FIRE 3"],
+                    "Range": "24\"",
+                    "A": "3",
+                    "BS": "3+",
+                    "S": "6",
+                    "AP": "-1",
+                    "D": "1"
+                },
+                {
+                    "name": "Particle whip",
+                    "abilities": ["BLAST", "DEVASTATING WOUNDS"],
+                    "Range": "24\"",
+                    "A": "3D6",
+                    "BS": "3",
+                    "S": "8",
+                    "AP": "-1",
+                    "D": "2"
                 }
             ],
             "melee-weapons": [
                 {
-                    "name": "",
+                    "name": "Portal of exile",
                     "abilities": [],
                     "Range": "Melee",
-                    "A": "",
-                    "WS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "A": "6",
+                    "WS": "2+",
+                    "S": "8",
+                    "AP": "-2",
+                    "D": "3"
                 }
             ],
-            "core-abilities": [],
-            "faction-abilities": [],
+            "core-abilities": ["Deadly Demise D6", "Deep Strike"],
+            "faction-abilities": ["Reanimation Protocols"],
             "abilities": [
                 {
-                    "name": "",
-                    "rules": ""
+                    "name": "Eternity Gate",
+                    "rules": "In the Reinforcements step of your Movement phase, you can select one *Necrons Infantry* unit from your army that is either in Reserves or on the battlefield (if you select the latter, remove that unit from the battlefield and place it into Reserves). That unit is then set up anywhere on the battlefield that is wholly within 6\" of this model and not within Engagement Range of any enemy models. That unit cannot declare a charge this turn."
                 }
             ],
             "wargear-abilities": [],
-            "keywords": [],
-            "faction-keywords": [],
+            "damaged": {
+                "wounds": "7",
+                "rules": "While this model has 1-7 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+            },
+            "keywords": ["Vehicle", "Titanic", "Fly", "Towering", "Monolith"],
+            "faction-keywords": ["Necrons"],
             "equipment": [
-                ""
+                "Gauss flux arc",
+                "Gauss flux arc",
+                "Gauss flux arc",
+                "Gauss flux arc",
+                "Particle whip",
+                "Portal of exile"
             ],
-            "wargear-options": [],
-            "leads": [],
-            "flavour": ""
+            "wargear-options": [
+                {
+                    "name": "Death ray",
+                    "replaces": "Gauss flux arc",
+                    "restricted": "Yes"
+                }
+            ],
+            "flavour": "A Monolith is capable of skimming across the battlefield, or even descending from space. It can slaughter foes with its array of potent weapons, heal damage with the living metal of its hull and even teleport Necron reinforcements into battle through its shimmering eternity gate."
         },
         {
             "name": "Necron Warriors",
