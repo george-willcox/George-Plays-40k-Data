@@ -318,7 +318,13 @@
             ],
             "wargear-options": [],
             "warlord": "No",
-            "flavour": "Mephet'ran the Deceiver was ever the most duplicitous of his monstrous brood. Even shattered and bound within a restraining necrodermis, each shard of the Deceiver still radiates a potent blend of deadly truths and bewildering lies against which the fallible senses of mortal beings possess no defence."
+            "flavour": "Mephet'ran the Deceiver was ever the most duplicitous of his monstrous brood. Even shattered and bound within a restraining necrodermis, each shard of the Deceiver still radiates a potent blend of deadly truths and bewildering lies against which the fallible senses of mortal beings possess no defence.",
+            "other-rules": [
+                {
+                    "name": "Enslaved Star God",
+                    "rules": "This model cannot be your *Warlord*."
+                }
+            ]
         },
         {
             "name": "C'tan Shard of the Nightbringer",
@@ -394,7 +400,13 @@
             ],
             "wargear-options": [],
             "warlord": "No",
-            "flavour": "The very essence of life bleeds away when exposed to a Shard of the C'tan known as the Nightbringer. Aza'gorod he was, the Inevitable Blade; his spectral form, cowl of shadows and flashing scythe are said to have spawned countless avatars of death in the legends of primitive cultures the entire galaxy over."
+            "flavour": "The very essence of life bleeds away when exposed to a Shard of the C'tan known as the Nightbringer. Aza'gorod he was, the Inevitable Blade; his spectral form, cowl of shadows and flashing scythe are said to have spawned countless avatars of death in the legends of primitive cultures the entire galaxy over.",
+            "other-rules": [
+                {
+                    "name": "Enslaved Star God",
+                    "rules": "This model cannot be your *Warlord*."
+                }
+            ]
         },
         {
             "name": "C'tan Shard of the Void Dragon",
@@ -491,7 +503,13 @@
             ],
             "wargear-options": [],
             "warlord": "No",
-            "flavour": "Shards of the Void Dragon fill the air around them with a searing scream of distorted static. With a gesture they can unmake the war engines of the lesser races, dragging the resultant disintegrating matter into themselves like the gravity well of a black hole and using it to replenish their own, ever flickering forms."
+            "flavour": "Shards of the Void Dragon fill the air around them with a searing scream of distorted static. With a gesture they can unmake the war engines of the lesser races, dragging the resultant disintegrating matter into themselves like the gravity well of a black hole and using it to replenish their own, ever flickering forms.",
+            "other-rules": [
+                {
+                    "name": "Enslaved Star God",
+                    "rules": "This model cannot be your *Warlord*."
+                }
+            ]
         },
         {
             "name": "Canoptek Doomstalker",
@@ -1161,10 +1179,10 @@
             ],
             "wargear-options": [],
             "flavour": "Some Crypteks are accompanied by bound Cryptothralls that act as slaves and bodyguards. These hunched and sinister beings are not truly sentient, but are rather construct creatures enslaved to the Cryptek's will and engrammatically compelled to protect their master with their living metal bodies and fierce, short-ranged weaponry.",
-            "other-rules": {
+            "other-rules": [{
                 "name": "Cryptek Retinue",
                 "rules": "At the start of the Declare Battle Formations step, this unit can join one other unit from your army that is being led by a *Cryptek Infantry* model (a unit cannot have more than one *Cryptothralls* unit joined to it). If it does, until the end of the battle, every model in this unit counts as being part of that Bodyguard unit, and that Bodyguard unit's Starting Strength is increased accordingly."
-            }
+            }]
         },
         {
             "name": "Deathmarks",
@@ -3231,55 +3249,95 @@
                 "1"
             ],
             "stats": {
-                "M": "",
-                "T": "",
-                "Sv": "",
-                "W": "",
-                "Ld": "",
-                "OC": ""
+                "M": "7\"",
+                "T": "12",
+                "Sv": "2+",
+                "W": "24",
+                "Ld": "7+",
+                "OC": "8"
             },
-            "invuln": "",
+            "invuln": "4+",
             "ranged-weapons": [
                 {
-                    "name": "",
-                    "abilities": [],
-                    "Range": "",
-                    "A": "",
-                    "BS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "name": "Tesla spheres",
+                    "abilities": ["SUSTAINED HITS 2"],
+                    "Range": "24\"",
+                    "A": "6",
+                    "BS": "3+",
+                    "S": "7",
+                    "AP": "0",
+                    "D": "1"
+                },
+                {
+                    "name": "Antimatter Meteor",
+                    "category": "C'tan Powers",
+                    "abilities": ["BLAST", "DEVASTATING WOUNDS", "INDIRECT FIRE"],
+                    "Range": "24\"",
+                    "A": "D6+3",
+                    "BS": "3+",
+                    "S": "10",
+                    "AP": "-3",
+                    "D": "3"
+                },
+                {
+                    "name": "Cosmic Fire",
+                    "category": "C'tan Powers",
+                    "abilities": ["IGNORES COVER", "DEVASTATING WOUNDS", "TORRENT"],
+                    "Range": "18\"",
+                    "A": "3D6",
+                    "BS": "N/A",
+                    "S": "6",
+                    "AP": "-2",
+                    "D": "1"
+                },
+                {
+                    "name": "Time's Arrow",
+                    "category": "C'tan Powers",
+                    "abilities": ["ANTI-CHARACTER 4+", "DEVASTATING WOUNDS", "PRECISION"],
+                    "Range": "24\"",
+                    "A": "1",
+                    "BS": "2+",
+                    "S": "3",
+                    "AP": "-2",
+                    "D": "6"
                 }
             ],
             "melee-weapons": [
                 {
-                    "name": "",
+                    "name": "Armoured bulk",
                     "abilities": [],
                     "Range": "Melee",
-                    "A": "",
-                    "WS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "A": "6",
+                    "WS": "4+",
+                    "S": "8",
+                    "AP": "0",
+                    "D": "1"
                 }
             ],
-            "core-abilities": [],
-            "faction-abilities": [],
+            "core-abilities": ["Deadly Demise D6 + 3"],
+            "faction-abilities": ["Reanimation Protocols"],
             "abilities": [
                 {
-                    "name": "",
-                    "rules": ""
+                    "name": "Powers of the C'tan",
+                    "rules": "In your Shooting phase, when this model is selected to shoot, first select one of the C’tan Powers weapons (see left). Until the end of the phase, this model is equipped with that weapon in addition to its other weapons (this model cannot make attacks with any other C’tan Powers weapons you did not select in this way this phase)."
                 }
             ],
             "wargear-abilities": [],
-            "keywords": [],
-            "faction-keywords": [],
+            "damaged": {
+                "wounds": "8",
+                "rules": "While this model has 1-8 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+            },
+            "keywords": ["Vehicle", "Titanic", "Fly", "Towering", "Tesseract Vault"],
+            "faction-keywords": ["Necrons"],
             "equipment": [
-                ""
+                "Tesla spheres",
+                "Tesla spheres",
+                "Tesla spheres",
+                "Tesla spheres",
+                "Armoured bulk"
             ],
             "wargear-options": [],
-            "leads": [],
-            "flavour": ""
+            "flavour": "These super-heavy war engines channel the furious might of imprisoned Transcendent C’tan Shards, unleashing one unnatural phenomenon after another upon the foe. Yet should they ever be destroyed and the C’tan inside freed, the god-shard’s wrath will be great indeed, and all should fear its rampage."
         },
         {
             "name": "The Silent King",
@@ -3290,55 +3348,147 @@
                 "1"
             ],
             "stats": {
-                "M": "",
-                "T": "",
-                "Sv": "",
-                "W": "",
-                "Ld": "",
-                "OC": ""
+                "M": "7\"",
+                "T": "10",
+                "Sv": "2+",
+                "W": "16",
+                "Ld": "5+",
+                "OC": "6"
             },
-            "invuln": "",
+            "model-name": "Szarekh",
+            "other-models": {
+                "name": "Triarchal Menhir",
+                "stats": {
+                    "M": "7\"",
+                    "T": "10",
+                    "Sv": "2+",
+                    "W": "5",
+                    "Ld": "5+",
+                    "OC": "1"
+                }
+            },
+            "invuln": "4+",
             "ranged-weapons": [
                 {
-                    "name": "",
+                    "name": "Annihilator beam",
                     "abilities": [],
-                    "Range": "",
-                    "A": "",
-                    "BS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "Range": "24",
+                    "A": "1",
+                    "BS": "2+",
+                    "S": "14",
+                    "AP": "-4",
+                    "D": "6"
+                },
+                {
+                    "name": "Sceptre of Eternal Glory",
+                    "abilities": ["DEVASTATING WOUNDS"],
+                    "Range": "24\"",
+                    "A": "2",
+                    "BS": "2+",
+                    "S": "10",
+                    "AP": "-3",
+                    "D": "3"
+                },
+                {
+                    "name": "Staff of Stars",
+                    "abilities": ["INDIRECT FIRE"],
+                    "Range": "24\"",
+                    "A": "12",
+                    "BS": "2+",
+                    "S": "6",
+                    "AP": "-1",
+                    "D": "1"
                 }
             ],
             "melee-weapons": [
                 {
-                    "name": "",
+                    "name": "Close combat weapon",
                     "abilities": [],
                     "Range": "Melee",
-                    "A": "",
-                    "WS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "A": "1",
+                    "WS": "4+",
+                    "S": "4",
+                    "AP": "0",
+                    "D": "1"
+                },
+                {
+                    "name": "Scythe of Dust",
+                    "abilities": ["LETHAL HITS"],
+                    "Range": "Melee",
+                    "A": "12",
+                    "WS": "2+",
+                    "S": "8",
+                    "AP": "-3",
+                    "D": "2"
                 }
             ],
-            "core-abilities": [],
-            "faction-abilities": [],
+            "core-abilities": ["Deadly Demise D6 + 3"],
+            "faction-abilities": ["Reanimation Protocols"],
             "abilities": [
                 {
-                    "name": "",
-                    "rules": ""
+                    "name": "Voice of the Triarch",
+                    "rules": "At the start of the battle round, select one Triarch ability (see left). Until the start of the next battle round, this unit has that ability."
+                },
+                {
+                    "name": "The Silent King",
+                    "rules": "Once per turn, at the end of your Command phase, you can select one friendly Battle-shocked *Necrons* unit within 12\" of this unit’s Szarekh model. That unit is no longer Battle-shocked."
+                },
+                {
+                    "name": "Phaeron of the Stars",
+                    "type": "Aura",
+                    "category": "Triach Abilities",
+                    "rules": "While a friendly *Necrons* unit is within 6\" of this unit’s Szarekh model, each time a model in that unit makes a ranged attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+                },
+                {
+                    "name": "Phaeron of the Blades",
+                    "type": "Aura",
+                    "category": "Triach Abilities",
+                    "rules": "While a friendly *Necrons* unit is within 6\" of this unit’s Szarekh model, you can re-roll Charge rolls made for that unit."
+                },
+                {
+                    "name": "Phaeron of Unity",
+                    "type": "Aura",
+                    "category": "Triach Abilities",
+                    "rules": "While a friendly *Necrons* unit is within 6\" of this unit’s Szarekh model, you can ignore any or all modifiers to the characteristics of models in that unit and to any roll or test made for models in that unit (excluding modifiers to saving throws)."
                 }
             ],
             "wargear-abilities": [],
-            "keywords": [],
-            "faction-keywords": [],
+            "damaged": {
+                "wounds": "6",
+                "rules": "While this unit’s Szarekh model has 1-6 wounds remaining, halve the Attacks characteristic of that model’s weapons, and each time this unit makes an attack, subtract 1 from the Hit roll."
+            },
+            "keywords": ["Vehicle", "Character", "Epic Hero", "Fly", "The Silent King"],
+            "faction-keywords": ["Necrons"],
             "equipment": [
-                ""
+                {
+                    "model": "Szarekh",
+                    "equipment": [
+                        "Sceptre of Eternal Glory",
+                        "Staff of Stars",
+                        "Scythe of Dust"
+                    ]
+                },
+                {
+                    "model": "Triarchal Menhir",
+                    "equipment": [
+                        "Annihilator beam",
+                        "Close combat weapon"
+                    ]
+                }
             ],
             "wargear-options": [],
-            "leads": [],
-            "flavour": ""
+            "warlord": "yes",
+            "flavour": "The Silent King rides to war aboard his dais of dominion, flanked by the phaerons of his Triarch and orbited by crackling noctilith menhirs. He unleashes god-like powers of annihilation upon his dismayed foes, even as his absolute authority radiates out to empower the Necron legions and drive them to inevitable victory.",
+            "other-rules": [
+                {
+                    "name": "Supreme Commander",
+                    "rules": "If this unit is in your army, it must be your Warlord."
+                },
+                {
+                    "name": "Triarchal Menhirs",
+                    "rules": "If this unit’s Szarekh model is destroyed, all of this unit’s remaining Triarchal Menhir models are also destroyed."
+                }
+            ]
         },
         {
             "name": "Tomb Blades",
@@ -3351,55 +3501,113 @@
                 "6"
             ],
             "stats": {
-                "M": "",
-                "T": "",
-                "Sv": "",
-                "W": "",
-                "Ld": "",
-                "OC": ""
+                "M": "12\"",
+                "T": "5",
+                "Sv": "4+",
+                "W": "2",
+                "Ld": "7+",
+                "OC": "2"
             },
-            "invuln": "",
             "ranged-weapons": [
                 {
-                    "name": "",
-                    "abilities": [],
-                    "Range": "",
-                    "A": "",
-                    "BS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "name": "Particle beamer",
+                    "abilities": ["BLAST", "DEVASTATING WOUNDS"],
+                    "Range": "18\"",
+                    "A": "D6",
+                    "BS": "2+",
+                    "S": "6",
+                    "AP": "0",
+                    "D": "1"
+                },
+                {
+                    "name": "Twin gauss blaster",
+                    "abilities": ["LETHAL HITS", "TWIN-LINKED"],
+                    "Range": "24\"",
+                    "A": "2",
+                    "BS": "3+",
+                    "S": "5",
+                    "AP": "-1",
+                    "D": "1"
+                },
+                {
+                    "name": "Twin tesla carbine",
+                    "abilities": ["ASSAULT", "SUSTAINED HITS 2", "TWIN-LINKED"],
+                    "Range": "18\"",
+                    "A": "2",
+                    "BS": "3+",
+                    "S": "5",
+                    "AP": "0",
+                    "D": "1"
                 }
             ],
             "melee-weapons": [
                 {
-                    "name": "",
+                    "name": "Close combat weapon",
                     "abilities": [],
                     "Range": "Melee",
-                    "A": "",
-                    "WS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "A": "1",
+                    "WS": "4+",
+                    "S": "4",
+                    "AP": "0",
+                    "D": "1"
                 }
             ],
-            "core-abilities": [],
-            "faction-abilities": [],
+            "core-abilities": ["Scouts 9\""],
+            "faction-abilities": ["Reanimation Protocols"],
             "abilities": [
                 {
-                    "name": "",
-                    "rules": ""
+                    "name": "Evasion Engrams",
+                    "rules": "Each time an attack targets this unit, subtract 1 from the Hit roll"
                 }
             ],
-            "wargear-abilities": [],
-            "keywords": [],
-            "faction-keywords": [],
-            "equipment": [
-                ""
+            "wargear-abilities": [
+                {
+                    "name": "Nebuloscope",
+                    "rules": "Ranged weapons equipped by the bearer have the [IGNORES COVER] ability."
+                },
+                {
+                    "name": "Shadowloom",
+                    "rules": "The bearer has a 5+ invulnerable save."
+                },
+                {
+                    "name": "Shieldvanes",
+                    "rules": "The bearer has a 3+ Save characteristic."
+                }
             ],
-            "wargear-options": [],
-            "leads": [],
-            "flavour": ""
+            "keywords": ["Mounted", "Fly", "Tomb Blades"],
+            "faction-keywords": ["Necrons"],
+            "equipment": [
+                "Twin gauss blaster",
+                "Close combat weapon"
+            ],
+            "wargear-options": [
+                {
+                    "name": "Particle beamer",
+                    "replaces": "Twin gauss blaster",
+                    "restricted": "No"
+                },
+                {
+                    "name": "Twin tesla carbine",
+                    "replaces": "Twin gauss blaster",
+                    "restricted": "No"
+                },
+                {
+                    "name": "Shieldvanes",
+                    "replaces": "",
+                    "restricted": "No"
+                },
+                {
+                    "name": "Nebuloscope",
+                    "replaces": "",
+                    "restricted": "Shadowloom"
+                },
+                {
+                    "name": "Shadowloom",
+                    "replaces": "",
+                    "restricted": "Nebuloscope"
+                }
+            ],
+            "flavour": "Tomb Blades are fast assault skimmers whose spiralling attack patterns are based on fractal hyperlogic. They are well armed, often afforded extra protection by the addition of darkness-generating shadowlooms or armoured shieldvanes. Others employ nebuloscopes to target the foe through even solid fortifications."
         },
         {
             "name": "Transcendent C'tan",
@@ -3516,8 +3724,14 @@
                 ""
             ],
             "wargear-options": [],
-            "leads": [],
-            "flavour": ""
+            "warlord": "No",
+            "flavour": "",
+            "other-rules": [
+                {
+                    "name": "Enslaved Star God",
+                    "rules": "This model cannot be your *Warlord*."
+                }
+            ]
         },
         {
             "name": "Triach Praetorians",
