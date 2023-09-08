@@ -2371,55 +2371,63 @@
                 "1"
             ],
             "stats": {
-                "M": "",
-                "T": "",
-                "Sv": "",
-                "W": "",
-                "Ld": "",
-                "OC": ""
+                "M": "5\"",
+                "T": "5",
+                "Sv": "2+",
+                "W": "6",
+                "Ld": "7+",
+                "OC": "1"
             },
-            "invuln": "",
+            "invuln": "4+",
             "ranged-weapons": [
                 {
-                    "name": "",
+                    "name": "Staff of light",
                     "abilities": [],
-                    "Range": "",
-                    "A": "",
-                    "BS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "Range": "18\"",
+                    "A": "3",
+                    "BS": "3+",
+                    "S": "5",
+                    "AP": "-2",
+                    "D": "1"
                 }
             ],
             "melee-weapons": [
                 {
-                    "name": "",
+                    "name": "Staff of light",
                     "abilities": [],
                     "Range": "Melee",
-                    "A": "",
-                    "WS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "A": "4",
+                    "WS": "3+",
+                    "S": "5",
+                    "AP": "-2",
+                    "D": "1"
                 }
             ],
-            "core-abilities": [],
-            "faction-abilities": [],
+            "core-abilities": ["Leader"],
+            "faction-abilities": ["Reanimation Protocols"],
             "abilities": [
                 {
-                    "name": "",
-                    "rules": ""
+                    "name": "Transient Madness",
+                    "rules": "While this model is leading a unit, at the start of your Command phase, roll one D6: until the start of your next Command phase, weapons equipped by models in that unit gain the ability below that corresponds with that roll:\n- 1-2: [SUSTAINED HITS 1]\n- 3-4: [LETHAL HITS]\n- 5-6: [DEVASTATING WOUNDS]"
+                },
+                {
+                    "name": "Counter-tactics",
+                    "rules": "Once per battle, after your opponent uses a Stratagem, if this model is on the battlefield, it can use this ability. If it does, until the end of the battle, the CP cost your opponent must pay to use that Stratagem again is increased by 1CP."
                 }
             ],
             "wargear-abilities": [],
-            "keywords": [],
-            "faction-keywords": [],
+            "keywords": ["Infantry", "Character", "Epic Hero", "Noble", "Nemesor Zahndrekh"],
+            "faction-keywords": ["Necrons"],
             "equipment": [
-                ""
+                "Staff of light"
             ],
             "wargear-options": [],
-            "leads": [],
-            "flavour": ""
+            "leads": [
+                "Immortals",
+                "Lychguard",
+                "Necron Warriors"
+            ],
+            "flavour": "Nemesor Zahndrekh is one of the finest generals in the Sautekh Dynasty, expertly directing his own warriors while neutralising his enemies’ every gambit. This is especially impressive considering his degraded engrammatic state, which has left him convinced he still lives and breathes during the time of the Necrontyr."
         },
         {
             "name": "Night Scythe",
@@ -2430,55 +2438,59 @@
                 "1"
             ],
             "stats": {
-                "M": "",
-                "T": "",
-                "Sv": "",
-                "W": "",
-                "Ld": "",
-                "OC": ""
+                "M": "20+\"",
+                "T": "9",
+                "Sv": "3+",
+                "W": "12",
+                "Ld": "7+",
+                "OC": "0"
             },
-            "invuln": "",
             "ranged-weapons": [
                 {
-                    "name": "",
-                    "abilities": [],
-                    "Range": "",
-                    "A": "",
-                    "BS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "name": "Twin tesla destructor",
+                    "abilities": ["SUSTAINED HITS 2", "TWIN-LINKED"],
+                    "Range": "36\"",
+                    "A": "6",
+                    "BS": "3+",
+                    "S": "7",
+                    "AP": "0",
+                    "D": "2"
                 }
             ],
             "melee-weapons": [
                 {
-                    "name": "",
+                    "name": "Armoured bulk",
                     "abilities": [],
                     "Range": "Melee",
-                    "A": "",
-                    "WS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "A": "3",
+                    "WS": "4+",
+                    "S": "6",
+                    "AP": "0",
+                    "D": "1"
                 }
             ],
-            "core-abilities": [],
-            "faction-abilities": [],
+            "core-abilities": ["Deadly Demise D3"],
+            "faction-abilities": ["Reanimation Protocols"],
             "abilities": [
                 {
-                    "name": "",
-                    "rules": ""
+                    "name": "Translocation Beams",
+                    "rules": "At the end of the Fight phase, if there are no models currently embarked within this Transport, you can select one friendly *Necrons Infantry* unit wholly within 6\" of this *Transport*. Unless that unit is within Engagement Range of one or more enemy units, it can embark within this *Transport*."
                 }
             ],
             "wargear-abilities": [],
-            "keywords": [],
-            "faction-keywords": [],
+            "damaged": {
+                "wounds": "4",
+                "rules": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            },
+            "keywords": ["Vehicle", "Aircraft", "Fly", "Transport", "Night Scythe"],
+            "faction-keywords": ["Necrons"],
             "equipment": [
-                ""
+                "Twin tesla destructor",
+                "Armoured bulk"
             ],
             "wargear-options": [],
-            "leads": [],
-            "flavour": ""
+            "transport": "This model has a transport capacity of 1 *Necrons Infantry* unit.",
+            "flavour": "Many Necron invasions begin with Night Scythes flitting through a world’s void defences. Potent aerial fighters in their own right, Night Scythes also employ invasion beams to generate captive wormholes through which invading infantry can march direct from distant Necron tomb worlds to begin their conquests anew."
         },
         {
             "name": "Obelisk",
@@ -2489,55 +2501,61 @@
                 "1"
             ],
             "stats": {
-                "M": "",
-                "T": "",
-                "Sv": "",
-                "W": "",
-                "Ld": "",
-                "OC": ""
+                "M": "7\"",
+                "T": "14",
+                "Sv": "2+",
+                "W": "22",
+                "Ld": "7+",
+                "OC": "8"
             },
-            "invuln": "",
             "ranged-weapons": [
                 {
-                    "name": "",
-                    "abilities": [],
-                    "Range": "",
-                    "A": "",
-                    "BS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "name": "Tesla sphere",
+                    "abilities": ["ANTI-FLY 4+", "SUSTAINED HITS 2"],
+                    "Range": "24\"",
+                    "A": "6",
+                    "BS": "3+",
+                    "S": "7",
+                    "AP": "0",
+                    "D": "1"
                 }
             ],
             "melee-weapons": [
                 {
-                    "name": "",
+                    "name": "Armoured bulk",
                     "abilities": [],
                     "Range": "Melee",
-                    "A": "",
-                    "WS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "A": "6",
+                    "WS": "4+",
+                    "S": "8",
+                    "AP": "0",
+                    "D": "1"
                 }
             ],
-            "core-abilities": [],
-            "faction-abilities": [],
+            "core-abilities": ["Deadly Demise D6", "Deep Strike"],
+            "faction-abilities": ["Reanimation Protocols"],
             "abilities": [
                 {
-                    "name": "",
-                    "rules": ""
+                    "name": "Gravitic Pulse",
+                    "rules": "At the start of your opponent’s Movement phase, you can select one enemy unit within 18\" of and visible to this model. Until the end of the phase, subtract 2\" from the Move characteristic of models in that unit and subtract 2 from Advance and Charge rolls made for that unit. In addition, if that unit can *Fly*, until the start of your next Movement phase, roll one D6 each time that unit ends any type of move: on a 4+, that unit suffers D3 mortal wounds."
                 }
             ],
             "wargear-abilities": [],
-            "keywords": [],
-            "faction-keywords": [],
+            "damaged": {
+                "wounds": "8",
+                "rules": "While this model has 1-8 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+            },
+            "keywords": ["Vehicle", "Titanic", "Fly", "Towering", "Obelisk"],
+            "faction-keywords": ["Necrons"],
             "equipment": [
-                ""
+                "Tesla sphere",
+                "Tesla sphere",
+                "Tesla sphere",
+                "Tesla sphere",
+                "Armoured bulk"
             ],
             "wargear-options": [],
-            "leads": [],
-            "flavour": ""
+            "flavour": "The Necron Obelisk is a slab-sided war engine designed to ensure air superiority. When enemy aircraft draw near, the Obelisk unleashes a powerful gravitic pulse that races out through the skies over the battlefield and swats the foe’s fighters and airborne troops to the ground like luckless insects."
         },
         {
             "name": "Ophydian Destroyers",
@@ -2550,55 +2568,54 @@
                 "6"
             ],
             "stats": {
-                "M": "",
-                "T": "",
-                "Sv": "",
-                "W": "",
-                "Ld": "",
-                "OC": ""
+                "M": "9\"",
+                "T": "5",
+                "Sv": "4+",
+                "W": "3",
+                "Ld": "7+",
+                "OC": "2"
             },
-            "invuln": "",
-            "ranged-weapons": [
-                {
-                    "name": "",
-                    "abilities": [],
-                    "Range": "",
-                    "A": "",
-                    "BS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
-                }
-            ],
+            "ranged-weapons": [],
             "melee-weapons": [
                 {
-                    "name": "",
+                    "name": "Ophydian hyperphase weapons",
                     "abilities": [],
                     "Range": "Melee",
-                    "A": "",
-                    "WS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "A": "5",
+                    "WS": "3+",
+                    "S": "4",
+                    "AP": "-2",
+                    "D": "2"
                 }
             ],
-            "core-abilities": [],
-            "faction-abilities": [],
+            "core-abilities": ["Deep Strike"],
+            "faction-abilities": ["Reanimation Protocols"],
             "abilities": [
                 {
-                    "name": "",
-                    "rules": ""
+                    "name": "Tunnelling Horrors",
+                    "rules": ": At the end of your opponent’s turn, if this unit is not within Engagement Range of one or more enemy units, you can remove this unit from the battlefield. In the Reinforcements step of your next Movement phase, set it up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models."
                 }
             ],
-            "wargear-abilities": [],
-            "keywords": [],
-            "faction-keywords": [],
-            "equipment": [
-                ""
+            "wargear-abilities": [
+                {
+                    "name": "Plasmacyte",
+                    "rules": "Once per battle for each Plasmacyte this unit has, when this unit is selected to fight, you can use this ability. If you do, until the end of the phase, melee weapons equipped by models in this unit have the [DEVASTATING WOUNDS] ability."
+                }
             ],
-            "wargear-options": [],
-            "leads": [],
-            "flavour": ""
+            "keywords": ["Infantry", "Ophydian Destroyers"],
+            "faction-keywords": ["Necrons"],
+            "equipment": [
+                "Ophydian hyperphase weapons"
+            ],
+            "wargear-options": [
+                {
+                    "name": "Plasmacyte",
+                    "replaces": "",
+                    "restricted": "1",
+                    "per": "3"
+                }
+            ],
+            "flavour": "Repugnant to other Necrons, Ophydian Destroyers echo elements of servile Canoptek Wraiths and reviled Flayed Ones in their murder-optimised bodies. Tunnelling through solid ferrocrete with frenzied violence and flickers of dimensional displacement, they burst into view to ambush, hack and rend their prey apart."
         },
         {
             "name": "Orikan the Diviner",
@@ -2609,55 +2626,52 @@
                 "1"
             ],
             "stats": {
-                "M": "",
-                "T": "",
-                "Sv": "",
-                "W": "",
-                "Ld": "",
-                "OC": ""
+                "M": "5\"",
+                "T": "4",
+                "Sv": "4+",
+                "W": "4",
+                "Ld": "6+",
+                "OC": "1"
             },
-            "invuln": "",
-            "ranged-weapons": [
-                {
-                    "name": "",
-                    "abilities": [],
-                    "Range": "",
-                    "A": "",
-                    "BS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
-                }
-            ],
+            "invuln": "4+",
+            "ranged-weapons": [],
             "melee-weapons": [
                 {
-                    "name": "",
-                    "abilities": [],
+                    "name": "Staff of Tomorrow",
+                    "abilities": ["DEVASTATING WOUNDS"],
                     "Range": "Melee",
-                    "A": "",
-                    "WS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "A": "2",
+                    "WS": "3+",
+                    "S": "4",
+                    "AP": "-3",
+                    "D": "D3"
                 }
             ],
-            "core-abilities": [],
-            "faction-abilities": [],
+            "core-abilities": ["Leader"],
+            "faction-abilities": ["Reanimation Protocols"],
             "abilities": [
                 {
-                    "name": "",
-                    "rules": ""
+                    "name": "Master Chronomancer",
+                    "rules": "While this model is leading a unit, models in that unit have a 4+ invulnerable save"
+                },
+                {
+                    "name": "The Stars Are Right",
+                    "rules": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, triple the Attacks and Strength characteristics of this model’s Staff of Tomorrow and every successful Wound roll made for this model’s attacks scores a Critical Wound."
                 }
             ],
             "wargear-abilities": [],
-            "keywords": [],
-            "faction-keywords": [],
+            "keywords": ["Infantry", "Character", "Epic Hero", "Cryptek", "Chronomancer", "Orikan the Diviner"],
+            "faction-keywords": ["Necrons"],
             "equipment": [
-                ""
+                "Staff of Tomorrow"
             ],
             "wargear-options": [],
-            "leads": [],
-            "flavour": ""
+            "leads": [
+                "Immortals",
+                "Lychguard",
+                "Necron Warriors"
+            ],
+            "flavour": "Orikan is a master astromancer, using his knowledge of astral conjunctions to predict the tides of battle and empower himself with cosmic energies. He supplements these skills with chronomantic abilities that allow him to see events before they happen and know just where to aim his blows."
         },
         {
             "name": "Overlord",
@@ -2668,55 +2682,126 @@
                 "1"
             ],
             "stats": {
-                "M": "",
-                "T": "",
-                "Sv": "",
-                "W": "",
-                "Ld": "",
-                "OC": ""
+                "M": "5\"",
+                "T": "5",
+                "Sv": "2+",
+                "W": "6",
+                "Ld": "6+",
+                "OC": "1"
             },
-            "invuln": "",
+            "invuln": "4+",
             "ranged-weapons": [
                 {
-                    "name": "",
+                    "name": "Staff of light",
                     "abilities": [],
-                    "Range": "",
-                    "A": "",
-                    "BS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "Range": "18\"",
+                    "A": "3",
+                    "BS": "2+",
+                    "S": "5",
+                    "AP": "-2",
+                    "D": "1"
+                },
+                {
+                    "name": "Tachyon arrow",
+                    "abilities": ["ONE SHOT"],
+                    "Range": "72\"",
+                    "A": "1",
+                    "BS": "2+",
+                    "S": "16",
+                    "AP": "-5",
+                    "D": "D6+2"
                 }
             ],
             "melee-weapons": [
                 {
-                    "name": "",
+                    "name": "Overlord's blade",
+                    "abilities": ["DEVASTATING WOUNDS"],
+                    "Range": "Melee",
+                    "A": "4",
+                    "WS": "2+",
+                    "S": "8",
+                    "AP": "-3",
+                    "D": "2"
+                },
+                {
+                    "name": "Staff of light",
                     "abilities": [],
                     "Range": "Melee",
-                    "A": "",
-                    "WS": "",
-                    "S": "",
-                    "AP": "",
+                    "A": "4",
+                    "WS": "2+",
+                    "S": "5",
+                    "AP": "-2",
+                    "D": "1"
+                },
+                {
+                    "name": "Voidscythe",
+                    "abilities": ["DEVASTATING WOUNDS"],
+                    "Range": "Melee",
+                    "A": "3",
+                    "WS": "3+",
+                    "S": "12",
+                    "AP": "-3",
                     "D": ""
                 }
             ],
-            "core-abilities": [],
-            "faction-abilities": [],
+            "core-abilities": ["Leader"],
+            "faction-abilities": ["Reanimation Protocols"],
             "abilities": [
                 {
-                    "name": "",
-                    "rules": ""
+                    "name": "My Will Be Done",
+                    "rules": "Once per battle round, one unit from your army with this ability can be targeted with a Stratagem for 0CP, even if you have already targeted a different unit with that Stratagem this phase."
+                },
+                {
+                    "name": "Implacable Resilience",
+                    "rules": "Each time an attack is allocated to this model, subtract 1 from that attack’s Damage characteristic."
                 }
             ],
-            "wargear-abilities": [],
-            "keywords": [],
-            "faction-keywords": [],
-            "equipment": [
-                ""
+            "wargear-abilities": [
+                {
+                    "name": "Resurrection Orb",
+                    "rules": "While the bearer is leading a unit, that unit’s Reanimation Protocols activate at the end of your opponent’s Command phase in addition to at the end of yours."
+                }
             ],
-            "wargear-options": [],
-            "leads": [],
-            "flavour": ""
+            "keywords": ["Infantry", "Character", "Noble", "Overlord"],
+            "faction-keywords": ["Necrons"],
+            "equipment": [
+                "Tachyon arrow",
+                "Overlord's blade"
+            ],
+            "wargear-options": [
+                {
+                    "name": "Overlord's blade",
+                    "replaces": ["Tachyon arrow", "Overlord's blade"],
+                    "restricted": "Yes"
+                },
+                {
+                    "name": "Staff of light",
+                    "replaces": [
+                        "Tachyon arrow",
+                        "Overlord's blade"
+                    ],
+                    "restricted": "Yes"
+                },
+                {
+                    "name": "Voidscythe",
+                    "replaces": [
+                        "Tachyon arrow",
+                        "Overlord's blade"
+                    ],
+                    "restricted": "Yes"
+                },
+                {
+                    "name": "Resurrection Orb",
+                    "replaces": "",
+                    "restricted": "Tachyon arrow"
+                }
+            ],
+            "leads": [
+                "Immortals",
+                "Lychguard",
+                "Necron Warriors"
+            ],
+            "flavour": "Overlords lead the Necron dynasties in battle. Their android minds are tremendously swift, their bodies implacably resilient and their weapons eldritch, ancient and lethal. Yet it is the Overlords’ indomitable wills that are perhaps their most fearsome assets, for with these they drive entire armies to war"
         },
         {
             "name": "Plasmancer",
@@ -2727,55 +2812,62 @@
                 "1"
             ],
             "stats": {
-                "M": "",
-                "T": "",
-                "Sv": "",
-                "W": "",
-                "Ld": "",
-                "OC": ""
+                "M": "5\"",
+                "T": "4",
+                "Sv": "4+",
+                "W": "4",
+                "Ld": "6+",
+                "OC": "1"
             },
-            "invuln": "",
             "ranged-weapons": [
                 {
-                    "name": "",
+                    "name": "Plasmic Lance",
                     "abilities": [],
-                    "Range": "",
-                    "A": "",
-                    "BS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "Range": "18\"",
+                    "A": "3",
+                    "BS": "4+",
+                    "S": "7",
+                    "AP": "-3",
+                    "D": "2"
                 }
             ],
             "melee-weapons": [
                 {
-                    "name": "",
+                    "name": "Plamic Lance",
                     "abilities": [],
                     "Range": "Melee",
-                    "A": "",
-                    "WS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "A": "2",
+                    "WS": "4+",
+                    "S": "7",
+                    "AP": "-3",
+                    "D": "2"
                 }
             ],
-            "core-abilities": [],
-            "faction-abilities": [],
+            "core-abilities": ["Leader"],
+            "faction-abilities": ["Reanimation Protocols"],
             "abilities": [
                 {
-                    "name": "",
-                    "rules": ""
+                    "name": "Harbinger of Destruction",
+                    "rules": "While this model is leading a unit, each time a model in that unit makes a ranged attack, a successful unmodifed Hit roll of 5+ scores a Critical Hit"
+                },
+                {
+                    "name": "Living Lightning",
+                    "rules": "In your Shooting phase, select one enemy unit within 18\" of and visible to this model and roll one D6 for each model in that enemy unit: for each 6, that unit suffers 1 mortal wound."
                 }
             ],
             "wargear-abilities": [],
-            "keywords": [],
-            "faction-keywords": [],
+            "keywords": ["Infantry", "Character", "Cryptek", "Plasmancer"],
+            "faction-keywords": ["Necrons"],
             "equipment": [
-                ""
+                "Plasmic lance"
             ],
             "wargear-options": [],
-            "leads": [],
-            "flavour": ""
+            "leads": [
+                "Immortals",
+                "Lychguard",
+                "Necron Warriors"
+            ],
+            "flavour": "Plasmancers are unsubtle annihilators. They are capable of wielding energy as a weapon itself rather than needing to bind it to other forms. Arcs of unstable lightning leap from their forms to wrack nearby foes, and with a gesture these Crypteks can channel those same energies into searing ranged blasts."
         },
         {
             "name": "Psychomancer",
@@ -2786,55 +2878,63 @@
                 "1"
             ],
             "stats": {
-                "M": "",
-                "T": "",
-                "Sv": "",
-                "W": "",
-                "Ld": "",
-                "OC": ""
+                "M": "5\"",
+                "T": "4",
+                "Sv": "4+",
+                "W": "4",
+                "Ld": "6+",
+                "OC": "1"
             },
-            "invuln": "",
             "ranged-weapons": [
                 {
-                    "name": "",
+                    "name": "Abyssal lance",
                     "abilities": [],
-                    "Range": "",
-                    "A": "",
-                    "BS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "Range": "18\"",
+                    "A": "1",
+                    "BS": "4+",
+                    "S": "6",
+                    "AP": "-3",
+                    "D": "3"
                 }
             ],
             "melee-weapons": [
                 {
-                    "name": "",
+                    "name": "Abyssal lance",
                     "abilities": [],
                     "Range": "Melee",
-                    "A": "",
-                    "WS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "A": "1",
+                    "WS": "4+",
+                    "S": "6",
+                    "AP": "-3",
+                    "D": "3"
                 }
             ],
-            "core-abilities": [],
-            "faction-abilities": [],
+            "core-abilities": ["Leader"],
+            "faction-abilities": ["Reanimation Protocols"],
             "abilities": [
                 {
-                    "name": "",
-                    "rules": ""
+                    "name": "Nightmare Shroud",
+                    "type": "Aura",
+                    "rules": "While an enemy unit is within 9\" of this model, subtract 1 from the Leadership characteristic of models in that unit."
+                },
+                {
+                    "name": "Harbinger of Despair",
+                    "rules": "At the start of your Shooting phase, select one enemy unit within 18\" of this unit. That unit must take a Battle-shock test."
                 }
             ],
             "wargear-abilities": [],
-            "keywords": [],
-            "faction-keywords": [],
+            "keywords": ["Infantry", "Character", "Cryptek", "Psychomancer"],
+            "faction-keywords": ["Necrons"],
             "equipment": [
-                ""
+                "Abyssal lance"
             ],
             "wargear-options": [],
-            "leads": [],
-            "flavour": ""
+            "leads": [
+                "Immortals",
+                "Lychguard",
+                "Necron Warriors"
+            ],
+            "flavour": "Psychomancers study the science of fear. They are expert manipulators, conjuring phantasms and temporary hard-light constructs that trigger primal survival instincts in their victims’ minds, or overload even the most advanced sensoria. No being is safe from the creeping tendrils of the Psychomancer’s art."
         },
         {
             "name": "Royal Warden",
@@ -2845,55 +2945,62 @@
                 "1"
             ],
             "stats": {
-                "M": "",
-                "T": "",
-                "Sv": "",
-                "W": "",
-                "Ld": "",
-                "OC": ""
+                "M": "5\"",
+                "T": "5",
+                "Sv": "3+",
+                "W": "4",
+                "Ld": "6+",
+                "OC": "1"
             },
-            "invuln": "",
             "ranged-weapons": [
                 {
-                    "name": "",
-                    "abilities": [],
-                    "Range": "",
-                    "A": "",
-                    "BS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "name": "Relic gauss blaster",
+                    "abilities": ["LETHAL HITS", "RAPID FIRE 2"],
+                    "Range": "24\"",
+                    "A": "2",
+                    "BS": "3+",
+                    "S": "5",
+                    "AP": "-1",
+                    "D": "2"
                 }
             ],
             "melee-weapons": [
                 {
-                    "name": "",
+                    "name": "Close combat weapon",
                     "abilities": [],
                     "Range": "Melee",
-                    "A": "",
-                    "WS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "A": "4",
+                    "WS": "3+",
+                    "S": "5",
+                    "AP": "0",
+                    "D": "1"
                 }
             ],
-            "core-abilities": [],
-            "faction-abilities": [],
+            "core-abilities": ["Leader"],
+            "faction-abilities": ["Reanimation Protocols"],
             "abilities": [
                 {
-                    "name": "",
-                    "rules": ""
+                    "name": "Adaptive Strategy",
+                    "rules": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [HEAVY] and [ASSAULT] abilities."
+                },
+                {
+                    "name": "Engrammatic Logic",
+                    "rules": "Once per battle, at the start of any phase, you can select one friendly Necrons unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
                 }
             ],
             "wargear-abilities": [],
-            "keywords": [],
-            "faction-keywords": [],
+            "keywords": ["Infantry", "Character", "Royal Warden"],
+            "faction-keywords": ["Necrons"],
             "equipment": [
-                ""
+                "Relic gauss blaster",
+                "Close combat weapon"
             ],
             "wargear-options": [],
-            "leads": [],
-            "flavour": ""
+            "leads": [
+                "Immortals",
+                "Necron Warriors"
+            ],
+            "flavour": "Royal Wardens ensure their lord’s will is carried out by the dynasty’s vast armies. They possess the initiative to adapt the strategies of the phalanxes under their command with engrammatic logic. While they retain independence of thought, protocols buried deep within their living metal cortices render them unquestioningly loyal."
         },
         {
             "name": "Skorpekh Destroyers",
@@ -2906,55 +3013,54 @@
                 "6"
             ],
             "stats": {
-                "M": "",
-                "T": "",
-                "Sv": "",
-                "W": "",
-                "Ld": "",
-                "OC": ""
+                "M": "7\"",
+                "T": "6",
+                "Sv": "3+",
+                "W": "3",
+                "Ld": "7+",
+                "OC": "2"
             },
-            "invuln": "",
-            "ranged-weapons": [
-                {
-                    "name": "",
-                    "abilities": [],
-                    "Range": "",
-                    "A": "",
-                    "BS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
-                }
-            ],
+            "ranged-weapons": [],
             "melee-weapons": [
                 {
-                    "name": "",
+                    "name": "Skorpekh hyperphase weapons",
                     "abilities": [],
                     "Range": "Melee",
-                    "A": "",
-                    "WS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "A": "4",
+                    "WS": "3+",
+                    "S": "7",
+                    "AP": "-2",
+                    "D": "2"
                 }
             ],
             "core-abilities": [],
-            "faction-abilities": [],
+            "faction-abilities": ["Reanimation Protocols"],
             "abilities": [
                 {
-                    "name": "",
-                    "rules": ""
+                    "name": "Whirling Onslaught",
+                    "rules": "Each time a model in this unit makes a melee attack, you can ignore any or all modifiers to that attack’s Weapon Skill characteristic and/or that attack’s Hit roll."
                 }
             ],
-            "wargear-abilities": [],
-            "keywords": [],
-            "faction-keywords": [],
-            "equipment": [
-                ""
+            "wargear-abilities": [
+                {
+                    "name": "Plasmacyte",
+                    "rules": "Once per battle for each Plasmacyte this unit has, when this unit is selected to fight, you can use this ability. If you do, until the end of the phase, melee weapons equipped by models in this unit have the [DEVASTATING WOUNDS] ability."
+                }
             ],
-            "wargear-options": [],
-            "leads": [],
-            "flavour": ""
+            "keywords": ["Infantry", "Skorpekh Destroyers"],
+            "faction-keywords": ["Necrons"],
+            "equipment": [
+                "Skorpekh hyperphase weapons"
+            ],
+            "wargear-options": [
+                {
+                    "name": "Plasmacyte",
+                    "replaces": "",
+                    "restricted": "1",
+                    "per": "3"
+                }
+            ],
+            "flavour": "Skorpekh Destroyers favour overwhelming close-quarters violence to slaughter their victims. Though ungainly off the battlefield, in combat their tripod limbs allow them to pass through enemy lines in a madcap pirouette of slashing hyperphase blades, nigh on impossible to evade or parry."
         },
         {
             "name": "Skorpekh Lord",
@@ -2965,55 +3071,73 @@
                 "1"
             ],
             "stats": {
-                "M": "",
-                "T": "",
-                "Sv": "",
-                "W": "",
-                "Ld": "",
-                "OC": ""
+                "M": "7\"",
+                "T": "7",
+                "Sv": "3+",
+                "W": "6",
+                "Ld": "6+",
+                "OC": "2"
             },
-            "invuln": "",
+            "invuln": "4+",
             "ranged-weapons": [
                 {
-                    "name": "",
-                    "abilities": [],
-                    "Range": "",
-                    "A": "",
-                    "BS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "name": "Enmitic annihilator",
+                    "abilities": ["RAPID FIRE 2"],
+                    "Range": "18\"",
+                    "A": "2",
+                    "BS": "2+",
+                    "S": "6",
+                    "AP": "-1",
+                    "D": "1"
                 }
             ],
             "melee-weapons": [
                 {
-                    "name": "",
+                    "name": "Flensing claw",
                     "abilities": [],
                     "Range": "Melee",
-                    "A": "",
-                    "WS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "A": "8",
+                    "WS": "2+",
+                    "S": "6",
+                    "AP": "-1",
+                    "D": "1"
+                },
+                {
+                    "name": "Hyperphase harvester",
+                    "abilities": [],
+                    "Range": "Melee",
+                    "A": "4",
+                    "WS": "2+",
+                    "S": "10",
+                    "AP": "-3",
+                    "D": "3"
                 }
             ],
-            "core-abilities": [],
-            "faction-abilities": [],
+            "core-abilities": ["Leader"],
+            "faction-abilities": ["Reanimation Protocols"],
             "abilities": [
                 {
-                    "name": "",
-                    "rules": ""
+                    "name": "United in Destruction",
+                    "rules": "While this model is leading a unit, melee weapons equipped by models in that unit have the [LETHAL HITS] ability."
+                },
+                {
+                    "name": "Crimson Harvest",
+                    "rules": "Each time this model ends a Charge move, select one enemy unit within Engagement Range of this model and roll one D6: on a 2-5, that unit suffers D3 mortal wounds; on a 6, that unit suffers D3+3 mortal wounds."
                 }
             ],
             "wargear-abilities": [],
-            "keywords": [],
-            "faction-keywords": [],
+            "keywords": ["Infantry", "Character", "Skorpekh Lord"],
+            "faction-keywords": ["Necrons"],
             "equipment": [
-                ""
+                "Enmitic annihilator",
+                "Flensing claw",
+                "Hyperphase harvester"
             ],
             "wargear-options": [],
-            "leads": [],
-            "flavour": ""
+            "leads": [
+                "Skorpekh Destroyers"
+            ],
+            "flavour": "Skorpekh Lords have fallen far from their noble beginnings, allowing an obsession with slaughter to twist their bodies and minds. Lurching forward on tripod bodies, their enmitic annihilators blast victims messily apart as their claws and blades lash out to reap a crimson harvest across the battlefield."
         },
         {
             "name": "Technomancer",
@@ -3024,55 +3148,79 @@
                 "1"
             ],
             "stats": {
-                "M": "",
-                "T": "",
-                "Sv": "",
-                "W": "",
-                "Ld": "",
-                "OC": ""
+                "M": "5\"",
+                "T": "4",
+                "Sv": "4+",
+                "W": "4",
+                "Ld": "6+",
+                "OC": "1"
             },
-            "invuln": "",
             "ranged-weapons": [
                 {
-                    "name": "",
+                    "name": "Staff of light",
                     "abilities": [],
-                    "Range": "",
-                    "A": "",
-                    "BS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "Range": "18\"",
+                    "A": "3",
+                    "BS": "4+",
+                    "S": "5",
+                    "AP": "-2",
+                    "D": "1"
                 }
             ],
             "melee-weapons": [
                 {
-                    "name": "",
+                    "name": "Staff of light",
                     "abilities": [],
                     "Range": "Melee",
-                    "A": "",
-                    "WS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "A": "2",
+                    "WS": "4+",
+                    "S": "5",
+                    "AP": "-2",
+                    "D": "1"
                 }
             ],
-            "core-abilities": [],
-            "faction-abilities": [],
+            "core-abilities": ["Leader"],
+            "faction-abilities": ["Reanimation Protocols"],
             "abilities": [
                 {
-                    "name": "",
-                    "rules": ""
+                    "name": "Rites of Reanimation",
+                    "rules": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
+                },
+                {
+                    "name": "Technomancer",
+                    "rules": "At the end of your Movement phase, you can select one friendly *Necrons* model within 3\" of the bearer. That model regains up to D3 lost wounds. Each model can only be selected for this ability once per turn."
                 }
             ],
-            "wargear-abilities": [],
-            "keywords": [],
-            "faction-keywords": [],
-            "equipment": [
-                ""
+            "wargear-abilities": [
+                {
+                    "name": "Canoptek Cloak",
+                    "rules": "The bearer has the *Fly* keyword, the Lone Operative ability and a Move characteristic of 10\"."
+                },
+                {
+                    "name": "Canoptek Control Node",
+                    "type": "Aura",
+                    "rules": "While a friendly *Canoptek* unit is within 6\" of the bearer, each time a *Canoptek* model in that unit makes an attack, add 1 to the Hit roll."
+                }
             ],
-            "wargear-options": [],
-            "leads": [],
-            "flavour": ""
+            "keywords": ["Infantry", "Character", "Cryptek", "Technomancer"],
+            "faction-keywords": ["Necrons"],
+            "equipment": [
+                "Staff of light",
+                "Canoptek Cloak"
+            ],
+            "wargear-options": [
+                {
+                    "name": "Canoptek Control Node",
+                    "replaces": "Canoptek  Cloak",
+                    "restricted": "Yes"
+                }
+            ],
+            "leads": [
+                "Immortals",
+                "Lychguard",
+                "Necron Warriors"
+            ],
+            "flavour": "Technomancers possess the power to augment and swiftly repair Necron units in the field. Some Technomancers use Canoptek cloaks to flit swiftly to wherever they are needed most, while others employ the nanoscarab beams of their Canoptek control nodes to augment from afar."
         },
         {
             "name": "Tesseract Vault",
