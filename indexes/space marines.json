@@ -1,0 +1,123 @@
+{
+    "name": "Space Marines",
+    "folder": "Space Marines",
+    "subtitle": "Adeptus Astartes",
+    "army-rule": {
+        "name": "",
+        "flavour": "",
+        "rules": ""
+    },
+    "detachments": [
+        {
+            "name": "Gladius Task Force",
+            "rule": {
+                "name": "",
+                "rules": "",
+                "flavour": ""
+            },
+            "stratagems": [
+                {
+                    "name": "",
+                    "type": "",
+                    "cost": "",
+                    "flavour": "",
+                    "when": "",
+                    "target": "",
+                    "effect": "",
+                    "restrictions": ""
+                },
+                {
+                    "name": "",
+                    "type": "",
+                    "cost": "",
+                    "flavour": "",
+                    "when": "",
+                    "target": "",
+                    "effect": "",
+                    "restrictions": ""
+                }
+            ],
+            "enhancements": [
+                {
+                    "name": "",
+                    "cost": "",
+                    "flavour": "",
+                    "rules": ""
+                },
+                {
+                    "name": "",
+                    "cost": "",
+                    "flavour": "",
+                    "rules": ""
+                }
+            ]
+        }
+    ],
+    "units": [
+        {
+            "name": "",
+            "cost": [""],
+            "composition": [""],
+            "stats": {
+                "M": "",
+                "T": "",
+                "Sv": "",
+                "W": "",
+                "Ld": "",
+                "OC": ""
+            },
+            "invuln": "",
+            "ranged-weapons": [
+                {
+                    "name": "",
+                    "abilities": [],
+                    "Range": "",
+                    "A": "",
+                    "BS": "",
+                    "S": "",
+                    "AP": "",
+                    "D": ""
+                }
+            ],
+            "melee-weapons": [
+                {
+                    "name": "",
+                    "abilities": [],
+                    "Range": "Melee",
+                    "A": "",
+                    "WS": "",
+                    "S": "",
+                    "AP": "",
+                    "D": ""
+                }
+            ],
+            "core-abilities": [],
+            "faction-abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "rules": ""
+                }
+            ],
+            "wargear-abilities": [],
+            "damaged": {
+                "wounds": "",
+                "rules": ""
+            },
+            "keywords": [],
+            "faction-keywords": [],
+            "equipment": [""],
+            "wargear-options": [
+                {
+                    "name": "",
+                    "replaces": "",
+                    "restricted": ""
+                }
+            ],
+            "leads": [],
+            "warlord": "",
+            "transport": "",
+            "flavour": ""
+        }
+    ]
+}
