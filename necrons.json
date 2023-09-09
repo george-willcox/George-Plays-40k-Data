@@ -74,33 +74,33 @@
                     "effect": "Until the end of the turn, ranged weapons equipped by models in your unit have the [ASSAULT] ability. In addition, if a *Necrons Character* is leading your unit, until the end of the phase, you can re-roll Advance rolls made for your unit.",
                     "restrictions": ""
                 }
+            ],
+            "enhancements": [
+                {
+                    "name": "Veil of Darkness",
+                    "cost": "20",
+                    "flavour": "This device was fashioned from transpositanium, a substance so rare that it can only be found in a handful of places in the galaxy. It is highly sought after by the Necrons, and wars have been waged to secure it. Activated with a thought, the Veil causes space and time to warp around its user and those near them, enfolding them in a swirling darkness. As the darkness fades, the user and their comrades appear elsewhere on the battlefield, transported through a miracle of arcane science.",
+                    "rules": "*Necrons* model only. Once per battle, at the end of your opponent's turn, if the bearer's unit is not within Engagement Range of any enemy units, the bearer can use this Enhancement. If it does, remove that unit from the battlefield. Then, in the Reinforcements step of your next Movement phase, set up that unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models."
+                },
+                {
+                    "name": "The Sovereign Coronal (Aura)",
+                    "cost": "30",
+                    "flavour": "A band of living quicksilver, this strange artefact is shot through with artificial networks of command-wave nano-circuitry. This strange pseudo-animate crown is gifted to especially prominent nobles. As it is donned it sinks through the metallic skin of its wearer's brow and meshes with their synthetic cortex, enhancing and projecting their dominating will through multiple spectra across a substantial distance.",
+                    "rules": "*Necrons* model only. While a friendly *Necrons* unit is within 6\" of the bearer, that unit counts as being led by a *Necrons Character* model."
+                },
+                {
+                    "name": "Hypermaterial Ablator",
+                    "cost": "25",
+                    "flavour": "By simply pointing and activating this slender quasinium rod, the bearer shrouds their allies in a whirling field of accumulated hypermatter.",
+                    "rules": "*Necrons* model only. While the bearer is leading a unit, models in that unit have the Stealth ability. In addition, each time a ranged attack targets the bearer's unit, if the attacker is not within 12\", models in that unit have the Benefit of Cover."
+                },
+                {
+                    "name": "Sempiternal Weave",
+                    "cost": "10",
+                    "flavour": "Only the finest Cryptek artificers know the secret of crafting a Sempiternal Weave. These gossamer-thin plates are formed from phase-hardened amarathine and threads of adamantine. They are then layered over the bearer's carapace of living metal, stiffening and contracting when struck to turn aside energy blades, bolt shells and even the searing heat of a plasma burst.",
+                    "rules": "*Necrons* model only. The bearer has the Feel No Pain 4+ ability."
+                }
             ]
-        }
-    ],
-    "enhancements": [
-        {
-            "name": "Veil of Darkness",
-            "cost": "20",
-            "flavour": "This device was fashioned from transpositanium, a substance so rare that it can only be found in a handful of places in the galaxy. It is highly sought after by the Necrons, and wars have been waged to secure it. Activated with a thought, the Veil causes space and time to warp around its user and those near them, enfolding them in a swirling darkness. As the darkness fades, the user and their comrades appear elsewhere on the battlefield, transported through a miracle of arcane science.",
-            "rules": "*Necrons* model only. Once per battle, at the end of your opponent's turn, if the bearer's unit is not within Engagement Range of any enemy units, the bearer can use this Enhancement. If it does, remove that unit from the battlefield. Then, in the Reinforcements step of your next Movement phase, set up that unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models."
-        },
-        {
-            "name": "The Sovereign Coronal (Aura)",
-            "cost": "30",
-            "flavour": "A band of living quicksilver, this strange artefact is shot through with artificial networks of command-wave nano-circuitry. This strange pseudo-animate crown is gifted to especially prominent nobles. As it is donned it sinks through the metallic skin of its wearer's brow and meshes with their synthetic cortex, enhancing and projecting their dominating will through multiple spectra across a substantial distance.",
-            "rules": "*Necrons* model only. While a friendly *Necrons* unit is within 6\" of the bearer, that unit counts as being led by a *Necrons Character* model."
-        },
-        {
-            "name": "Hypermaterial Ablator",
-            "cost": "25",
-            "flavour": "By simply pointing and activating this slender quasinium rod, the bearer shrouds their allies in a whirling field of accumulated hypermatter.",
-            "rules": "*Necrons* model only. While the bearer is leading a unit, models in that unit have the Stealth ability. In addition, each time a ranged attack targets the bearer's unit, if the attacker is not within 12\", models in that unit have the Benefit of Cover."
-        },
-        {
-            "name": "Sempiternal Weave",
-            "cost": "10",
-            "flavour": "Only the finest Cryptek artificers know the secret of crafting a Sempiternal Weave. These gossamer-thin plates are formed from phase-hardened amarathine and threads of adamantine. They are then layered over the bearer's carapace of living metal, stiffening and contracting when struck to turn aside energy blades, bolt shells and even the searing heat of a plasma burst.",
-            "rules": "*Necrons* model only. The bearer has the Feel No Pain 4+ ability."
         }
     ],
     "units": [

@@ -34,21 +34,21 @@
                     "effect": "",
                     "restrictions": ""
                 }
+            ],
+            "enhancements": [
+                {
+                    "name": "",
+                    "cost": "",
+                    "flavour": "",
+                    "rules": ""
+                },
+                {
+                    "name": "",
+                    "cost": "",
+                    "flavour": "",
+                    "rules": ""
+                }
             ]
-        }
-    ],
-    "enhancements": [
-        {
-            "name": "",
-            "cost": "",
-            "flavour": "",
-            "rules": ""
-        },
-        {
-            "name": "",
-            "cost": "",
-            "flavour": "",
-            "rules": ""
         }
     ],
     "units": [
