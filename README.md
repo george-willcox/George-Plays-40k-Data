@@ -11,4 +11,6 @@ Please keep all fields in the same order as shown in `template.json`
 
 Please keep units in alphabetical order.
 
+All keywords should be surrounded with \*\<Keyword\>\* to indicate being bold.
+
 The Necron index is (partially) complete, please see this for examples.
