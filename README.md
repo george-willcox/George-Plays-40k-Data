@@ -1,7 +1,7 @@
 # George-Plays-40k-Data
 Data files for 40k
 
-# This is work in progress, the schema is not finalised
+## <u>*This is work in progress, the schema is not finalised*</u>
 
 All units must have at least: name, cost, composition, keywords, faction-keywords, equipment, and wargear-options.
 If a unit, that otherwise could be, cannot be a warlord, it must have the field `"warlord": "No"`.
