@@ -3904,7 +3904,7 @@
             "abilities": [
                 {
                     "name": "Powers of the C'tan",
-                    "rules": "In your Shooting phase, when this model is selected to shoot, first select one of the C’tan Powers weapons (see left). Until the end of the phase, this model is equipped with that weapon in addition to its other weapons (this model cannot make attacks with any other C’tan Powers weapons you did not select in this way this phase)."
+                    "rules": "In your Shooting phase, when this model is selected to shoot, first select one of the C'tan Powers weapons (see left). Until the end of the phase, this model is equipped with that weapon in addition to its other weapons (this model cannot make attacks with any other C'tan Powers weapons you did not select in this way this phase)."
                 }
             ],
             "wargear-abilities": [],
@@ -3930,7 +3930,7 @@
                 "Armoured bulk"
             ],
             "wargear-options": [],
-            "flavour": "These super-heavy war engines channel the furious might of imprisoned Transcendent C’tan Shards, unleashing one unnatural phenomenon after another upon the foe. Yet should they ever be destroyed and the C’tan inside freed, the god-shard’s wrath will be great indeed, and all should fear its rampage."
+            "flavour": "These super-heavy war engines channel the furious might of imprisoned Transcendent C'tan Shards, unleashing one unnatural phenomenon after another upon the foe. Yet should they ever be destroyed and the C'tan inside freed, the god-shard's wrath will be great indeed, and all should fear its rampage."
         },
         {
             "name": "The Silent King",
@@ -4034,31 +4034,31 @@
                 },
                 {
                     "name": "The Silent King",
-                    "rules": "Once per turn, at the end of your Command phase, you can select one friendly Battle-shocked *Necrons* unit within 12\" of this unit’s Szarekh model. That unit is no longer Battle-shocked."
+                    "rules": "Once per turn, at the end of your Command phase, you can select one friendly Battle-shocked *Necrons* unit within 12\" of this unit's Szarekh model. That unit is no longer Battle-shocked."
                 },
                 {
                     "name": "Phaeron of the Stars",
                     "type": "Aura",
                     "category": "Triach Abilities",
-                    "rules": "While a friendly *Necrons* unit is within 6\" of this unit’s Szarekh model, each time a model in that unit makes a ranged attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+                    "rules": "While a friendly *Necrons* unit is within 6\" of this unit's Szarekh model, each time a model in that unit makes a ranged attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
                 },
                 {
                     "name": "Phaeron of the Blades",
                     "type": "Aura",
                     "category": "Triach Abilities",
-                    "rules": "While a friendly *Necrons* unit is within 6\" of this unit’s Szarekh model, you can re-roll Charge rolls made for that unit."
+                    "rules": "While a friendly *Necrons* unit is within 6\" of this unit's Szarekh model, you can re-roll Charge rolls made for that unit."
                 },
                 {
                     "name": "Phaeron of Unity",
                     "type": "Aura",
                     "category": "Triach Abilities",
-                    "rules": "While a friendly *Necrons* unit is within 6\" of this unit’s Szarekh model, you can ignore any or all modifiers to the characteristics of models in that unit and to any roll or test made for models in that unit (excluding modifiers to saving throws)."
+                    "rules": "While a friendly *Necrons* unit is within 6\" of this unit's Szarekh model, you can ignore any or all modifiers to the characteristics of models in that unit and to any roll or test made for models in that unit (excluding modifiers to saving throws)."
                 }
             ],
             "wargear-abilities": [],
             "damaged": {
                 "wounds": "6",
-                "rules": "While this unit’s Szarekh model has 1-6 wounds remaining, halve the Attacks characteristic of that model’s weapons, and each time this unit makes an attack, subtract 1 from the Hit roll."
+                "rules": "While this unit's Szarekh model has 1-6 wounds remaining, halve the Attacks characteristic of that model's weapons, and each time this unit makes an attack, subtract 1 from the Hit roll."
             },
             "keywords": [
                 "Vehicle",
@@ -4097,7 +4097,7 @@
                 },
                 {
                     "name": "Triarchal Menhirs",
-                    "rules": "If this unit’s Szarekh model is destroyed, all of this unit’s remaining Triarchal Menhir models are also destroyed."
+                    "rules": "If this unit's Szarekh model is destroyed, all of this unit's remaining Triarchal Menhir models are also destroyed."
                 }
             ]
         },
@@ -4319,7 +4319,7 @@
             ],
             "wargear-options": [],
             "warlord": "No",
-            "flavour": "Shards of the C’tan serve the Necrons as enslaved living weapons. Greatest amongst them are the Transcendent C’tan, whose fury and power are so terrifying that they must be trammelled using the full might of Necron technology. When their cosmic powers are unleashed, reality itself is torn asunder",
+            "flavour": "Shards of the C'tan serve the Necrons as enslaved living weapons. Greatest amongst them are the Transcendent C'tan, whose fury and power are so terrifying that they must be trammelled using the full might of Necron technology. When their cosmic powers are unleashed, reality itself is torn asunder",
             "other-rules": [
                 {
                     "name": "Enslaved Star God",
@@ -4496,7 +4496,7 @@
                     "restricted": "Yes"
                 }
             ],
-            "flavour": "Triarch Praetorians fight tirelessly to uphold the ancient dynastic codes of their race. Whether blasting the foe with antimatter particles, impaling them on their flickering voidblades or immolating them with their rods of covenant, the Praetorians’ gravity displacement packs and combat prowess make them truly deadly."
+            "flavour": "Triarch Praetorians fight tirelessly to uphold the ancient dynastic codes of their race. Whether blasting the foe with antimatter particles, impaling them on their flickering voidblades or immolating them with their rods of covenant, the Praetorians' gravity displacement packs and combat prowess make them truly deadly."
         },
         {
             "name": "Triach Stalker",
@@ -4665,7 +4665,7 @@
                     "rules": "While this model is leading a unit, models in that unit have the Fights First ability."
                 },
                 {
-                    "name": "The Vargard’s Duty",
+                    "name": "The Vargard's Duty",
                     "rules": "While this model is in the same unit as Nemesor Zahndrekh, Character models in that unit have the Feel No Pain 4+ ability."
                 }
             ],
@@ -4688,7 +4688,7 @@
                 "Lychguard",
                 "Necron Warriors"
             ],
-            "flavour": "Obyron is Nemesor Zahndrekh’s devoted bodyguard. He is a tremendously skilled close-quarters combatant. Moreover, thanks to his ghostwalk mantle, he is always ready to teleport back to his master’s side and place his resilient living metal form between Zahndrekh and harm, striking the foe down before they can react. "
+            "flavour": "Obyron is Nemesor Zahndrekh's devoted bodyguard. He is a tremendously skilled close-quarters combatant. Moreover, thanks to his ghostwalk mantle, he is always ready to teleport back to his master's side and place his resilient living metal form between Zahndrekh and harm, striking the foe down before they can react. "
         },
         {
             "name": "Canoptek Acanthrites",
@@ -4762,7 +4762,7 @@
                 "Voidblade"
             ],
             "wargear-options": [],
-            "flavour": "Canoptek Acanthrites are created for a single purpose: the destruction of those who have dared to claim the ancient empire of the Necrontyr. Acanthrites’ articulated bodies are armed with hyper-phased voidblades and high-powered thermal cutting beams, enabling them to carve through and dissemble solid matter as though it were not there."
+            "flavour": "Canoptek Acanthrites are created for a single purpose: the destruction of those who have dared to claim the ancient empire of the Necrontyr. Acanthrites' articulated bodies are armed with hyper-phased voidblades and high-powered thermal cutting beams, enabling them to carve through and dissemble solid matter as though it were not there."
         },
         {
             "name": "Canoptek Tomb Sentinel",
@@ -4841,7 +4841,7 @@
                 "Gloom Prism"
             ],
             "wargear-options": [],
-            "flavour": "Both guardian and aggressor, the Tomb Sentinel is a heavily modified variant of the Tomb Stalker, which forgoes that device’s close-combat ability in favour of an exile cannon. This ancient weapon casts its target into other dimensional realms beyond the material universe, removing trespassers and upstarts as though they never existed."
+            "flavour": "Both guardian and aggressor, the Tomb Sentinel is a heavily modified variant of the Tomb Stalker, which forgoes that device's close-combat ability in favour of an exile cannon. This ancient weapon casts its target into other dimensional realms beyond the material universe, removing trespassers and upstarts as though they never existed."
         },
         {
             "name": "Canoptek Tomb Stalker",
@@ -5022,7 +5022,7 @@
             "wargear-abilities": [],
             "damaged": {
                 "wounds": "9",
-                "rules": "While this model has 1-9 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+                "rules": "While this model has 1-9 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             },
             "keywords": [
                 "Vehicle",
