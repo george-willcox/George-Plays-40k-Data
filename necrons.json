@@ -1,6 +1,6 @@
 {
     "name": "Necrons",
-    "army-rule" : {
+    "army-rule": {
         "name": "Reanimation Protocols",
         "flavour": "The scattered dynasties of the Necrons pursue many different paths to dominance, embracing their own traditions and martial doctrines. All dynasties also benefit from the nigh-supernatural technologies that once saw them dominate the galaxy, perhaps the most unsettling of which are their reanimation protocols. Should a Necron be slain, its body becomes wreathed in an eerie glow. Crawling limbs reattach, sundered torsos and smashed skulls reform and the Necron rises again, shambling back into battle.",
         "rules": "If your Army Faction is *Necrons*, at the end of your Command phase, each unit from your army with this ability activates its Reanimation Protocols and reanimates D3 wounds. Each time such a unit reanimates a wound:\n- If that unit contains one or more models with fewer than their starting number of wounds remaining, select one of those models; that model regains one lost wound.\n- If all models in that unit have their starting number of wounds, but that unit is not at its Starting Strength, one destroyed model is returned to that unit with one wound remaining.\nOnce such a unit is at its Starting Strength and all of its models have their starting number of wounds, nothing further happens."
@@ -103,7 +103,7 @@
             "rules": "*Necrons* model only. The bearer has the Feel No Pain 4+ ability."
         }
     ],
-    "units" : [
+    "units": [
         {
             "name": "Annihilation Barge",
             "cost": [
@@ -124,7 +124,9 @@
             "ranged-weapons": [
                 {
                     "name": "Gauss cannon",
-                    "abilities": ["LETHAL HITS"],
+                    "abilities": [
+                        "LETHAL HITS"
+                    ],
                     "Range": "24\"",
                     "A": "3",
                     "BS": "3+",
@@ -134,7 +136,9 @@
                 },
                 {
                     "name": "Tesla cannon",
-                    "abilities": ["SUSTAINED HITS 2"],
+                    "abilities": [
+                        "SUSTAINED HITS 2"
+                    ],
                     "Range": "24\"",
                     "A": "a",
                     "BS": "3+",
@@ -144,7 +148,10 @@
                 },
                 {
                     "name": "Twin tesla destructor",
-                    "abilities": ["SUSTAINED HITS 2", "TWIN-LINKED"],
+                    "abilities": [
+                        "SUSTAINED HITS 2",
+                        "TWIN-LINKED"
+                    ],
                     "Range": "36\"",
                     "A": "6",
                     "BS": "3+",
@@ -165,8 +172,12 @@
                     "D": "1"
                 }
             ],
-            "core-abilities": ["Deadly Demise 1"],
-            "faction-abilities": ["Reanimation Protocols"],
+            "core-abilities": [
+                "Deadly Demise 1"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "Malevolent Arcing",
@@ -174,8 +185,14 @@
                 }
             ],
             "wargear-abilities": [],
-            "keywords": ["Vehicle", "Fly", "Annihilation Barge"],
-            "faction-keywords": ["Necrons"],
+            "keywords": [
+                "Vehicle",
+                "Fly",
+                "Annihilation Barge"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
                 "Gauss cannon",
                 "Twin tesla destructor",
@@ -210,7 +227,9 @@
             "ranged-weapons": [
                 {
                     "name": "Tachyon arrow",
-                    "abilities": ["ONE SHOT"],
+                    "abilities": [
+                        "ONE SHOT"
+                    ],
                     "Range": "72\"",
                     "A": "1",
                     "BS": "2+",
@@ -222,7 +241,9 @@
             "melee-weapons": [
                 {
                     "name": "Warscythe",
-                    "abilities": ["DEVASTATING WOUNDS"],
+                    "abilities": [
+                        "DEVASTATING WOUNDS"
+                    ],
                     "Range": "Melee",
                     "A": "4",
                     "WS": "2+",
@@ -231,8 +252,12 @@
                     "D": "2"
                 }
             ],
-            "core-abilities": ["Leader"],
-            "faction-abilities": ["Reanimation Protocols"],
+            "core-abilities": [
+                "Leader"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "Lord of the Pyrrhian Eternals",
@@ -244,8 +269,16 @@
                 }
             ],
             "wargear-abilities": [],
-            "keywords": ["Infantry", "Character", "Epic Hero", "Noble", "Anrakyr the Traveller"],
-            "faction-keywords": ["Necrons"],
+            "keywords": [
+                "Infantry",
+                "Character",
+                "Epic Hero",
+                "Noble",
+                "Anrakyr the Traveller"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
                 "Tachyon arrow",
                 "Warscythe"
@@ -276,7 +309,11 @@
             "ranged-weapons": [
                 {
                     "name": "Cosmic insanity",
-                    "abilities": ["ANTI-CHARACTER 4+", "DEVASTATING WOUNDS", "PRECISION"],
+                    "abilities": [
+                        "ANTI-CHARACTER 4+",
+                        "DEVASTATING WOUNDS",
+                        "PRECISION"
+                    ],
                     "Range": "18\"",
                     "A": "6",
                     "BS": "2+",
@@ -297,8 +334,13 @@
                     "D": "3"
                 }
             ],
-            "core-abilities": ["Deadly Demise D6", "Stealth"],
-            "faction-abilities": ["Reanimation Protocols"],
+            "core-abilities": [
+                "Deadly Demise D6",
+                "Stealth"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "Grand Illusion",
@@ -310,8 +352,16 @@
                 }
             ],
             "wargear-abilities": [],
-            "keywords": ["Monster", "Character", "Epic Hero", "Fly", "C'tan Shard of the Deceiver"],
-            "faction-keywords": ["Necrons"],
+            "keywords": [
+                "Monster",
+                "Character",
+                "Epic Hero",
+                "Fly",
+                "C'tan Shard of the Deceiver"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
                 "Cosmic Insanity",
                 "Golden fists"
@@ -346,7 +396,9 @@
             "ranged-weapons": [
                 {
                     "name": "Gaze of death",
-                    "abilities": ["BLAST"],
+                    "abilities": [
+                        "BLAST"
+                    ],
                     "Range": "18\"",
                     "A": "D3",
                     "BS": "2+",
@@ -359,7 +411,9 @@
                 {
                     "name": "Scythe of the Nightbringer",
                     "profile": "strike",
-                    "abilities": ["DEVASTATING WOUNDS"],
+                    "abilities": [
+                        "DEVASTATING WOUNDS"
+                    ],
                     "Range": "Melee",
                     "A": "6",
                     "WS": "2+",
@@ -379,8 +433,12 @@
                     "D": "2"
                 }
             ],
-            "core-abilities": ["Deadly Demise D6"],
-            "faction-abilities": ["Reanimation Protocols"],
+            "core-abilities": [
+                "Deadly Demise D6"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "Drain Life",
@@ -392,8 +450,16 @@
                 }
             ],
             "wargear-abilities": [],
-            "keywords": ["Monster", "Character", "Epic Hero", "Fly", "C'tan Shard of the Nightbringer"],
-            "faction-keywords": ["Necrons"],
+            "keywords": [
+                "Monster",
+                "Character",
+                "Epic Hero",
+                "Fly",
+                "C'tan Shard of the Nightbringer"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
                 "Gaze of death",
                 "Scythe of the Nightbringer"
@@ -428,7 +494,9 @@
             "ranged-weapons": [
                 {
                     "name": "Spear of the Void Dragon",
-                    "abilities": ["ANTI-VEHICLE 2+"],
+                    "abilities": [
+                        "ANTI-VEHICLE 2+"
+                    ],
                     "Range": "12\"",
                     "A": "1",
                     "BS": "2+",
@@ -438,7 +506,10 @@
                 },
                 {
                     "name": "Voltaic storm",
-                    "abilities": ["BLAST", "SUSTAINED HITS 2"],
+                    "abilities": [
+                        "BLAST",
+                        "SUSTAINED HITS 2"
+                    ],
                     "Range": "18\"",
                     "A": "D6+3",
                     "BS": "2+",
@@ -451,7 +522,9 @@
                 {
                     "name": "Spear of the Void Dragon",
                     "profile": "strike",
-                    "abilities": ["ANTI-VEHICLE 2+"],
+                    "abilities": [
+                        "ANTI-VEHICLE 2+"
+                    ],
                     "Range": "Melee",
                     "A": "5",
                     "WS": "2+",
@@ -472,7 +545,9 @@
                 },
                 {
                     "name": "Canoptek tail blades",
-                    "abilities": ["EXTRA ATTACKS"],
+                    "abilities": [
+                        "EXTRA ATTACKS"
+                    ],
                     "Range": "Melee",
                     "A": "6",
                     "WS": "2+",
@@ -481,8 +556,12 @@
                     "D": "1"
                 }
             ],
-            "core-abilities": ["Deadly Demise D6"],
-            "faction-abilities": ["Reanimation Protocols"],
+            "core-abilities": [
+                "Deadly Demise D6"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "Matter Absorption",
@@ -494,8 +573,16 @@
                 }
             ],
             "wargear-abilities": [],
-            "keywords": ["Monster", "Character", "Fly", "Epic Hero", "C'tan Shard of the Void Dragon"],
-            "faction-keywords": ["Necrons"],
+            "keywords": [
+                "Monster",
+                "Character",
+                "Fly",
+                "Epic Hero",
+                "C'tan Shard of the Void Dragon"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
                 "Spear of the Void Dragon",
                 "Voltaic Storm",
@@ -531,7 +618,10 @@
             "ranged-weapons": [
                 {
                     "name": "Doomsday blaster",
-                    "abilities": ["BLAST", "HEAVY"],
+                    "abilities": [
+                        "BLAST",
+                        "HEAVY"
+                    ],
                     "Range": "48\"",
                     "A": "D6+1",
                     "BS": "4+",
@@ -541,7 +631,11 @@
                 },
                 {
                     "name": "Twin gauss flayer",
-                    "abilities": ["LETHAL HITS", "RAPID FIRE 1", "TWIN-LINKED"],
+                    "abilities": [
+                        "LETHAL HITS",
+                        "RAPID FIRE 1",
+                        "TWIN-LINKED"
+                    ],
                     "Range": "24\"",
                     "A": "1",
                     "BS": "4+",
@@ -562,8 +656,12 @@
                     "D": "1"
                 }
             ],
-            "core-abilities": ["Deadly Demise D3"],
-            "faction-abilities": ["Reanimation Protocols"],
+            "core-abilities": [
+                "Deadly Demise D3"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "Sentinel Construct",
@@ -575,8 +673,15 @@
                 "wounds": "4",
                 "rules": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             },
-            "keywords": ["Vehicle", "Walker", "Canoptek", "Doomstalker"],
-            "faction-keywords": ["Necrons"],
+            "keywords": [
+                "Vehicle",
+                "Walker",
+                "Canoptek",
+                "Doomstalker"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
                 "Doomsday blaster",
                 "Twin gauss flayer",
@@ -625,8 +730,12 @@
                     "D": "1"
                 }
             ],
-            "core-abilities": ["Feel No Pain 4+"],
-            "faction-abilities": ["Reanimation Protocols"],
+            "core-abilities": [
+                "Feel No Pain 4+"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "Nanoscarab Reanimation Beam (Aura)",
@@ -634,7 +743,12 @@
                 }
             ],
             "wargear-abilities": [],
-            "keywords": ["Vehicle", "Walker", "Canoptek", "Reanimator"],
+            "keywords": [
+                "Vehicle",
+                "Walker",
+                "Canoptek",
+                "Reanimator"
+            ],
             "faction-keywords": [],
             "equipment": [
                 "Atomiser beam",
@@ -666,7 +780,9 @@
             "melee-weapons": [
                 {
                     "name": "Feeder mandibles",
-                    "abilities": ["LETHAL HITS"],
+                    "abilities": [
+                        "LETHAL HITS"
+                    ],
                     "Range": "Melee",
                     "A": "6",
                     "WS": "5+",
@@ -675,8 +791,12 @@
                     "D": "1"
                 }
             ],
-            "core-abilities": ["Deadly Demise 1"],
-            "faction-abilities": ["Reanimation Protocols"],
+            "core-abilities": [
+                "Deadly Demise 1"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "Self-destruction",
@@ -688,8 +808,15 @@
                 }
             ],
             "wargear-abilities": [],
-            "keywords": ["Swarm", "Fly", "Canoptek", "Scarab Swarms"],
-            "faction-keywords": ["Necrons"],
+            "keywords": [
+                "Swarm",
+                "Fly",
+                "Canoptek",
+                "Scarab Swarms"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
                 "Feeder mandibles"
             ],
@@ -717,7 +844,10 @@
             "ranged-weapons": [
                 {
                     "name": "Particle beamer",
-                    "abilities": ["BLAST", "DEVASTATING WOUNDS"],
+                    "abilities": [
+                        "BLAST",
+                        "DEVASTATING WOUNDS"
+                    ],
                     "Range": "18\"",
                     "A": "D6",
                     "BS": "3+",
@@ -738,8 +868,12 @@
                     "D": "2"
                 }
             ],
-            "core-abilities": ["Deadly Demise 1"],
-            "faction-abilities": ["Reanimation Protocols"],
+            "core-abilities": [
+                "Deadly Demise 1"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "Canoptek Swarm",
@@ -758,8 +892,15 @@
                     "rules": "While a friendly *Necrons* unit is within 6\" of the bearer, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks."
                 }
             ],
-            "keywords": ["Vehicle", "Fly", "Canoptek", "Spyders"],
-            "faction-keywords": ["Necrons"],
+            "keywords": [
+                "Vehicle",
+                "Fly",
+                "Canoptek",
+                "Spyders"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
                 "Automaton claws"
             ],
@@ -805,7 +946,10 @@
             "ranged-weapons": [
                 {
                     "name": "Particle caster",
-                    "abilities": ["DEVASTATING WOUNDS", "PISTOL"],
+                    "abilities": [
+                        "DEVASTATING WOUNDS",
+                        "PISTOL"
+                    ],
                     "Range": "12\"",
                     "A": "3",
                     "BS": "2+",
@@ -847,7 +991,9 @@
                 }
             ],
             "core-abilities": [],
-            "faction-abilities": ["Reanimation Protocols"],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "Wraith Form",
@@ -855,8 +1001,15 @@
                 }
             ],
             "wargear-abilities": [],
-            "keywords": ["Beasts", "Fly", "Canoptek", "Wraiths"],
-            "faction-keywords": ["Necrons"],
+            "keywords": [
+                "Beasts",
+                "Fly",
+                "Canoptek",
+                "Wraiths"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
                 "Vicious claws"
             ],
@@ -900,7 +1053,9 @@
             "ranged-weapons": [
                 {
                     "name": "Gauss cannon",
-                    "abilities": ["LETHAL HITS"],
+                    "abilities": [
+                        "LETHAL HITS"
+                    ],
                     "Range": "24\"",
                     "A": "3",
                     "BS": "3+",
@@ -920,7 +1075,9 @@
                 },
                 {
                     "name": "Tesla cannon",
-                    "abilities": ["SUSTAINED HITS 2"],
+                    "abilities": [
+                        "SUSTAINED HITS 2"
+                    ],
                     "Range": "24\"",
                     "A": "4",
                     "BS": "3+",
@@ -932,7 +1089,9 @@
             "melee-weapons": [
                 {
                     "name": "Overlord's blade",
-                    "abilities": ["DEVASTATING WOUNDS"],
+                    "abilities": [
+                        "DEVASTATING WOUNDS"
+                    ],
                     "Range": "Melee",
                     "A": "4",
                     "WS": "2+",
@@ -951,8 +1110,12 @@
                     "D": "1"
                 }
             ],
-            "core-abilities": ["Deadly Demise 1"],
-            "faction-abilities": ["Reanimation Protocols"],
+            "core-abilities": [
+                "Deadly Demise 1"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "Carrier Wave",
@@ -970,8 +1133,15 @@
                     "rules": "At the end of your opponent's Command phase, select one friendly Necrons Infantry or Necrons Mounted unit within 6\" of this model; that unit's Reanimation Protocols activate."
                 }
             ],
-            "keywords": ["Vehicle", "Character", "Fly", "Catacomb Command Barge"],
-            "faction-keywords": ["Necrons"],
+            "keywords": [
+                "Vehicle",
+                "Character",
+                "Fly",
+                "Catacomb Command Barge"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
                 "Gauss cannon",
                 "Staff of light"
@@ -1015,7 +1185,9 @@
             "ranged-weapons": [
                 {
                     "name": "Aeonstave",
-                    "abilities": ["BLAST"],
+                    "abilities": [
+                        "BLAST"
+                    ],
                     "Range": "18\"",
                     "A": "D6",
                     "BS": "4+",
@@ -1036,8 +1208,12 @@
                     "D": "1"
                 }
             ],
-            "core-abilities": ["Leader"],
-            "faction-abilities": ["Reanimation Protocols"],
+            "core-abilities": [
+                "Leader"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "Timesplinter Mantle",
@@ -1049,8 +1225,15 @@
                 }
             ],
             "wargear-abilities": [],
-            "keywords": ["Infantry", "Character", "Cryptek", "Chronomancer"],
-            "faction-keywords": ["Necrons"],
+            "keywords": [
+                "Infantry",
+                "Character",
+                "Cryptek",
+                "Chronomancer"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
                 "Aeonstave"
             ],
@@ -1092,7 +1275,9 @@
             ],
             "melee-weapons": [],
             "core-abilities": [],
-            "faction-abilities": ["Reanimation Protocols"],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "Reanimation Nodes",
@@ -1109,8 +1294,14 @@
                 }
             ],
             "wargear-abilities": [],
-            "keywords": ["Fortification", "Vehicle", "Convergence of Dominion"],
-            "faction-keywords": ["Necrons"],
+            "keywords": [
+                "Fortification",
+                "Vehicle",
+                "Convergence of Dominion"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
                 "Transdimensional abductor"
             ],
@@ -1158,8 +1349,12 @@
                     "D": "1"
                 }
             ],
-            "core-abilities": ["Feel No Pain 4+"],
-            "faction-abilities": ["Reanimation Protocols"],
+            "core-abilities": [
+                "Feel No Pain 4+"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "Bound Creation",
@@ -1171,18 +1366,25 @@
                 }
             ],
             "wargear-abilities": [],
-            "keywords": ["Infantry", "Cryptothralls"],
-            "faction-keywords": ["Necrons"],
+            "keywords": [
+                "Infantry",
+                "Cryptothralls"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
                 "Scouring eye",
                 "Scythed limb"
             ],
             "wargear-options": [],
             "flavour": "Some Crypteks are accompanied by bound Cryptothralls that act as slaves and bodyguards. These hunched and sinister beings are not truly sentient, but are rather construct creatures enslaved to the Cryptek's will and engrammatically compelled to protect their master with their living metal bodies and fierce, short-ranged weaponry.",
-            "other-rules": [{
-                "name": "Cryptek Retinue",
-                "rules": "At the start of the Declare Battle Formations step, this unit can join one other unit from your army that is being led by a *Cryptek Infantry* model (a unit cannot have more than one *Cryptothralls* unit joined to it). If it does, until the end of the battle, every model in this unit counts as being part of that Bodyguard unit, and that Bodyguard unit's Starting Strength is increased accordingly."
-            }]
+            "other-rules": [
+                {
+                    "name": "Cryptek Retinue",
+                    "rules": "At the start of the Declare Battle Formations step, this unit can join one other unit from your army that is being led by a *Cryptek Infantry* model (a unit cannot have more than one *Cryptothralls* unit joined to it). If it does, until the end of the battle, every model in this unit counts as being part of that Bodyguard unit, and that Bodyguard unit's Starting Strength is increased accordingly."
+                }
+            ]
         },
         {
             "name": "Deathmarks",
@@ -1205,7 +1407,10 @@
             "ranged-weapons": [
                 {
                     "name": "Synaptic disintegrator",
-                    "abilities": ["HEAVY", "PRECISION"],
+                    "abilities": [
+                        "HEAVY",
+                        "PRECISION"
+                    ],
                     "Range": "36\"",
                     "A": "1",
                     "BS": "3+",
@@ -1226,8 +1431,12 @@
                     "D": "1"
                 }
             ],
-            "core-abilities": ["Deep Strike"],
-            "faction-abilities": ["Reanimation Protocols"],
+            "core-abilities": [
+                "Deep Strike"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "Hyperspace Hunters",
@@ -1235,8 +1444,13 @@
                 }
             ],
             "wargear-abilities": [],
-            "keywords": ["Infantry", "Deathmarks"],
-            "faction-keywords": ["Necrons"],
+            "keywords": [
+                "Infantry",
+                "Deathmarks"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
                 "Synaptic disintegrator",
                 "Close combat weapon"
@@ -1263,7 +1477,9 @@
             "ranged-weapons": [
                 {
                     "name": "Heavy death ray",
-                    "abilities": ["SUSTAINED HITS D3"],
+                    "abilities": [
+                        "SUSTAINED HITS D3"
+                    ],
                     "Range": "36\"",
                     "A": "3",
                     "BS": "3+",
@@ -1273,7 +1489,10 @@
                 },
                 {
                     "name": "Twin tesla destructor",
-                    "abilities": ["SUSTAINED HITS 2", "TWIN-LINKED"],
+                    "abilities": [
+                        "SUSTAINED HITS 2",
+                        "TWIN-LINKED"
+                    ],
                     "Range": "36\"",
                     "A": "6",
                     "BS": "3+",
@@ -1294,8 +1513,12 @@
                     "D": "1"
                 }
             ],
-            "core-abilities": ["Deadly Demise D3"],
-            "faction-abilities": ["Reanimation Protocols"],
+            "core-abilities": [
+                "Deadly Demise D3"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "Atavistic Instigation",
@@ -1307,8 +1530,15 @@
                 "wounds": "4",
                 "rules": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             },
-            "keywords": ["Vehicle", "Aircraft", "Fly", "Doom Scythe"],
-            "faction-keywords": ["Necrons"],
+            "keywords": [
+                "Vehicle",
+                "Aircraft",
+                "Fly",
+                "Doom Scythe"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
                 "Heavy death ray",
                 "Twin tesla destructor",
@@ -1337,7 +1567,10 @@
             "ranged-weapons": [
                 {
                     "name": "Doomsday cannon",
-                    "abilities": ["BLAST", "HEAVY"],
+                    "abilities": [
+                        "BLAST",
+                        "HEAVY"
+                    ],
                     "Range": "72\"",
                     "A": "D6+1",
                     "BS": "3+",
@@ -1347,7 +1580,10 @@
                 },
                 {
                     "name": "Gauss flayer array",
-                    "abilities": ["LETHAL HITS", "RAPID FIRE 5"],
+                    "abilities": [
+                        "LETHAL HITS",
+                        "RAPID FIRE 5"
+                    ],
                     "Range": "24\"",
                     "A": "5",
                     "BS": "3+",
@@ -1368,8 +1604,12 @@
                     "D": "1"
                 }
             ],
-            "core-abilities": ["Deadly Demise D3"],
-            "faction-abilities": ["Reanimation Protocols"],
+            "core-abilities": [
+                "Deadly Demise D3"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "Overwhelming Obliteration",
@@ -1381,8 +1621,14 @@
                 "wounds": "5",
                 "rules": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             },
-            "keywords": ["Vehicle", "Fly", "Doomsday Ark"],
-            "faction-keywords": ["Necrons"],
+            "keywords": [
+                "Vehicle",
+                "Fly",
+                "Doomsday Ark"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
                 "Doomsday cannon",
                 "Gauss flayer array",
@@ -1414,7 +1660,10 @@
             "melee-weapons": [
                 {
                     "name": "Flayer claws",
-                    "abilities": ["SUSTAINED HITS 1", "TWIN-LINKED"],
+                    "abilities": [
+                        "SUSTAINED HITS 1",
+                        "TWIN-LINKED"
+                    ],
                     "Range": "Melee",
                     "A": "4",
                     "WS": "3+",
@@ -1423,8 +1672,13 @@
                     "D": "1"
                 }
             ],
-            "core-abilities": ["Infiltrators", "Stealth"],
-            "faction-abilities": ["Reanimation Protocols"],
+            "core-abilities": [
+                "Infiltrators",
+                "Stealth"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "Flesh Hunger",
@@ -1432,8 +1686,13 @@
                 }
             ],
             "wargear-abilities": [],
-            "keywords": ["Infantry", "Flayed Ones"],
-            "faction-keywords": ["Necrons"],
+            "keywords": [
+                "Infantry",
+                "Flayed Ones"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
                 "Flayer claws"
             ],
@@ -1460,7 +1719,10 @@
             "ranged-weapons": [
                 {
                     "name": "Gauss flayer array",
-                    "abilities": ["LETHAL HITS", "RAPID FIRE 5"],
+                    "abilities": [
+                        "LETHAL HITS",
+                        "RAPID FIRE 5"
+                    ],
                     "Range": "24\"",
                     "A": "A",
                     "BS": "3+",
@@ -1481,8 +1743,12 @@
                     "D": "1"
                 }
             ],
-            "core-abilities": ["Deadly Demise D3"],
-            "faction-abilities": ["Reanimation Protocols"],
+            "core-abilities": [
+                "Deadly Demise D3"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "Repair Barge",
@@ -1490,8 +1756,16 @@
                 }
             ],
             "wargear-abilities": [],
-            "keywords": ["Vehicle", "Fly", "Transport", "Dedicated Transport", "Ghost Ark"],
-            "faction-keywords": ["Necrons"],
+            "keywords": [
+                "Vehicle",
+                "Fly",
+                "Transport",
+                "Dedicated Transport",
+                "Ghost Ark"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
                 "Gauss flayer array",
                 "Gauss flayer array",
@@ -1520,7 +1794,10 @@
             "ranged-weapons": [
                 {
                     "name": "Enmitic disintegrator pistols",
-                    "abilities": ["PISTOL", "PRECISION"],
+                    "abilities": [
+                        "PISTOL",
+                        "PRECISION"
+                    ],
                     "Range": "18\"",
                     "A": "6",
                     "BS": "2+",
@@ -1541,8 +1818,13 @@
                     "D": "1"
                 }
             ],
-            "core-abilities": ["Deep Strike", "Lone Operative"],
-            "faction-abilities": ["Reanimation Protocols"],
+            "core-abilities": [
+                "Deep Strike",
+                "Lone Operative"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "Inescapable Death",
@@ -1554,8 +1836,14 @@
                 }
             ],
             "wargear-abilities": [],
-            "keywords": ["Infantry", "Character", "Hexmark Destroyer"],
-            "faction-keywords": ["Necrons"],
+            "keywords": [
+                "Infantry",
+                "Character",
+                "Hexmark Destroyer"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
                 "Enmitic disintegrator pistols",
                 "Close combat weapon"
@@ -1605,7 +1893,9 @@
                 },
                 {
                     "name": "Impaling legs",
-                    "abilities": ["EXTRA ATTACKS"],
+                    "abilities": [
+                        "EXTRA ATTACKS"
+                    ],
                     "Range": "Melee",
                     "A": "4",
                     "WS": "3+",
@@ -1614,8 +1904,12 @@
                     "D": "1"
                 }
             ],
-            "core-abilities": ["Feel No Pain 4+"],
-            "faction-abilities": ["Reanimation Protocols"],
+            "core-abilities": [
+                "Feel No Pain 4+"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "Illuminor",
@@ -1632,8 +1926,16 @@
                 }
             ],
             "wargear-abilities": [],
-            "keywords": ["Infantry", "Character", "Epic Hero", "Cryptek", "Illuminor Szeras"],
-            "faction-keywords": ["Necrons"],
+            "keywords": [
+                "Infantry",
+                "Character",
+                "Epic Hero",
+                "Cryptek",
+                "Illuminor Szeras"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
                 "Eldritch lance",
                 "Impaling legs"
@@ -1662,7 +1964,9 @@
             "ranged-weapons": [
                 {
                     "name": "Gauss blaster",
-                    "abilities": ["LETHAL HITS"],
+                    "abilities": [
+                        "LETHAL HITS"
+                    ],
                     "Range": "24\"",
                     "A": "2",
                     "BS": "3+",
@@ -1672,7 +1976,10 @@
                 },
                 {
                     "name": "Tesla carbine",
-                    "abilities": ["ASSAULT", "SUSTAINED HITS 2"],
+                    "abilities": [
+                        "ASSAULT",
+                        "SUSTAINED HITS 2"
+                    ],
                     "Range": "18\"",
                     "A": "2",
                     "BS": "3+",
@@ -1694,7 +2001,9 @@
                 }
             ],
             "core-abilities": [],
-            "faction-abilities": ["Reanimation Protocols"],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "Implacable Eradication",
@@ -1702,8 +2011,14 @@
                 }
             ],
             "wargear-abilities": [],
-            "keywords": ["Infantry", "Battleline", "Immortals"],
-            "faction-keywords": ["Necrons"],
+            "keywords": [
+                "Infantry",
+                "Battleline",
+                "Immortals"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
                 "Gauss blaster",
                 "Close combat weapon"
@@ -1737,7 +2052,9 @@
             "ranged-weapons": [
                 {
                     "name": "Gauntlet of Fire",
-                    "abilities": ["IGNORES COVER"],
+                    "abilities": [
+                        "IGNORES COVER"
+                    ],
                     "Range": "12\"",
                     "A": "D6",
                     "BS": "N/A",
@@ -1759,7 +2076,9 @@
             "melee-weapons": [
                 {
                     "name": "Staff of the Destroyer",
-                    "abilities": ["DEVASTATING WOUNDS"],
+                    "abilities": [
+                        "DEVASTATING WOUNDS"
+                    ],
                     "Range": "Melee",
                     "A": "4",
                     "WS": "2+",
@@ -1768,8 +2087,12 @@
                     "D": "2"
                 }
             ],
-            "core-abilities": ["Leader"],
-            "faction-abilities": ["Reanimation Protocols"],
+            "core-abilities": [
+                "Leader"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "Grand Strategist",
@@ -1781,8 +2104,16 @@
                 }
             ],
             "wargear-abilities": [],
-            "keywords": ["Infantry", "Character", "Epic Hero", "Noble", "Imotekh the Stormlord"],
-            "faction-keywords": ["Necrons"],
+            "keywords": [
+                "Infantry",
+                "Character",
+                "Epic Hero",
+                "Noble",
+                "Imotekh the Stormlord"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
                 "Gauntlet of Fire",
                 "Staff of the Destroyer"
@@ -1820,7 +2151,9 @@
             "ranged-weapons": [
                 {
                     "name": "Gauss cannon",
-                    "abilities": ["LETHAL HITS"],
+                    "abilities": [
+                        "LETHAL HITS"
+                    ],
                     "Range": "24\"",
                     "A": "3",
                     "BS": "3+",
@@ -1842,7 +2175,9 @@
                 }
             ],
             "core-abilities": [],
-            "faction-abilities": ["Reanimation Protocols"],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "Hard-wired for Destruction",
@@ -1850,8 +2185,14 @@
                 }
             ],
             "wargear-abilities": [],
-            "keywords": ["Mounted", "Fly", "Lokhust Destroyers"],
-            "faction-keywords": ["Necrons"],
+            "keywords": [
+                "Mounted",
+                "Fly",
+                "Lokhust Destroyers"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
                 "Gauss cannon",
                 "Close combat weapon"
@@ -1882,7 +2223,11 @@
             "ranged-weapons": [
                 {
                     "name": "Enmitic exterminator",
-                    "abilities": ["HEAVY", "RAPID FIRE 6", "SUSTAINED HITS 1"],
+                    "abilities": [
+                        "HEAVY",
+                        "RAPID FIRE 6",
+                        "SUSTAINED HITS 1"
+                    ],
                     "Range": "36\"",
                     "A": "6",
                     "BS": "3+",
@@ -1892,7 +2237,10 @@
                 },
                 {
                     "name": "Gauss destructor",
-                    "abilities": ["HEAVY", "LETHAL HITS"],
+                    "abilities": [
+                        "HEAVY",
+                        "LETHAL HITS"
+                    ],
                     "Range": "48\"",
                     "A": "1",
                     "BS": "3+",
@@ -1914,7 +2262,9 @@
                 }
             ],
             "core-abilities": [],
-            "faction-abilities": ["Reanimation Protocols"],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "Optimised for Slaughter",
@@ -1922,8 +2272,14 @@
                 }
             ],
             "wargear-abilities": [],
-            "keywords": ["Mounted", "Fly", "Lokhust Heavy Destroyers"],
-            "faction-keywords": ["Necrons"],
+            "keywords": [
+                "Mounted",
+                "Fly",
+                "Lokhust Heavy Destroyers"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
                 "Gauss destructor",
                 "Close combat weapon"
@@ -1969,7 +2325,9 @@
             "melee-weapons": [
                 {
                     "name": "Lord's blade",
-                    "abilities": ["DEVASTATING WOUNDS"],
+                    "abilities": [
+                        "DEVASTATING WOUNDS"
+                    ],
                     "Range": "Melee",
                     "A": "4",
                     "WS": "2+",
@@ -1988,8 +2346,12 @@
                     "D": "1"
                 }
             ],
-            "core-abilities": ["Leader"],
-            "faction-abilities": ["Reanimation Protocols"],
+            "core-abilities": [
+                "Leader"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "Destroyer Cult",
@@ -2010,8 +2372,15 @@
                     "rules": "While the bearer is leading a unit, that unit's Reanimation Protocols activate at the end of your opponent's Command phase in addition to at the end of yours."
                 }
             ],
-            "keywords": ["Mounted", "Character", "Fly", "Lokhust Lord"],
-            "faction-keywords": ["Necrons"],
+            "keywords": [
+                "Mounted",
+                "Character",
+                "Fly",
+                "Lokhust Lord"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
                 "Staff of light"
             ],
@@ -2079,7 +2448,9 @@
                 },
                 {
                     "name": "Lord's blade",
-                    "abilities": ["DEVASTATING WOUNDS"],
+                    "abilities": [
+                        "DEVASTATING WOUNDS"
+                    ],
                     "Range": "Melee",
                     "A": "3",
                     "WS": "3+",
@@ -2088,8 +2459,12 @@
                     "D": "2"
                 }
             ],
-            "core-abilities": ["Leader"],
-            "faction-abilities": ["Reanimation Protocols"],
+            "core-abilities": [
+                "Leader"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "Relentless March",
@@ -2106,8 +2481,15 @@
                     "rules": "While the bearer is leading a unit, that unit's Reanimation Protocols activate at the end of your opponent's Command phase in addition to at the end of yours."
                 }
             ],
-            "keywords": ["Infantry", "Character", "Noble", "Lord"],
-            "faction-keywords": ["Necrons"],
+            "keywords": [
+                "Infantry",
+                "Character",
+                "Noble",
+                "Lord"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
                 "Staff of light"
             ],
@@ -2162,7 +2544,9 @@
                 },
                 {
                     "name": "Warscythe",
-                    "abilities": ["DEVASTATING WOUNDS"],
+                    "abilities": [
+                        "DEVASTATING WOUNDS"
+                    ],
                     "Range": "Melee",
                     "A": "2",
                     "WS": "3+",
@@ -2172,7 +2556,9 @@
                 }
             ],
             "core-abilities": [],
-            "faction-abilities": ["Reanimation Protocols"],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "Guardian Protocols",
@@ -2185,14 +2571,22 @@
                     "rules": "The bearer has a 4+ invulnerable save."
                 }
             ],
-            "keywords": ["Infantry", "Lychguard"],
-            "faction-keywords": ["Necrons"],
+            "keywords": [
+                "Infantry",
+                "Lychguard"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
                 "Warscythe"
             ],
             "wargear-options": [
                 {
-                    "name": ["Hyperphase Sword", "Dispersion Shield"],
+                    "name": [
+                        "Hyperphase Sword",
+                        "Dispersion Shield"
+                    ],
                     "replaces": "Warscythe",
                     "restricted": "Yes"
                 }
@@ -2218,7 +2612,9 @@
             "ranged-weapons": [
                 {
                     "name": "Death ray",
-                    "abilities": ["SUSTAINED HITS D3"],
+                    "abilities": [
+                        "SUSTAINED HITS D3"
+                    ],
                     "Range": "24\"",
                     "A": "1",
                     "BS": "3+",
@@ -2228,7 +2624,10 @@
                 },
                 {
                     "name": "Gauss flux arc",
-                    "abilities": ["LETHAL HITS", "RAPID FIRE 3"],
+                    "abilities": [
+                        "LETHAL HITS",
+                        "RAPID FIRE 3"
+                    ],
                     "Range": "24\"",
                     "A": "3",
                     "BS": "3+",
@@ -2238,7 +2637,10 @@
                 },
                 {
                     "name": "Particle whip",
-                    "abilities": ["BLAST", "DEVASTATING WOUNDS"],
+                    "abilities": [
+                        "BLAST",
+                        "DEVASTATING WOUNDS"
+                    ],
                     "Range": "24\"",
                     "A": "3D6",
                     "BS": "3",
@@ -2259,8 +2661,13 @@
                     "D": "3"
                 }
             ],
-            "core-abilities": ["Deadly Demise D6", "Deep Strike"],
-            "faction-abilities": ["Reanimation Protocols"],
+            "core-abilities": [
+                "Deadly Demise D6",
+                "Deep Strike"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "Eternity Gate",
@@ -2272,8 +2679,16 @@
                 "wounds": "7",
                 "rules": "While this model has 1-7 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             },
-            "keywords": ["Vehicle", "Titanic", "Fly", "Towering", "Monolith"],
-            "faction-keywords": ["Necrons"],
+            "keywords": [
+                "Vehicle",
+                "Titanic",
+                "Fly",
+                "Towering",
+                "Monolith"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
                 "Gauss flux arc",
                 "Gauss flux arc",
@@ -2421,8 +2836,12 @@
                     "D": "1"
                 }
             ],
-            "core-abilities": ["Leader"],
-            "faction-abilities": ["Reanimation Protocols"],
+            "core-abilities": [
+                "Leader"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "Transient Madness",
@@ -2434,8 +2853,16 @@
                 }
             ],
             "wargear-abilities": [],
-            "keywords": ["Infantry", "Character", "Epic Hero", "Noble", "Nemesor Zahndrekh"],
-            "faction-keywords": ["Necrons"],
+            "keywords": [
+                "Infantry",
+                "Character",
+                "Epic Hero",
+                "Noble",
+                "Nemesor Zahndrekh"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
                 "Staff of light"
             ],
@@ -2466,7 +2893,10 @@
             "ranged-weapons": [
                 {
                     "name": "Twin tesla destructor",
-                    "abilities": ["SUSTAINED HITS 2", "TWIN-LINKED"],
+                    "abilities": [
+                        "SUSTAINED HITS 2",
+                        "TWIN-LINKED"
+                    ],
                     "Range": "36\"",
                     "A": "6",
                     "BS": "3+",
@@ -2487,8 +2917,12 @@
                     "D": "1"
                 }
             ],
-            "core-abilities": ["Deadly Demise D3"],
-            "faction-abilities": ["Reanimation Protocols"],
+            "core-abilities": [
+                "Deadly Demise D3"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "Translocation Beams",
@@ -2500,8 +2934,16 @@
                 "wounds": "4",
                 "rules": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             },
-            "keywords": ["Vehicle", "Aircraft", "Fly", "Transport", "Night Scythe"],
-            "faction-keywords": ["Necrons"],
+            "keywords": [
+                "Vehicle",
+                "Aircraft",
+                "Fly",
+                "Transport",
+                "Night Scythe"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
                 "Twin tesla destructor",
                 "Armoured bulk"
@@ -2529,7 +2971,10 @@
             "ranged-weapons": [
                 {
                     "name": "Tesla sphere",
-                    "abilities": ["ANTI-FLY 4+", "SUSTAINED HITS 2"],
+                    "abilities": [
+                        "ANTI-FLY 4+",
+                        "SUSTAINED HITS 2"
+                    ],
                     "Range": "24\"",
                     "A": "6",
                     "BS": "3+",
@@ -2550,8 +2995,13 @@
                     "D": "1"
                 }
             ],
-            "core-abilities": ["Deadly Demise D6", "Deep Strike"],
-            "faction-abilities": ["Reanimation Protocols"],
+            "core-abilities": [
+                "Deadly Demise D6",
+                "Deep Strike"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "Gravitic Pulse",
@@ -2563,8 +3013,16 @@
                 "wounds": "8",
                 "rules": "While this model has 1-8 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             },
-            "keywords": ["Vehicle", "Titanic", "Fly", "Towering", "Obelisk"],
-            "faction-keywords": ["Necrons"],
+            "keywords": [
+                "Vehicle",
+                "Titanic",
+                "Fly",
+                "Towering",
+                "Obelisk"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
                 "Tesla sphere",
                 "Tesla sphere",
@@ -2606,8 +3064,12 @@
                     "D": "2"
                 }
             ],
-            "core-abilities": ["Deep Strike"],
-            "faction-abilities": ["Reanimation Protocols"],
+            "core-abilities": [
+                "Deep Strike"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "Tunnelling Horrors",
@@ -2620,8 +3082,13 @@
                     "rules": "Once per battle for each Plasmacyte this unit has, when this unit is selected to fight, you can use this ability. If you do, until the end of the phase, melee weapons equipped by models in this unit have the [DEVASTATING WOUNDS] ability."
                 }
             ],
-            "keywords": ["Infantry", "Ophydian Destroyers"],
-            "faction-keywords": ["Necrons"],
+            "keywords": [
+                "Infantry",
+                "Ophydian Destroyers"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
                 "Ophydian hyperphase weapons"
             ],
@@ -2656,7 +3123,9 @@
             "melee-weapons": [
                 {
                     "name": "Staff of Tomorrow",
-                    "abilities": ["DEVASTATING WOUNDS"],
+                    "abilities": [
+                        "DEVASTATING WOUNDS"
+                    ],
                     "Range": "Melee",
                     "A": "2",
                     "WS": "3+",
@@ -2665,8 +3134,12 @@
                     "D": "D3"
                 }
             ],
-            "core-abilities": ["Leader"],
-            "faction-abilities": ["Reanimation Protocols"],
+            "core-abilities": [
+                "Leader"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "Master Chronomancer",
@@ -2678,8 +3151,17 @@
                 }
             ],
             "wargear-abilities": [],
-            "keywords": ["Infantry", "Character", "Epic Hero", "Cryptek", "Chronomancer", "Orikan the Diviner"],
-            "faction-keywords": ["Necrons"],
+            "keywords": [
+                "Infantry",
+                "Character",
+                "Epic Hero",
+                "Cryptek",
+                "Chronomancer",
+                "Orikan the Diviner"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
                 "Staff of Tomorrow"
             ],
@@ -2721,7 +3203,9 @@
                 },
                 {
                     "name": "Tachyon arrow",
-                    "abilities": ["ONE SHOT"],
+                    "abilities": [
+                        "ONE SHOT"
+                    ],
                     "Range": "72\"",
                     "A": "1",
                     "BS": "2+",
@@ -2733,7 +3217,9 @@
             "melee-weapons": [
                 {
                     "name": "Overlord's blade",
-                    "abilities": ["DEVASTATING WOUNDS"],
+                    "abilities": [
+                        "DEVASTATING WOUNDS"
+                    ],
                     "Range": "Melee",
                     "A": "4",
                     "WS": "2+",
@@ -2753,7 +3239,9 @@
                 },
                 {
                     "name": "Voidscythe",
-                    "abilities": ["DEVASTATING WOUNDS"],
+                    "abilities": [
+                        "DEVASTATING WOUNDS"
+                    ],
                     "Range": "Melee",
                     "A": "3",
                     "WS": "3+",
@@ -2762,8 +3250,12 @@
                     "D": ""
                 }
             ],
-            "core-abilities": ["Leader"],
-            "faction-abilities": ["Reanimation Protocols"],
+            "core-abilities": [
+                "Leader"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "My Will Be Done",
@@ -2780,8 +3272,15 @@
                     "rules": "While the bearer is leading a unit, that unit's Reanimation Protocols activate at the end of your opponent's Command phase in addition to at the end of yours."
                 }
             ],
-            "keywords": ["Infantry", "Character", "Noble", "Overlord"],
-            "faction-keywords": ["Necrons"],
+            "keywords": [
+                "Infantry",
+                "Character",
+                "Noble",
+                "Overlord"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
                 "Tachyon arrow",
                 "Overlord's blade"
@@ -2789,7 +3288,10 @@
             "wargear-options": [
                 {
                     "name": "Overlord's blade",
-                    "replaces": ["Tachyon arrow", "Overlord's blade"],
+                    "replaces": [
+                        "Tachyon arrow",
+                        "Overlord's blade"
+                    ],
                     "restricted": "Yes"
                 },
                 {
@@ -2861,8 +3363,12 @@
                     "D": "2"
                 }
             ],
-            "core-abilities": ["Leader"],
-            "faction-abilities": ["Reanimation Protocols"],
+            "core-abilities": [
+                "Leader"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "Harbinger of Destruction",
@@ -2874,8 +3380,15 @@
                 }
             ],
             "wargear-abilities": [],
-            "keywords": ["Infantry", "Character", "Cryptek", "Plasmancer"],
-            "faction-keywords": ["Necrons"],
+            "keywords": [
+                "Infantry",
+                "Character",
+                "Cryptek",
+                "Plasmancer"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
                 "Plasmic lance"
             ],
@@ -2927,8 +3440,12 @@
                     "D": "3"
                 }
             ],
-            "core-abilities": ["Leader"],
-            "faction-abilities": ["Reanimation Protocols"],
+            "core-abilities": [
+                "Leader"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "Nightmare Shroud",
@@ -2941,8 +3458,15 @@
                 }
             ],
             "wargear-abilities": [],
-            "keywords": ["Infantry", "Character", "Cryptek", "Psychomancer"],
-            "faction-keywords": ["Necrons"],
+            "keywords": [
+                "Infantry",
+                "Character",
+                "Cryptek",
+                "Psychomancer"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
                 "Abyssal lance"
             ],
@@ -2973,7 +3497,10 @@
             "ranged-weapons": [
                 {
                     "name": "Relic gauss blaster",
-                    "abilities": ["LETHAL HITS", "RAPID FIRE 2"],
+                    "abilities": [
+                        "LETHAL HITS",
+                        "RAPID FIRE 2"
+                    ],
                     "Range": "24\"",
                     "A": "2",
                     "BS": "3+",
@@ -2994,8 +3521,12 @@
                     "D": "1"
                 }
             ],
-            "core-abilities": ["Leader"],
-            "faction-abilities": ["Reanimation Protocols"],
+            "core-abilities": [
+                "Leader"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "Adaptive Strategy",
@@ -3007,8 +3538,14 @@
                 }
             ],
             "wargear-abilities": [],
-            "keywords": ["Infantry", "Character", "Royal Warden"],
-            "faction-keywords": ["Necrons"],
+            "keywords": [
+                "Infantry",
+                "Character",
+                "Royal Warden"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
                 "Relic gauss blaster",
                 "Close combat weapon"
@@ -3052,7 +3589,9 @@
                 }
             ],
             "core-abilities": [],
-            "faction-abilities": ["Reanimation Protocols"],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "Whirling Onslaught",
@@ -3065,8 +3604,13 @@
                     "rules": "Once per battle for each Plasmacyte this unit has, when this unit is selected to fight, you can use this ability. If you do, until the end of the phase, melee weapons equipped by models in this unit have the [DEVASTATING WOUNDS] ability."
                 }
             ],
-            "keywords": ["Infantry", "Skorpekh Destroyers"],
-            "faction-keywords": ["Necrons"],
+            "keywords": [
+                "Infantry",
+                "Skorpekh Destroyers"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
                 "Skorpekh hyperphase weapons"
             ],
@@ -3100,7 +3644,9 @@
             "ranged-weapons": [
                 {
                     "name": "Enmitic annihilator",
-                    "abilities": ["RAPID FIRE 2"],
+                    "abilities": [
+                        "RAPID FIRE 2"
+                    ],
                     "Range": "18\"",
                     "A": "2",
                     "BS": "2+",
@@ -3131,8 +3677,12 @@
                     "D": "3"
                 }
             ],
-            "core-abilities": ["Leader"],
-            "faction-abilities": ["Reanimation Protocols"],
+            "core-abilities": [
+                "Leader"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "United in Destruction",
@@ -3144,8 +3694,14 @@
                 }
             ],
             "wargear-abilities": [],
-            "keywords": ["Infantry", "Character", "Skorpekh Lord"],
-            "faction-keywords": ["Necrons"],
+            "keywords": [
+                "Infantry",
+                "Character",
+                "Skorpekh Lord"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
                 "Enmitic annihilator",
                 "Flensing claw",
@@ -3197,8 +3753,12 @@
                     "D": "1"
                 }
             ],
-            "core-abilities": ["Leader"],
-            "faction-abilities": ["Reanimation Protocols"],
+            "core-abilities": [
+                "Leader"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "Rites of Reanimation",
@@ -3220,8 +3780,15 @@
                     "rules": "While a friendly *Canoptek* unit is within 6\" of the bearer, each time a *Canoptek* model in that unit makes an attack, add 1 to the Hit roll."
                 }
             ],
-            "keywords": ["Infantry", "Character", "Cryptek", "Technomancer"],
-            "faction-keywords": ["Necrons"],
+            "keywords": [
+                "Infantry",
+                "Character",
+                "Cryptek",
+                "Technomancer"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
                 "Staff of light",
                 "Canoptek Cloak"
@@ -3260,7 +3827,9 @@
             "ranged-weapons": [
                 {
                     "name": "Tesla spheres",
-                    "abilities": ["SUSTAINED HITS 2"],
+                    "abilities": [
+                        "SUSTAINED HITS 2"
+                    ],
                     "Range": "24\"",
                     "A": "6",
                     "BS": "3+",
@@ -3271,7 +3840,11 @@
                 {
                     "name": "Antimatter Meteor",
                     "category": "C'tan Powers",
-                    "abilities": ["BLAST", "DEVASTATING WOUNDS", "INDIRECT FIRE"],
+                    "abilities": [
+                        "BLAST",
+                        "DEVASTATING WOUNDS",
+                        "INDIRECT FIRE"
+                    ],
                     "Range": "24\"",
                     "A": "D6+3",
                     "BS": "3+",
@@ -3282,7 +3855,11 @@
                 {
                     "name": "Cosmic Fire",
                     "category": "C'tan Powers",
-                    "abilities": ["IGNORES COVER", "DEVASTATING WOUNDS", "TORRENT"],
+                    "abilities": [
+                        "IGNORES COVER",
+                        "DEVASTATING WOUNDS",
+                        "TORRENT"
+                    ],
                     "Range": "18\"",
                     "A": "3D6",
                     "BS": "N/A",
@@ -3293,7 +3870,11 @@
                 {
                     "name": "Time's Arrow",
                     "category": "C'tan Powers",
-                    "abilities": ["ANTI-CHARACTER 4+", "DEVASTATING WOUNDS", "PRECISION"],
+                    "abilities": [
+                        "ANTI-CHARACTER 4+",
+                        "DEVASTATING WOUNDS",
+                        "PRECISION"
+                    ],
                     "Range": "24\"",
                     "A": "1",
                     "BS": "2+",
@@ -3314,8 +3895,12 @@
                     "D": "1"
                 }
             ],
-            "core-abilities": ["Deadly Demise D6 + 3"],
-            "faction-abilities": ["Reanimation Protocols"],
+            "core-abilities": [
+                "Deadly Demise D6 + 3"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "Powers of the C'tan",
@@ -3327,8 +3912,16 @@
                 "wounds": "8",
                 "rules": "While this model has 1-8 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             },
-            "keywords": ["Vehicle", "Titanic", "Fly", "Towering", "Tesseract Vault"],
-            "faction-keywords": ["Necrons"],
+            "keywords": [
+                "Vehicle",
+                "Titanic",
+                "Fly",
+                "Towering",
+                "Tesseract Vault"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
                 "Tesla spheres",
                 "Tesla spheres",
@@ -3381,7 +3974,9 @@
                 },
                 {
                     "name": "Sceptre of Eternal Glory",
-                    "abilities": ["DEVASTATING WOUNDS"],
+                    "abilities": [
+                        "DEVASTATING WOUNDS"
+                    ],
                     "Range": "24\"",
                     "A": "2",
                     "BS": "2+",
@@ -3391,7 +3986,9 @@
                 },
                 {
                     "name": "Staff of Stars",
-                    "abilities": ["INDIRECT FIRE"],
+                    "abilities": [
+                        "INDIRECT FIRE"
+                    ],
                     "Range": "24\"",
                     "A": "12",
                     "BS": "2+",
@@ -3413,7 +4010,9 @@
                 },
                 {
                     "name": "Scythe of Dust",
-                    "abilities": ["LETHAL HITS"],
+                    "abilities": [
+                        "LETHAL HITS"
+                    ],
                     "Range": "Melee",
                     "A": "12",
                     "WS": "2+",
@@ -3422,8 +4021,12 @@
                     "D": "2"
                 }
             ],
-            "core-abilities": ["Deadly Demise D6 + 3"],
-            "faction-abilities": ["Reanimation Protocols"],
+            "core-abilities": [
+                "Deadly Demise D6 + 3"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "Voice of the Triarch",
@@ -3457,8 +4060,16 @@
                 "wounds": "6",
                 "rules": "While this unit’s Szarekh model has 1-6 wounds remaining, halve the Attacks characteristic of that model’s weapons, and each time this unit makes an attack, subtract 1 from the Hit roll."
             },
-            "keywords": ["Vehicle", "Character", "Epic Hero", "Fly", "The Silent King"],
-            "faction-keywords": ["Necrons"],
+            "keywords": [
+                "Vehicle",
+                "Character",
+                "Epic Hero",
+                "Fly",
+                "The Silent King"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
                 {
                     "model": "Szarekh",
@@ -3511,7 +4122,10 @@
             "ranged-weapons": [
                 {
                     "name": "Particle beamer",
-                    "abilities": ["BLAST", "DEVASTATING WOUNDS"],
+                    "abilities": [
+                        "BLAST",
+                        "DEVASTATING WOUNDS"
+                    ],
                     "Range": "18\"",
                     "A": "D6",
                     "BS": "2+",
@@ -3521,7 +4135,10 @@
                 },
                 {
                     "name": "Twin gauss blaster",
-                    "abilities": ["LETHAL HITS", "TWIN-LINKED"],
+                    "abilities": [
+                        "LETHAL HITS",
+                        "TWIN-LINKED"
+                    ],
                     "Range": "24\"",
                     "A": "2",
                     "BS": "3+",
@@ -3531,7 +4148,11 @@
                 },
                 {
                     "name": "Twin tesla carbine",
-                    "abilities": ["ASSAULT", "SUSTAINED HITS 2", "TWIN-LINKED"],
+                    "abilities": [
+                        "ASSAULT",
+                        "SUSTAINED HITS 2",
+                        "TWIN-LINKED"
+                    ],
                     "Range": "18\"",
                     "A": "2",
                     "BS": "3+",
@@ -3552,8 +4173,12 @@
                     "D": "1"
                 }
             ],
-            "core-abilities": ["Scouts 9\""],
-            "faction-abilities": ["Reanimation Protocols"],
+            "core-abilities": [
+                "Scouts 9\""
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
                     "name": "Evasion Engrams",
@@ -3574,8 +4199,14 @@
                     "rules": "The bearer has a 3+ Save characteristic."
                 }
             ],
-            "keywords": ["Mounted", "Fly", "Tomb Blades"],
-            "faction-keywords": ["Necrons"],
+            "keywords": [
+                "Mounted",
+                "Fly",
+                "Tomb Blades"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
                 "Twin gauss blaster",
                 "Close combat weapon"
@@ -3618,55 +4249,83 @@
                 "1"
             ],
             "stats": {
-                "M": "",
-                "T": "",
-                "Sv": "",
-                "W": "",
-                "Ld": "",
-                "OC": ""
+                "M": "7\"",
+                "T": "11",
+                "Sv": "4+",
+                "W": "12",
+                "Ld": "6+",
+                "OC": "4"
             },
-            "invuln": "",
+            "invuln": "4+",
             "ranged-weapons": [
                 {
-                    "name": "",
-                    "abilities": [],
-                    "Range": "",
-                    "A": "",
-                    "BS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "name": "Seismic assault",
+                    "abilities": [
+                        "ASSAULT",
+                        "SUSTAINED HITS 1"
+                    ],
+                    "Range": "12\"",
+                    "A": "6",
+                    "BS": "2+",
+                    "S": "8",
+                    "AP": "-2",
+                    "D": "D3"
                 }
             ],
             "melee-weapons": [
                 {
-                    "name": "",
-                    "abilities": [],
+                    "name": "Crackling tendrils",
+                    "abilities": [
+                        "SUSTAINED HITS 1"
+                    ],
                     "Range": "Melee",
-                    "A": "",
-                    "WS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "A": "8",
+                    "WS": "2+",
+                    "S": "9",
+                    "AP": "-3",
+                    "D": "D6"
                 }
             ],
-            "core-abilities": [],
-            "faction-abilities": [],
+            "core-abilities": [
+                "Deadly Demise D6",
+                "Deep Strike"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
-                    "name": "",
-                    "rules": ""
+                    "name": "Transdimensional Displacement",
+                    "rules": "Each time this model is selected to Advance, you can remove it from the battlefield and set it up again anywhere on the battlefield that is more than 9\" horizontally away from all enemy models."
+                },
+                {
+                    "name": "Necrodermis",
+                    "rules": "Each time an attack is allocated to this model, halve the Damage characteristic of that attack."
                 }
             ],
             "wargear-abilities": [],
-            "keywords": [],
-            "faction-keywords": [],
+            "keywords": [
+                "Monster",
+                "Character",
+                "Fly",
+                "Transcendent C'tan"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
-                ""
+                "Seismic assault",
+                "Crackling tendrils"
             ],
             "wargear-options": [],
-            "leads": [],
-            "flavour": ""
+            "warlord": "No",
+            "flavour": "Shards of the C’tan serve the Necrons as enslaved living weapons. Greatest amongst them are the Transcendent C’tan, whose fury and power are so terrifying that they must be trammelled using the full might of Necron technology. When their cosmic powers are unleashed, reality itself is torn asunder",
+            "other-rules": [
+                {
+                    "name": "Enslaved Star God",
+                    "rules": "This model cannot be your *Warlord*."
+                }
+            ]
         },
         {
             "name": "Trazyn the Infinite",
@@ -3677,61 +4336,66 @@
                 "1"
             ],
             "stats": {
-                "M": "",
-                "T": "",
-                "Sv": "",
-                "W": "",
-                "Ld": "",
-                "OC": ""
+                "M": "5\"",
+                "T": "5",
+                "Sv": "2+",
+                "W": "6",
+                "Ld": "6+",
+                "OC": "1"
             },
-            "invuln": "",
-            "ranged-weapons": [
-                {
-                    "name": "",
-                    "abilities": [],
-                    "Range": "",
-                    "A": "",
-                    "BS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
-                }
-            ],
+            "invuln": "4+",
+            "ranged-weapons": [],
             "melee-weapons": [
                 {
-                    "name": "",
-                    "abilities": [],
+                    "name": "Empathic Obliterator",
+                    "abilities": [
+                        "SUSTAINED HITS D3"
+                    ],
                     "Range": "Melee",
-                    "A": "",
-                    "WS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "A": "4",
+                    "WS": "2+",
+                    "S": "7",
+                    "AP": "0",
+                    "D": "D3"
                 }
             ],
-            "core-abilities": [],
-            "faction-abilities": [],
+            "core-abilities": [
+                "Leader"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
-                    "name": "",
-                    "rules": ""
+                    "name": "Ancient Collector",
+                    "rules": "While this model is leading a unit, at the end of your Command phase, if that unit is within range of an objective marker you control, it remains under your control, even if you have no models within range of it, until your opponent controls it at start or end of any turn."
+                },
+                {
+                    "name": "Surrogate Hosts",
+                    "rules": "At the start of your Command phase, if this model is on the battlefield, you can select one other friendly *Necrons Infantry Character* model on the battlefield (excluding *Skorpekh Lord* or *Epic Hero* models). The selected model is destroyed (ignoring any rules that are triggered when a model is destroyed) and this model is put in its place, with all of its wounds remaining (if the selected model was leading a unit, this model now attaches to that unit as its Leader)."
                 }
             ],
             "wargear-abilities": [],
-            "keywords": [],
-            "faction-keywords": [],
+            "keywords": [
+                "Infantry",
+                "Character",
+                "Epic Hero",
+                "Noble",
+                "Trazyn the Infinite"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
-                ""
+                "Empathic Obliterator"
             ],
             "wargear-options": [],
-            "warlord": "No",
-            "flavour": "",
-            "other-rules": [
-                {
-                    "name": "Enslaved Star God",
-                    "rules": "This model cannot be your *Warlord*."
-                }
-            ]
+            "leads": [
+                "Immortals",
+                "Lychguard",
+                "Necron Warriors"
+            ],
+            "flavour": "A thief of moments in history, Trazyn takes to the battlefield to acquire that which cunning cannot secure. His Empathic Obliterator triggers psionic shock waves that kill not only his immediate victim, but those of a like mind nearby, while his ability to leap from one surrogate body to the next ensures he is hard to slay indeed."
         },
         {
             "name": "Triach Praetorians",
@@ -3744,55 +4408,95 @@
                 "10"
             ],
             "stats": {
-                "M": "",
-                "T": "",
-                "Sv": "",
-                "W": "",
-                "Ld": "",
-                "OC": ""
+                "M": "9\"",
+                "T": "5",
+                "Sv": "3+",
+                "W": "2",
+                "Ld": "7+",
+                "OC": "1"
             },
-            "invuln": "",
             "ranged-weapons": [
                 {
-                    "name": "",
+                    "name": "Particle caster",
+                    "abilities": [
+                        "DEVASTATING WOUNDS",
+                        "PISTOL"
+                    ],
+                    "Range": "12\"",
+                    "A": "3",
+                    "BS": "2+",
+                    "S": "5",
+                    "AP": "0",
+                    "D": "1"
+                },
+                {
+                    "name": "Rod of covenant",
                     "abilities": [],
-                    "Range": "",
-                    "A": "",
-                    "BS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "Range": "12\"",
+                    "A": "1",
+                    "BS": "3+",
+                    "S": "5",
+                    "AP": "-2",
+                    "D": "2"
                 }
             ],
             "melee-weapons": [
                 {
-                    "name": "",
+                    "name": "Rod of covenant",
                     "abilities": [],
                     "Range": "Melee",
-                    "A": "",
-                    "WS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "A": "3",
+                    "WS": "3+",
+                    "S": "5",
+                    "AP": "-2",
+                    "D": "2"
+                },
+                {
+                    "name": "Voidblade",
+                    "abilities": [],
+                    "Range": "Melee",
+                    "A": "4",
+                    "WS": "3+",
+                    "S": "5",
+                    "AP": "-2",
+                    "D": "1"
                 }
             ],
-            "core-abilities": [],
-            "faction-abilities": [],
+            "core-abilities": [
+                "Deep Strike"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
-                    "name": "",
-                    "rules": ""
+                    "name": "Relentless Combatants",
+                    "rules": "You can re-roll Charge rolls made for this unit, and this unit is eligible to declare a charge in a turn in which it Fell Back."
                 }
             ],
             "wargear-abilities": [],
-            "keywords": [],
-            "faction-keywords": [],
-            "equipment": [
-                ""
+            "keywords": [
+                "Infantry",
+                "Fly",
+                "Triach Praetorians"
             ],
-            "wargear-options": [],
-            "leads": [],
-            "flavour": ""
+            "faction-keywords": [
+                "Necrons"
+            ],
+            "equipment": [
+                "Rod of covenant"
+            ],
+            "wargear-options": [
+                {
+                    "name": [
+                        "Particle caster",
+                        "Voidblade"
+                    ],
+                    "replaces": "Rod of covenant",
+                    "restricted": "Yes"
+                }
+            ],
+            "flavour": "Triarch Praetorians fight tirelessly to uphold the ancient dynastic codes of their race. Whether blasting the foe with antimatter particles, impaling them on their flickering voidblades or immolating them with their rods of covenant, the Praetorians’ gravity displacement packs and combat prowess make them truly deadly."
         },
         {
             "name": "Triach Stalker",
@@ -3803,55 +4507,119 @@
                 "1"
             ],
             "stats": {
-                "M": "",
-                "T": "",
-                "Sv": "",
-                "W": "",
-                "Ld": "",
-                "OC": ""
+                "M": "9\"",
+                "T": "8",
+                "Sv": "3+",
+                "W": "12",
+                "Ld": "7+",
+                "OC": "4"
             },
-            "invuln": "",
+            "invuln": "4+",
             "ranged-weapons": [
                 {
-                    "name": "",
-                    "abilities": [],
-                    "Range": "",
-                    "A": "",
-                    "BS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "name": "Heat ray",
+                    "profile": "dispersed",
+                    "abilities": [
+                        "IGNORES COVER",
+                        "TORRENT"
+                    ],
+                    "Range": "12\"",
+                    "A": "2D6",
+                    "BS": "N/A",
+                    "S": "5",
+                    "AP": "-1",
+                    "D": "1"
+                },
+                {
+                    "name": "Heat ray",
+                    "profile": "focused",
+                    "abilities": [
+                        "MELTA 4"
+                    ],
+                    "Range": "2",
+                    "A": "3+",
+                    "BS": "9",
+                    "S": "9",
+                    "AP": "-4",
+                    "D": "D6"
+                },
+                {
+                    "name": "Particle shredder",
+                    "abilities": [
+                        "BLAST",
+                        "DEVASTATING WOUNDS"
+                    ],
+                    "Range": "18\"",
+                    "A": "D6+6",
+                    "BS": "2+",
+                    "S": "7",
+                    "AP": "0",
+                    "D": "1"
+                },
+                {
+                    "name": "Twin heavy gauss cannon",
+                    "abilities": [
+                        "LETHAL HITS",
+                        "TWIN-LINKED"
+                    ],
+                    "Range": "24\"",
+                    "A": "3",
+                    "BS": "3+",
+                    "S": "8",
+                    "AP": "-2",
+                    "D": "2"
                 }
             ],
             "melee-weapons": [
                 {
-                    "name": "",
+                    "name": "Stalker's forelimbs",
                     "abilities": [],
                     "Range": "Melee",
-                    "A": "",
-                    "WS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "A": "4",
+                    "WS": "3+",
+                    "S": "7",
+                    "AP": "-1",
+                    "D": "3"
                 }
             ],
-            "core-abilities": [],
-            "faction-abilities": [],
+            "core-abilities": [
+                "Deadly Demise D3"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
-                    "name": "",
-                    "rules": ""
+                    "name": "Targeting Relay",
+                    "rules": "In your Shooting phase, each time this model is selected to shoot, after resolving its attacks, select one enemy unit that was hit by one or more of those attacks. Until the end of the phase, that unit cannot have the Benefit of Cover."
                 }
             ],
             "wargear-abilities": [],
-            "keywords": [],
-            "faction-keywords": [],
-            "equipment": [
-                ""
+            "keywords": [
+                "Vehicle",
+                "Walker",
+                "Triach Stalker"
             ],
-            "wargear-options": [],
-            "leads": [],
-            "flavour": ""
+            "faction-keywords": [
+                "Necrons"
+            ],
+            "equipment": [
+                "Heat ray",
+                "Stalker's forelimbs"
+            ],
+            "wargear-options": [
+                {
+                    "name": "Particle shredder",
+                    "replaces": "Heat ray",
+                    "restricted": "Yes"
+                },
+                {
+                    "name": "Twin heavy gauss cannon",
+                    "replaces": "Heat ray",
+                    "restricted": "Yes"
+                }
+            ],
+            "flavour": "Triarch Stalkers are agile combat walkers whose heavy firepower makes them excellent tank-hunters and anti-infantry assault units both. As though their focused blasts of energy and flame were not enough, they can also augment the targeting of nearby Necron forces to further punish the foe."
         },
         {
             "name": "Vargard Obyron",
@@ -3862,55 +4630,65 @@
                 "1"
             ],
             "stats": {
-                "M": "",
-                "T": "",
-                "Sv": "",
-                "W": "",
-                "Ld": "",
-                "OC": ""
+                "M": "5\"",
+                "T": "5",
+                "Sv": "2+",
+                "W": "5",
+                "Ld": "6+",
+                "OC": "1"
             },
-            "invuln": "",
-            "ranged-weapons": [
-                {
-                    "name": "",
-                    "abilities": [],
-                    "Range": "",
-                    "A": "",
-                    "BS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
-                }
-            ],
+            "ranged-weapons": [],
             "melee-weapons": [
                 {
-                    "name": "",
-                    "abilities": [],
+                    "name": "Warscythe",
+                    "abilities": [
+                        "DEVASTATING WOUNDS",
+                        "PRECISION"
+                    ],
                     "Range": "Melee",
-                    "A": "",
-                    "WS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "A": "4",
+                    "WS": "2+",
+                    "S": "8",
+                    "AP": "-3",
+                    "D": "2"
                 }
             ],
-            "core-abilities": [],
-            "faction-abilities": [],
+            "core-abilities": [
+                "Leader"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
-                    "name": "",
-                    "rules": ""
+                    "name": "Ghostwalk Mantle",
+                    "rules": "While this model is leading a unit, models in that unit have the Fights First ability."
+                },
+                {
+                    "name": "The Vargard’s Duty",
+                    "rules": "While this model is in the same unit as Nemesor Zahndrekh, Character models in that unit have the Feel No Pain 4+ ability."
                 }
             ],
             "wargear-abilities": [],
-            "keywords": [],
-            "faction-keywords": [],
+            "keywords": [
+                "Infantry",
+                "Character",
+                "Epic Hero",
+                "Vargard Obyron"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
-                ""
+                "Warscythe"
             ],
             "wargear-options": [],
-            "leads": [],
-            "flavour": ""
+            "leads": [
+                "Immortals",
+                "Lychguard",
+                "Necron Warriors"
+            ],
+            "flavour": "Obyron is Nemesor Zahndrekh’s devoted bodyguard. He is a tremendously skilled close-quarters combatant. Moreover, thanks to his ghostwalk mantle, he is always ready to teleport back to his master’s side and place his resilient living metal form between Zahndrekh and harm, striking the foe down before they can react. "
         },
         {
             "name": "Canoptek Acanthrites",
@@ -3924,55 +4702,67 @@
                 "6"
             ],
             "stats": {
-                "M": "",
-                "T": "",
-                "Sv": "",
-                "W": "",
-                "Ld": "",
-                "OC": ""
+                "M": "12\"",
+                "T": "5",
+                "Sv": "3+",
+                "W": "2",
+                "Ld": "8+",
+                "OC": "2"
             },
-            "invuln": "",
             "ranged-weapons": [
                 {
-                    "name": "",
-                    "abilities": [],
-                    "Range": "",
-                    "A": "",
-                    "BS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "name": "Cutting beam",
+                    "abilities": [
+                        "MELTA 2"
+                    ],
+                    "Range": "12\"",
+                    "A": "1",
+                    "BS": "4+",
+                    "S": "9",
+                    "AP": "-4",
+                    "D": "D6"
                 }
             ],
             "melee-weapons": [
                 {
-                    "name": "",
+                    "name": "Voidblade",
                     "abilities": [],
                     "Range": "Melee",
-                    "A": "",
-                    "WS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "A": "3",
+                    "WS": "4+",
+                    "S": "5",
+                    "AP": "-2",
+                    "D": "1"
                 }
             ],
-            "core-abilities": [],
-            "faction-abilities": [],
+            "core-abilities": [
+                "Infiltrators"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
-                    "name": "",
-                    "rules": ""
+                    "name": "Damaged armour",
+                    "rules": "In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly *Necrons* model makes an attack that targets that unit, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1."
                 }
             ],
             "wargear-abilities": [],
-            "keywords": [],
-            "faction-keywords": [],
+            "keywords": [
+                "Beasts",
+                "Fly",
+                "Canoptek",
+                "Acanthrites"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
-                ""
+                "Cutting beam",
+                "Voidblade"
             ],
             "wargear-options": [],
-            "leads": [],
-            "flavour": ""
+            "flavour": "Canoptek Acanthrites are created for a single purpose: the destruction of those who have dared to claim the ancient empire of the Necrontyr. Acanthrites’ articulated bodies are armed with hyper-phased voidblades and high-powered thermal cutting beams, enabling them to carve through and dissemble solid matter as though it were not there."
         },
         {
             "name": "Canoptek Tomb Sentinel",
@@ -3984,55 +4774,74 @@
                 "1"
             ],
             "stats": {
-                "M": "",
-                "T": "",
-                "Sv": "",
-                "W": "",
-                "Ld": "",
-                "OC": ""
+                "M": "10\"",
+                "T": "9",
+                "Sv": "3+",
+                "W": "9",
+                "Ld": "8+",
+                "OC": "3"
             },
-            "invuln": "",
+            "invuln": "4+",
             "ranged-weapons": [
                 {
-                    "name": "",
-                    "abilities": [],
-                    "Range": "",
-                    "A": "",
-                    "BS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "name": "Exile cannon",
+                    "abilities": [
+                        "BLAST"
+                    ],
+                    "Range": "18\"",
+                    "A": "D6+1",
+                    "BS": "4+",
+                    "S": "10",
+                    "AP": "-2",
+                    "D": "2"
                 }
             ],
             "melee-weapons": [
                 {
-                    "name": "",
+                    "name": "Tomb Sentinel claws",
                     "abilities": [],
                     "Range": "Melee",
-                    "A": "",
-                    "WS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "A": "6",
+                    "WS": "4+",
+                    "S": "6",
+                    "AP": "0",
+                    "D": "1"
                 }
             ],
-            "core-abilities": [],
-            "faction-abilities": [],
+            "core-abilities": [
+                "Deep Strike"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
-                    "name": "",
-                    "rules": ""
+                    "name": "Aggressor Guardian",
+                    "rules": "Each time an attack targets this model, if this model is within range of an objective marker, worsen the Armour Penetration characteristic of that attack by 1. In addition, each time this model makes an attack that targets a unit within range of an objective marker, improve the Armour Penetration characteristic of that attack by 1."
                 }
             ],
-            "wargear-abilities": [],
-            "keywords": [],
-            "faction-keywords": [],
+            "wargear-abilities": [
+                {
+                    "name": "Gloom Prism",
+                    "type": "Aura",
+                    "rules": "While a friendly Necrons unit is within 6\" of the bearer, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks."
+                }
+            ],
+            "keywords": [
+                "Monster",
+                "Canoptek",
+                "Tomb Sentinel"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
-                ""
+                "Exile cannon",
+                "Tomb Sentinel claws",
+                "Gloom Prism"
             ],
             "wargear-options": [],
-            "leads": [],
-            "flavour": ""
+            "flavour": "Both guardian and aggressor, the Tomb Sentinel is a heavily modified variant of the Tomb Stalker, which forgoes that device’s close-combat ability in favour of an exile cannon. This ancient weapon casts its target into other dimensional realms beyond the material universe, removing trespassers and upstarts as though they never existed."
         },
         {
             "name": "Canoptek Tomb Stalker",
@@ -4041,58 +4850,79 @@
                 "130"
             ],
             "composition": [
-                "`"
+                "1"
             ],
             "stats": {
-                "M": "",
-                "T": "",
-                "Sv": "",
-                "W": "",
-                "Ld": "",
-                "OC": ""
+                "M": "10\"",
+                "T": "9",
+                "Sv": "3+",
+                "W": "9",
+                "Ld": "8+",
+                "OC": "3"
             },
-            "invuln": "",
+            "invuln": "4+",
             "ranged-weapons": [
                 {
-                    "name": "",
-                    "abilities": [],
-                    "Range": "",
-                    "A": "",
-                    "BS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "name": "Gauss slicers",
+                    "abilities": [
+                        "LETHAL HITS"
+                    ],
+                    "Range": "24\"",
+                    "A": "8",
+                    "BS": "4+",
+                    "S": "5",
+                    "AP": "-1",
+                    "D": "1"
                 }
             ],
             "melee-weapons": [
                 {
-                    "name": "",
-                    "abilities": [],
+                    "name": "Tomb Stalker claws",
+                    "abilities": [
+                        "SUSTAINED HITS 1"
+                    ],
                     "Range": "Melee",
-                    "A": "",
-                    "WS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "A": "6",
+                    "WS": "4+",
+                    "S": "6",
+                    "AP": "-1",
+                    "D": "2"
                 }
             ],
-            "core-abilities": [],
-            "faction-abilities": [],
+            "core-abilities": [
+                "Deep Strike"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
-                    "name": "",
-                    "rules": ""
+                    "name": "Snaking Ambush",
+                    "rules": "You can target this unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already used that Stratagem on a different unit this phase."
                 }
             ],
-            "wargear-abilities": [],
-            "keywords": [],
-            "faction-keywords": [],
+            "wargear-abilities": [
+                {
+                    "name": "Gloom Prism",
+                    "type": "Aura",
+                    "rules": "While a friendly Necrons unit is within 6\" of the bearer, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks."
+                }
+            ],
+            "keywords": [
+                "Monster",
+                "Canoptek",
+                "Tomb Stalker"
+            ],
+            "faction-keywords": [
+                "Necrons"
+            ],
             "equipment": [
-                ""
+                "Gauss slicers",
+                "Tomb Stalker claws",
+                "Gloom Prism"
             ],
             "wargear-options": [],
-            "leads": [],
-            "flavour": ""
+            "flavour": "Armed with gauss weaponry and rows of razor-sharp legs, Tomb Stalkers are unliving machines built to protect the sepulchres of Necron lords. Its arcane senses can detect life through hundreds of metres of solid rock, and once its prey has been detected, it closes in for the kill, using a form of phase field to part matter like water."
         },
         {
             "name": "Seraptek Heavy Construct",
@@ -4104,55 +4934,127 @@
                 "1"
             ],
             "stats": {
-                "M": "",
-                "T": "",
-                "Sv": "",
-                "W": "",
-                "Ld": "",
-                "OC": ""
+                "M": "10\"",
+                "T": "12",
+                "Sv": "3+",
+                "W": "24",
+                "Ld": "7+",
+                "OC": "10"
             },
-            "invuln": "",
+            "invuln": "5+",
             "ranged-weapons": [
                 {
-                    "name": "",
+                    "name": "Singularity generator",
+                    "abilities": [
+                        "BLAST",
+                        "DEVASTATING WOUNDS"
+                    ],
+                    "Range": "36\"",
+                    "A": "2D6",
+                    "BS": "3+",
+                    "S": "10",
+                    "AP": "-3",
+                    "D": "4"
+                },
+                {
+                    "name": "Synaptic obliterator",
+                    "abilities": [
+                        "SUSTAINED HITS 2"
+                    ],
+                    "Range": "48\"",
+                    "A": "8",
+                    "BS": "3+",
+                    "S": "5",
+                    "AP": "-1",
+                    "D": "2"
+                },
+                {
+                    "name": "Transdimensional projector",
                     "abilities": [],
-                    "Range": "",
-                    "A": "",
-                    "BS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "Range": "48\"",
+                    "A": "2",
+                    "BS": "3+",
+                    "S": "24",
+                    "AP": "-4",
+                    "D": "D6+4"
                 }
             ],
             "melee-weapons": [
                 {
-                    "name": "",
+                    "name": "Titanic forelimbs",
+                    "profile": "strike",
                     "abilities": [],
                     "Range": "Melee",
-                    "A": "",
-                    "WS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "A": "6",
+                    "WS": "3+",
+                    "S": "14",
+                    "AP": "-3",
+                    "D": "5"
+                },
+                {
+                    "name": "Titanic forelimbs",
+                    "profile": "sweep",
+                    "abilities": [],
+                    "Range": "Melee",
+                    "A": "12",
+                    "WS": "3+",
+                    "S": "8",
+                    "AP": "-1",
+                    "D": "2"
                 }
             ],
-            "core-abilities": [],
-            "faction-abilities": [],
+            "core-abilities": [
+                "Deadly Demise D6 + 2"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
-                    "name": "",
-                    "rules": ""
+                    "name": "Terrifying Monstrosity",
+                    "rules": "At the start of the Fight phase, each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test."
+                },
+                {
+                    "name": "Titanic Walker",
+                    "rules": "Each time this model makes a Normal, Advance or Fall Back move, it can move over models (excluding *Titanic* models) and terrain features that are 4\" or less in height as if they were not there."
                 }
             ],
             "wargear-abilities": [],
-            "keywords": [],
-            "faction-keywords": [],
-            "equipment": [
-                ""
+            "damaged": {
+                "wounds": "9",
+                "rules": "While this model has 1-9 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+            },
+            "keywords": [
+                "Vehicle",
+                "Walker",
+                "Titanic",
+                "Towering",
+                "Seraptek Heavy Construct"
             ],
-            "wargear-options": [],
-            "leads": [],
-            "flavour": ""
+            "faction-keywords": [
+                "Necrons"
+            ],
+            "equipment": [
+                "Singularity generator",
+                "Singularity generator",
+                "Titanic forelimbs"
+            ],
+            "wargear-options": [
+                {
+                    "name": [
+                        "Synaptic obliterator",
+                        "Synaptic obliterator",
+                        "Transdimensional projector",
+                        "Transdimensional projector"
+                    ],
+                    "replaces": [
+                        "Singularity generator",
+                        "Singularity generator"
+                    ],
+                    "restricted": "Yes"
+                }
+            ],
+            "flavour": "The Seraptek Heavy Construct wields energies that can disintegrate organic and mechanical matter. Despite its bulk, the Seraptek is an agile machine, exerting dominance over nearby Canoptek-class constructs. What purpose this colossus was originally intended for is unknown, but as a weapon of war it is truly devastating."
         },
         {
             "name": "Tesseract Ark",
@@ -4164,55 +5066,144 @@
                 "1"
             ],
             "stats": {
-                "M": "",
-                "T": "",
-                "Sv": "",
-                "W": "",
-                "Ld": "",
-                "OC": ""
+                "M": "9\"",
+                "T": "9",
+                "Sv": "3+",
+                "W": "10",
+                "Ld": "6+",
+                "OC": "3"
             },
-            "invuln": "",
+            "invuln": "4+",
             "ranged-weapons": [
                 {
-                    "name": "",
-                    "abilities": [],
-                    "Range": "",
-                    "A": "",
-                    "BS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "name": "Gauss cannon",
+                    "abilities": [
+                        "LETHAL HITS"
+                    ],
+                    "Range": "24\"",
+                    "A": "3",
+                    "BS": "3+",
+                    "S": "5",
+                    "AP": "-2",
+                    "D": "2"
+                },
+                {
+                    "name": "Particle beamer",
+                    "abilities": [
+                        "BLAST",
+                        "DEVASTATING WOUNDS"
+                    ],
+                    "Range": "18\"",
+                    "A": "D6",
+                    "BS": "3+",
+                    "S": "6",
+                    "AP": "0",
+                    "D": "1"
+                },
+                {
+                    "name": "Tesla cannon",
+                    "abilities": [
+                        "SUSTAINED HITS 2"
+                    ],
+                    "Range": "24\"",
+                    "A": "4",
+                    "BS": "3+",
+                    "S": "6",
+                    "AP": "0",
+                    "D": "1"
+                },
+                {
+                    "name": "Tesseract singularity chamber",
+                    "profile": "particle hurricane",
+                    "abilities": [
+                        "IGNORES COVER",
+                        "TORRENT"
+                    ],
+                    "Range": "12\"",
+                    "A": "D6+3",
+                    "BS": "N/A",
+                    "S": "6",
+                    "AP": "-1",
+                    "D": "2"
+                },
+                {
+                    "name": "Tesseract singularity chamber",
+                    "profile": "seismic lash",
+                    "abilities": [
+                        "BLAST"
+                    ],
+                    "Range": "36\"",
+                    "A": "D3",
+                    "BS": "3+",
+                    "S": "9",
+                    "AP": "-3",
+                    "D": "D6+1"
                 }
             ],
             "melee-weapons": [
                 {
-                    "name": "",
+                    "name": "Armoured bulk",
                     "abilities": [],
                     "Range": "Melee",
-                    "A": "",
-                    "WS": "",
-                    "S": "",
-                    "AP": "",
-                    "D": ""
+                    "A": "3",
+                    "WS": "4+",
+                    "S": "6",
+                    "AP": "0",
+                    "D": "1"
                 }
             ],
-            "core-abilities": [],
-            "faction-abilities": [],
+            "core-abilities": [
+                "Deadly Demise 1"
+            ],
+            "faction-abilities": [
+                "Reanimation Protocols"
+            ],
             "abilities": [
                 {
-                    "name": "",
-                    "rules": ""
+                    "name": "Gravitational Field",
+                    "rules": "Each time an enemy unit selects this model as the target of a charge, subtract 2 from the Charge roll (this is not cumulative with any other reductions to that Charge roll)."
                 }
             ],
             "wargear-abilities": [],
-            "keywords": [],
-            "faction-keywords": [],
-            "equipment": [
-                ""
+            "keywords": [
+                "Vehicle",
+                "Fly",
+                "Tesseract Ark"
             ],
-            "wargear-options": [],
-            "leads": [],
-            "flavour": ""
+            "faction-keywords": [
+                "Necrons"
+            ],
+            "equipment": [
+                "Tesseract singularity chamber",
+                "Tesla cannon",
+                "Tesla cannon",
+                "Armoured bulk"
+            ],
+            "wargear-options": [
+                {
+                    "name": [
+                        "Gauss cannon",
+                        "Gauss cannon"
+                    ],
+                    "replaces": [
+                        "Tesla cannon",
+                        "Tesla cannon"
+                    ],
+                    "restricted": "Yes"
+                },
+                {
+                    "name": [
+                        "Particle beamer",
+                        "Particle beamer"
+                    ],
+                    "replaces": [
+                        "Tesla cannon",
+                        "Tesla cannon"
+                    ],
+                    "restricted": "Yes"
+                }
+            ],
+            "flavour": "Tesseract Arks are rare war machines of immense power, containing a singularity chamber that holds in stasis a fragment of a dying star. Siphoning off this cosmic energy, the Tesseract Ark can unleash terrible destruction, blasting foes with solar fire or excoriating particle winds, all while shielding itself within a field of gravitational distortion."
         }
     ]
 }
