@@ -3,17 +3,34 @@
     "folder": "Space Marines",
     "subtitle": "Adeptus Astartes",
     "army-rule": {
-        "name": "",
-        "flavour": "",
-        "rules": ""
+        "name": "Oath of Moment",
+        "rules": "If your Army Faction is *Adeptus Astartes*, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, each time a model from your army with this ability makes an attack that targets that enemy unit, you can re-roll the Hit roll and you can re-roll the Wound roll.",
+        "flavour": "In battle, Space Marines swear mighty oaths to destroy the enemies of the Emperor and uphold the honour of their Chapter, and such vows are sacrosanct. When the Angels of Death strike, they do so with the precision of a surgeon and the force of a thunderbolt. Experience and strategic expertise help them to read the shifting shape of the battle with post-human speed and clarity, directing their wrath towards one priority target after another. Command assets are annihilated, leaving the enemy reeling leaderless. Heavy armour, potent artillery and the vaunted elites of the foe’s forces are laid waste with horrifying speed, until the Emperor’s Angels of Death stand victorious over a field of smouldering wreckage and bolt-riddled corpses, and honour is finally satisfied."
     },
     "detachments": [
         {
             "name": "Gladius Task Force",
             "rule": {
-                "name": "",
-                "rules": "",
-                "flavour": ""
+                "name": "Combat Doctrines",
+                "rules": "At the start of your Command phase, you can select one of the Combat Doctrines listed below. Until the start of your next Command phase, that Combat Doctrine is active and its effects apply to all *Adeptus Astartes* units from your army with this ability. You can only select each Combat Doctrine once per battle.",
+                "flavour": "The Codex Astartes has proven its worth as a superb treatise on warfare over countless battlefields, and has remained so even after ten thousand years. Many Space Marines hold its wisdom in awe, and exemplify its teachings, employing a flexible set of combat doctrines to eliminate their enemy. Few opponents can withstand the fury of such an onslaught.",
+                "selections": [
+                    {
+                        "name": "Devastator Doctrine",
+                        "rules": "This unit is eligible to shoot in a turn in which it Advanced.",
+                        "flavour": "The Codex Astartes explains in detail the strategic valueof overwhelming firepower applied to key targets while advancing into position in order to eliminate threats and create tactical openings."
+                    },
+                    {
+                        "name": "Tactical Doctrine",
+                        "rules": "This unit is eligible to shoot and declare a charge in a turn in which it Fell Back.",
+                        "flavour": "As the warring armies close upon one another and vicious fire-fights erupt, the Codex lays out strategies for swiftly seizing the initiative and combining versatility with firepower."
+                    },
+                    {
+                        "name": "Assault Doctrine",
+                        "rules": "This unit is eligible to declare a charge in a turn in which it Advanced.",
+                        "flavour": "The Codex Astartes leaves no doubt that the killing blow in most engagements must be delivered with a decisive close-quarters strike. It presents plentiful tactical means to achieve this end."
+                    }
+                ]
             },
             "stratagems": [
                 {
@@ -39,16 +56,32 @@
             ],
             "enhancements": [
                 {
-                    "name": "",
-                    "cost": "",
-                    "flavour": "",
-                    "rules": ""
+                    "name": "Adept of the Codex",
+                    "cost": "20",
+                    "flavour": "The commanders of Space Marine strike forces epitomise the tactical genius of the Codex Astartes, its wisdom guiding them to measured strategic responses even amidst the fiercest flames of battle.",
+                    "rules": "*Captain* model only. At the start of your Command phase, if the bearer is on the battlefield, instead of selecting a Combat Doctrine to be active for your army, you can select the Tactical Doctrine. If you do, until the start of your next Command phase, that doctrine is active for the bearer’s unit only, even if you have already selected that doctrine to be active for your army this battle.",
+                    "limited": "Captain"
                 },
                 {
-                    "name": "",
-                    "cost": "",
-                    "flavour": "",
-                    "rules": ""
+                    "name": "Artificer Armour",
+                    "cost": "10",
+                    "flavour": "Crafted by the finest artificers of the Chapter, these ornately detailed suits of armour provide superior protective capabilities that rival even Terminator plate. All who set eyes upon the wearer know that an honoured champion of the Imperium stands before them.",
+                    "rules": "*Adeptus Astartes* model only. The bearer has a Save characteristic of 2+ and the Feel No Pain 5+ ability.",
+                    "limited": "Adeptus Astartes"
+                },
+                {
+                    "name": "Bolter Discipline",
+                    "cost": "25",
+                    "flavour": "To a Space Marine, the boltgun is more than a weapon – it is an instrument of Mankind’s divinity, the bringer of death to his foes. This commander has drilled his warriors relentlessly, and when combined with the Adeptus Astartes’ superhuman reflexes, his warriors can produce a devastating rate of fire.",
+                    "rules": "Adeptus Astartes model only. While the bearer is leading a unit, ranged weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability. In addition, while the bearer’s unit is under the effects of the Devastator Doctrine, each time a model in that unit makes a ranged attack, a successful unmodified Hit roll of 5+ scores a Critical Hit.",
+                    "limited": "Adeptus Astartes"
+                },
+                {
+                    "name": "The Honour Vehement",
+                    "cost": "15",
+                    "flavour": "A single stanza of script, the original of which was said to have been penned by the Emperor himself, the Honour Vehement is inscribed on thrice-blessed parchment and affixed with a purity seal upon its bearer’s weaponry. So potent is the inspirational value of the Emperor’s own evocation that those who bear it are driven to heroic acts of martial prowess.",
+                    "rules": "*Adeptus Astartes* model only. Add 1 to the Attacks and Strength characteristics of the bearer’s melee weapons. While the bearer is under the effects of the Assault Doctrine, add 2 to the Attacks and Strength characteristics of the bearer’s melee weapons instead.",
+                    "limited": "Adeptus Astartes"
                 }
             ]
         }

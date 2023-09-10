@@ -1,11 +1,6 @@
 {
     "name": "Imperial Fists",
     "folder": "Space Marines",
-    "army-rule": {
-        "name": "",
-        "flavour": "",
-        "rules": ""
-    },
     "detachments": [],
     "units": [
         {

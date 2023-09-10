@@ -1,11 +1,6 @@
 {
     "name": "Deathwatch",
     "folder": "Space Marines",
-    "army-rule": {
-        "name": "",
-        "flavour": "",
-        "rules": ""
-    },
     "detachments": [
         {
             "name": "Black Spear Task Force",

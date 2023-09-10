@@ -1,11 +1,6 @@
 {
     "name": "Space Wolves",
     "folder": "Space Marines",
-    "army-rule": {
-        "name": "",
-        "flavour": "",
-        "rules": ""
-    },
     "detachments": [
         {
             "name": "Champions of Russ",

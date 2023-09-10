@@ -1,11 +1,6 @@
 {
     "name": "Iron Hands",
     "folder": "Space Marines",
-    "army-rule": {
-        "name": "",
-        "flavour": "",
-        "rules": ""
-    },
     "detachments": [],
     "units": [
         {

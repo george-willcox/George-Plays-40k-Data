@@ -1,11 +1,6 @@
 {
     "name": "Blood Angels",
     "folder": "Space Marines",
-    "army-rule": {
-        "name": "",
-        "flavour": "",
-        "rules": ""
-    },
     "detachments": [
         {
             "name": "Sea of Sanguinius",
