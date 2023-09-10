@@ -1,6 +1,7 @@
 {
     "name": "Astra Militarum",
     "category": "Imperium",
+    "export": "Genestealer Cults",
     "army-rule": {
         "name": "",
         "flavour": "",
