@@ -1,6 +1,8 @@
 {
     "name": "Iron Hands",
     "folder": "Space Marines",
+    "category": "Imperium",
+    "import": "Space Marines",
     "detachments": [],
     "units": [
         {

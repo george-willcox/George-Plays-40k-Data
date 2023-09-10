@@ -1,6 +1,8 @@
 {
     "name": "Chaos Titan Legions",
     "subtitle": "Titanicus Traitoris",
+    "category": "Chaos",
+    "export": "Chaos",
     "army-rule": {
         "name": "",
         "flavour": "",

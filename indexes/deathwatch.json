@@ -1,6 +1,8 @@
 {
     "name": "Deathwatch",
     "folder": "Space Marines",
+    "category": "Imperium",
+    "import": "Space Marines",
     "detachments": [
         {
             "name": "Black Spear Task Force",

@@ -1,5 +1,7 @@
 {
     "name": "Chaos Knights",
+    "category": "Chaos",
+    "export": "Chaos",
     "army-rule": {
         "name": "",
         "flavour": "",

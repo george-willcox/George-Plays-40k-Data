@@ -1,6 +1,8 @@
 {
     "name": "Chaos Daemons",
     "subtitle": "Legiones Daemonica",
+    "category": "Chaos",
+    "export": "Chaos",
     "army-rule": {
         "name": "",
         "flavour": "",

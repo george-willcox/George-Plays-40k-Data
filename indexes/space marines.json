@@ -1,7 +1,8 @@
 {
     "name": "Space Marines",
-    "folder": "Space Marines",
     "subtitle": "Adeptus Astartes",
+    "folder": "Space Marines",
+    "category": "Imperium",
     "army-rule": {
         "name": "Oath of Moment",
         "rules": "If your Army Faction is *Adeptus Astartes*, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, each time a model from your army with this ability makes an attack that targets that enemy unit, you can re-roll the Hit roll and you can re-roll the Wound roll.",

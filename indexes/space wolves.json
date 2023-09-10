@@ -1,6 +1,8 @@
 {
     "name": "Space Wolves",
     "folder": "Space Marines",
+    "category": "Imperium",
+    "import": "Space Marines",
     "detachments": [
         {
             "name": "Champions of Russ",

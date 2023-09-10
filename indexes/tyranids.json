@@ -1,5 +1,6 @@
 {
     "name": "Tyranids",
+    "category": "Xenos",
     "army-rule": [{
         "name": "Synapse",
         "flavour": "Some Tyranids serve as synaptic conduits or nodal relays through which a portion of the Hive Mind’s iron will flows, overriding the natural instincts of the swarm to direct the teeming warrior-beasts to function as a single, gestalt organism on the battlefield.",

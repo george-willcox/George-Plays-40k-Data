@@ -1,6 +1,8 @@
 {
     "name": "White Scars",
     "folder": "Space Marines",
+    "category": "Imperium",
+    "import": "Space Marines",
     "detachments": [],
     "units": [
         {

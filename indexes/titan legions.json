@@ -1,6 +1,8 @@
 {
     "name": "Titan Legions",
     "subtitle": "Adeptus Titanicus",
+    "category": "Imperium",
+    "export": "Imperium",
     "army-rule": {
         "name": "",
         "flavour": "",

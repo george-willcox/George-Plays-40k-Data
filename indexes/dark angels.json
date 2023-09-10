@@ -1,6 +1,8 @@
 {
     "name": "Dark Angels",
     "folder": "Space Marines",
+    "category": "Imperium",
+    "import": "Space Marines",
     "detachments": [
         {
             "name": "Unforgiven Task Force",

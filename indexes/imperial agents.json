@@ -1,6 +1,8 @@
 {
     "name": "Imperial Agents",
     "subtitle": "Agents of the Imperium",
+    "category": "Imperium",
+    "export": "Imperium",
     "army-rule": {
         "name": "",
         "flavour": "",

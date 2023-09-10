@@ -1,6 +1,8 @@
 {
     "name": "Black Templars",
     "folder": "Space Marines",
+    "category": "Imperium",
+    "import": "Space Marines",
     "detachments": [
         {
             "name": "Righteous Crusaders",
