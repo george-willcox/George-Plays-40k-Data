@@ -59,7 +59,7 @@
                     "name": "Protocol of the Undying Stars",
                     "type": "Strategic Ploy Stratagem",
                     "cost": "1CP",
-                    "flavour": "In response to enemy attack, criss-cross fire leaps from the Necron ranks, forming a blazing corona of deadly energy from which there can be no escape.",
+                    "flavour": "In response to enemy attack, criss-cross fire leaps from the Necron ranks, forming a blazing corona of deadly energy from which there can be false escape.",
                     "when": "Your opponent's Shooting phase, just after an enemy unit has resolved its attacks.",
                     "target": "One *Necrons* unit from your army that had one or more of its models destroyed as a result of the attacking unit's attacks.",
                     "effect": "Your unit can shoot as if it were your Shooting phase, but it must target the enemy unit that just attacked it, and can only do so if that enemy unit is an eligible target. In addition, if a *Necrons Character* is leading your unit, until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability.",
@@ -99,7 +99,7 @@
                     "name": "Sempiternal Weave",
                     "cost": "10",
                     "flavour": "Only the finest Cryptek artificers know the secret of crafting a Sempiternal Weave. These gossamer-thin plates are formed from phase-hardened amarathine and threads of adamantine. They are then layered over the bearer's carapace of living metal, stiffening and contracting when struck to turn aside energy blades, bolt shells and even the searing heat of a plasma burst.",
-                    "rules": "*Necrons* model only. The bearer has the Feel No Pain 4+ ability."
+                    "rules": "*Necrons* model only. The bearer has the Feel false Pain 4+ ability."
                 }
             ]
         }
@@ -203,7 +203,7 @@
                 {
                     "name": "Tesla cannon",
                     "replaces": "Gauss cannon",
-                    "restricted": "no"
+                    "restricted": "false"
                 }
             ],
             "flavour": "Slow-moving but deadly, Annihilation Barges serve as anti-infantry fire support platforms. They are often deployed to watch over important strategic locations, gliding serenely into position upon a cushion of repulsion energies before unleashing furious storms of eldritch lightning from their massive cannons."
@@ -368,8 +368,8 @@
                 "Golden fists"
             ],
             "wargear-options": [],
-            "warlord": "No",
-            "flavour": "Mephet'ran the Deceiver was ever the most duplicitous of his monstrous brood. Even shattered and bound within a restraining necrodermis, each shard of the Deceiver still radiates a potent blend of deadly truths and bewildering lies against which the fallible senses of mortal beings possess no defence.",
+            "warlord": "false",
+            "flavour": "Mephet'ran the Deceiver was ever the most duplicitous of his monstrous brood. Even shattered and bound within a restraining necrodermis, each shard of the Deceiver still radiates a potent blend of deadly truths and bewildering lies against which the fallible senses of mortal beings possess false defence.",
             "other-rules": [
                 {
                     "name": "Enslaved Star God",
@@ -466,7 +466,7 @@
                 "Scythe of the Nightbringer"
             ],
             "wargear-options": [],
-            "warlord": "No",
+            "warlord": "false",
             "flavour": "The very essence of life bleeds away when exposed to a Shard of the C'tan known as the Nightbringer. Aza'gorod he was, the Inevitable Blade; his spectral form, cowl of shadows and flashing scythe are said to have spawned countless avatars of death in the legends of primitive cultures the entire galaxy over.",
             "other-rules": [
                 {
@@ -590,7 +590,7 @@
                 "Canoptek tail blades"
             ],
             "wargear-options": [],
-            "warlord": "No",
+            "warlord": "false",
             "flavour": "Shards of the Void Dragon fill the air around them with a searing scream of distorted static. With a gesture they can unmake the war engines of the lesser races, dragging the resultant disintegrating matter into themselves like the gravity well of a black hole and using it to replenish their own, ever flickering forms.",
             "other-rules": [
                 {
@@ -732,7 +732,7 @@
                 }
             ],
             "core-abilities": [
-                "Feel No Pain 4+"
+                "Feel false Pain 4+"
             ],
             "faction-abilities": [
                 "Reanimation Protocols"
@@ -885,12 +885,12 @@
                 {
                     "name": "Fabricator Claw Array",
                     "type": "Aura",
-                    "rules": "While a friendly *Necrons* Vehicle unit is within 6\" of the bearer, that unit has the Feel No Pain 6+ ability."
+                    "rules": "While a friendly *Necrons* Vehicle unit is within 6\" of the bearer, that unit has the Feel false Pain 6+ ability."
                 },
                 {
                     "name": "Gloom Prism",
                     "type": "Aura",
-                    "rules": "While a friendly *Necrons* unit is within 6\" of the bearer, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks."
+                    "rules": "While a friendly *Necrons* unit is within 6\" of the bearer, models in that unit have the Feel false Pain 4+ ability against Psychic Attacks."
                 }
             ],
             "keywords": [
@@ -910,17 +910,17 @@
                     "name": "Particle beamer",
                     "number": "2",
                     "replaces": "",
-                    "restricted": "No"
+                    "restricted": "false"
                 },
                 {
                     "name": "Fabricator Claw Array",
                     "replaces": "",
-                    "restricted": "No"
+                    "restricted": "false"
                 },
                 {
                     "name": "Gloom Prism",
                     "replaces": "",
-                    "restricted": "No"
+                    "restricted": "false"
                 }
             ],
             "flavour": "Canoptek Spyders are formidable control-and-repair constructs, augmented with battlefield support systems. Whether blasting enemies with particle beamers, warding off empyric energies with gloom prisms or fabricating and unleashing fresh waves of Canoptek Scarabs, they are a force to be reckoned with."
@@ -1028,7 +1028,7 @@
                 {
                     "name": "Whip coils",
                     "replaces": "Vicious claws",
-                    "restricted": "No"
+                    "restricted": "false"
                 }
             ],
             "leads": [],
@@ -1151,17 +1151,17 @@
                 {
                     "name": "Tesla cannon",
                     "replaces": "Gauss cannon",
-                    "restricted": "No"
+                    "restricted": "false"
                 },
                 {
                     "name": "Overlord's blade",
                     "replaces": "Staff of light",
-                    "restricted": "No"
+                    "restricted": "false"
                 },
                 {
                     "name": "Resurrection Orb",
                     "replaces": "",
-                    "restricted": "No"
+                    "restricted": "false"
                 }
             ],
             "flavour": "Some Necron nobles ride to battle enthroned on Catacomb Command Barges. These armoured skimmers beam out carrier waves that bear a noble's orders directly to the dynasty's legions, while also providing them with quantum shielding, heavy gauss firepower and a fast-moving platform from which to fight."
@@ -1351,7 +1351,7 @@
                 }
             ],
             "core-abilities": [
-                "Feel No Pain 4+"
+                "Feel false Pain 4+"
             ],
             "faction-abilities": [
                 "Reanimation Protocols"
@@ -1359,7 +1359,7 @@
             "abilities": [
                 {
                     "name": "Bound Creation",
-                    "rules": "While this unit is in the same unit as a Cryptek model, that Cryptek model has the Feel No Pain 4+ ability."
+                    "rules": "While this unit is in the same unit as a Cryptek model, that Cryptek model has the Feel false Pain 4+ ability."
                 },
                 {
                     "name": "Systematic Vigour",
@@ -1457,7 +1457,7 @@
                 "Close combat weapon"
             ],
             "wargear-options": [],
-            "flavour": "No target can evade the Deathmarks. Watching from dimensional oubliettes, these expert snipers track enemy movements, communications and even teleport signatures before striking. They do so in a blaze of synaptic disintegrator fire that shreds not only their victims' bodies, but also their very minds. "
+            "flavour": "false target can evade the Deathmarks. Watching from dimensional oubliettes, these expert snipers track enemy movements, communications and even teleport signatures before striking. They do so in a blaze of synaptic disintegrator fire that shreds not only their victims' bodies, but also their very minds. "
         },
         {
             "name": "Doomscythe",
@@ -1850,7 +1850,7 @@
                 "Close combat weapon"
             ],
             "wargear-options": [],
-            "flavour": "Hexmark Destroyers were once Deathmarks. Bursting from their dimensional oubliettes like ambush predators, these hunchbacked monsters unleash inescapable hails of enmitic fire. Independent ocular targeting and optimised firing patterns leave their prey with no escape."
+            "flavour": "Hexmark Destroyers were once Deathmarks. Bursting from their dimensional oubliettes like ambush predators, these hunchbacked monsters unleash inescapable hails of enmitic fire. Independent ocular targeting and optimised firing patterns leave their prey with false escape."
         },
         {
             "name": "Illuminor Szeras",
@@ -1906,7 +1906,7 @@
                 }
             ],
             "core-abilities": [
-                "Feel No Pain 4+"
+                "Feel false Pain 4+"
             ],
             "faction-abilities": [
                 "Reanimation Protocols"
@@ -2028,7 +2028,7 @@
                 {
                     "name": "Tesla carbine",
                     "replaces": "Gauss blaster",
-                    "restricted": "Yes"
+                    "restricted": "true"
                 }
             ],
             "flavour": "Once the shook troops of the Necrontyr, Immortals still provide their masters with a powerful core of skilled soldiery millennia later. More advanced than Necron Warriors, they can employ a number of strategies even without command, and their firepower makes them deadly in close or midrange engagements."
@@ -2289,7 +2289,7 @@
                 {
                     "name": "Enmitic exterminator",
                     "replaces": "Gauss destructor",
-                    "restricted": "No"
+                    "restricted": "false"
                 }
             ],
             "flavour": "The Destroyer Cults think nothing of sacrificing their physical forms to optimise themselves for slaughter. Lokhust Heavy Destroyers skim to battle upon repulsor-sled bodies, their upper limbs bound into gauss destructors or enmitic exterminators with which they decimate their foes with devastating blasts from afar"
@@ -2366,7 +2366,7 @@
             "wargear-abilities": [
                 {
                     "name": "Phylactery",
-                    "rules": "The bearer has the Feel No Pain 5+ ability."
+                    "rules": "The bearer has the Feel false Pain 5+ ability."
                 },
                 {
                     "name": "Resurrection Orb",
@@ -2389,7 +2389,7 @@
                 {
                     "name": "Lord's blade",
                     "replaces": "Staff of light",
-                    "restricted": "No"
+                    "restricted": "false"
                 },
                 {
                     "name": "Phylactery",
@@ -2498,12 +2498,12 @@
                 {
                     "name": "Lord's blade",
                     "replaces": "Staff of light",
-                    "restricted": "No"
+                    "restricted": "false"
                 },
                 {
                     "name": "Resurrection Orb",
                     "replaces": "",
-                    "restricted": "No"
+                    "restricted": "false"
                 }
             ],
             "leads": [
@@ -2589,7 +2589,7 @@
                         "Dispersion Shield"
                     ],
                     "replaces": "Warscythe",
-                    "restricted": "Yes"
+                    "restricted": "true"
                 }
             ],
             "flavour": "Incapable of disloyalty and clad in forms as resilient and resplendent as their masters', Lychguard are the ultimate protectors. Whether reaping the foe with warscythes or advancing with dispersion shields locked and hyperphase swords thrumming, at close quarters these bodyguards are nigh on unstoppable."
@@ -2702,7 +2702,7 @@
                 {
                     "name": "Death ray",
                     "replaces": "Gauss flux arc",
-                    "restricted": "Yes"
+                    "restricted": "true"
                 }
             ],
             "flavour": "A Monolith is capable of skimming across the battlefield, or even descending from space. It can slaughter foes with its array of potent weapons, heal damage with the living metal of its hull and even teleport Necron reinforcements into battle through its shimmering eternity gate."
@@ -2791,7 +2791,7 @@
                 {
                     "name": "Gauss reaper",
                     "replaces": "Gauss flayer",
-                    "restricted": "No"
+                    "restricted": "false"
                 }
             ],
             "flavour": "Necron Warriors attack in rank upon shambling rank. Individually little more than mindless automata, they are relentless and deadly when commanded en masse. The Warriors' metallic bodies can self-repair from even the most hideous damage, while their unceasing volleys of fire butcher the foe with mechanical efficiency"
@@ -2927,7 +2927,7 @@
             "abilities": [
                 {
                     "name": "Translocation Beams",
-                    "rules": "At the end of the Fight phase, if there are no models currently embarked within this Transport, you can select one friendly *Necrons Infantry* unit wholly within 6\" of this *Transport*. Unless that unit is within Engagement Range of one or more enemy units, it can embark within this *Transport*."
+                    "rules": "At the end of the Fight phase, if there are false models currently embarked within this Transport, you can select one friendly *Necrons Infantry* unit wholly within 6\" of this *Transport*. Unless that unit is within Engagement Range of one or more enemy units, it can embark within this *Transport*."
                 }
             ],
             "wargear-abilities": [],
@@ -3293,7 +3293,7 @@
                         "Tachyon arrow",
                         "Overlord's blade"
                     ],
-                    "restricted": "Yes"
+                    "restricted": "true"
                 },
                 {
                     "name": "Staff of light",
@@ -3301,7 +3301,7 @@
                         "Tachyon arrow",
                         "Overlord's blade"
                     ],
-                    "restricted": "Yes"
+                    "restricted": "true"
                 },
                 {
                     "name": "Voidscythe",
@@ -3309,7 +3309,7 @@
                         "Tachyon arrow",
                         "Overlord's blade"
                     ],
-                    "restricted": "Yes"
+                    "restricted": "true"
                 },
                 {
                     "name": "Resurrection Orb",
@@ -3477,7 +3477,7 @@
                 "Lychguard",
                 "Necron Warriors"
             ],
-            "flavour": "Psychomancers study the science of fear. They are expert manipulators, conjuring phantasms and temporary hard-light constructs that trigger primal survival instincts in their victims' minds, or overload even the most advanced sensoria. No being is safe from the creeping tendrils of the Psychomancer's art."
+            "flavour": "Psychomancers study the science of fear. They are expert manipulators, conjuring phantasms and temporary hard-light constructs that trigger primal survival instincts in their victims' minds, or overload even the most advanced sensoria. false being is safe from the creeping tendrils of the Psychomancer's art."
         },
         {
             "name": "Royal Warden",
@@ -3535,7 +3535,7 @@
                 },
                 {
                     "name": "Engrammatic Logic",
-                    "rules": "Once per battle, at the start of any phase, you can select one friendly Necrons unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
+                    "rules": "Once per battle, at the start of any phase, you can select one friendly Necrons unit that is Battle-shocked and within 12\" of this model. That unit is false longer Battle-shocked."
                 }
             ],
             "wargear-abilities": [],
@@ -3763,7 +3763,7 @@
             "abilities": [
                 {
                     "name": "Rites of Reanimation",
-                    "rules": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
+                    "rules": "While this model is leading a unit, models in that unit have the Feel false Pain 5+ ability."
                 },
                 {
                     "name": "Technomancer",
@@ -3798,7 +3798,7 @@
                 {
                     "name": "Canoptek Control Node",
                     "replaces": "Canoptek  Cloak",
-                    "restricted": "Yes"
+                    "restricted": "true"
                 }
             ],
             "leads": [
@@ -4035,7 +4035,7 @@
                 },
                 {
                     "name": "The Silent King",
-                    "rules": "Once per turn, at the end of your Command phase, you can select one friendly Battle-shocked *Necrons* unit within 12\" of this unit's Szarekh model. That unit is no longer Battle-shocked."
+                    "rules": "Once per turn, at the end of your Command phase, you can select one friendly Battle-shocked *Necrons* unit within 12\" of this unit's Szarekh model. That unit is false longer Battle-shocked."
                 },
                 {
                     "name": "Phaeron of the Stars",
@@ -4089,7 +4089,7 @@
                 }
             ],
             "wargear-options": [],
-            "warlord": "yes",
+            "warlord": "true",
             "flavour": "The Silent King rides to war aboard his dais of dominion, flanked by the phaerons of his Triarch and orbited by crackling noctilith menhirs. He unleashes god-like powers of annihilation upon his dismayed foes, even as his absolute authority radiates out to empower the Necron legions and drive them to inevitable victory.",
             "other-rules": [
                 {
@@ -4216,17 +4216,17 @@
                 {
                     "name": "Particle beamer",
                     "replaces": "Twin gauss blaster",
-                    "restricted": "No"
+                    "restricted": "false"
                 },
                 {
                     "name": "Twin tesla carbine",
                     "replaces": "Twin gauss blaster",
-                    "restricted": "No"
+                    "restricted": "false"
                 },
                 {
                     "name": "Shieldvanes",
                     "replaces": "",
-                    "restricted": "No"
+                    "restricted": "false"
                 },
                 {
                     "name": "Nebuloscope",
@@ -4319,7 +4319,7 @@
                 "Crackling tendrils"
             ],
             "wargear-options": [],
-            "warlord": "No",
+            "warlord": "false",
             "flavour": "Shards of the C'tan serve the Necrons as enslaved living weapons. Greatest amongst them are the Transcendent C'tan, whose fury and power are so terrifying that they must be trammelled using the full might of Necron technology. When their cosmic powers are unleashed, reality itself is torn asunder",
             "other-rules": [
                 {
@@ -4369,7 +4369,7 @@
             "abilities": [
                 {
                     "name": "Ancient Collector",
-                    "rules": "While this model is leading a unit, at the end of your Command phase, if that unit is within range of an objective marker you control, it remains under your control, even if you have no models within range of it, until your opponent controls it at start or end of any turn."
+                    "rules": "While this model is leading a unit, at the end of your Command phase, if that unit is within range of an objective marker you control, it remains under your control, even if you have false models within range of it, until your opponent controls it at start or end of any turn."
                 },
                 {
                     "name": "Surrogate Hosts",
@@ -4494,7 +4494,7 @@
                         "Voidblade"
                     ],
                     "replaces": "Rod of covenant",
-                    "restricted": "Yes"
+                    "restricted": "true"
                 }
             ],
             "flavour": "Triarch Praetorians fight tirelessly to uphold the ancient dynastic codes of their race. Whether blasting the foe with antimatter particles, impaling them on their flickering voidblades or immolating them with their rods of covenant, the Praetorians' gravity displacement packs and combat prowess make them truly deadly."
@@ -4612,12 +4612,12 @@
                 {
                     "name": "Particle shredder",
                     "replaces": "Heat ray",
-                    "restricted": "Yes"
+                    "restricted": "true"
                 },
                 {
                     "name": "Twin heavy gauss cannon",
                     "replaces": "Heat ray",
-                    "restricted": "Yes"
+                    "restricted": "true"
                 }
             ],
             "flavour": "Triarch Stalkers are agile combat walkers whose heavy firepower makes them excellent tank-hunters and anti-infantry assault units both. As though their focused blasts of energy and flame were not enough, they can also augment the targeting of nearby Necron forces to further punish the foe."
@@ -4667,7 +4667,7 @@
                 },
                 {
                     "name": "The Vargard's Duty",
-                    "rules": "While this model is in the same unit as Nemesor Zahndrekh, Character models in that unit have the Feel No Pain 4+ ability."
+                    "rules": "While this model is in the same unit as Nemesor Zahndrekh, Character models in that unit have the Feel false Pain 4+ ability."
                 }
             ],
             "wargear-abilities": [],
@@ -4693,7 +4693,7 @@
         },
         {
             "name": "Canoptek Acanthrites",
-            "forge-world": "Yes",
+            "forge-world": "true",
             "cost": [
                 "85",
                 "170"
@@ -4767,7 +4767,7 @@
         },
         {
             "name": "Canoptek Tomb Sentinel",
-            "forge-world": "Yes",
+            "forge-world": "true",
             "cost": [
                 "115"
             ],
@@ -4825,7 +4825,7 @@
                 {
                     "name": "Gloom Prism",
                     "type": "Aura",
-                    "rules": "While a friendly Necrons unit is within 6\" of the bearer, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks."
+                    "rules": "While a friendly Necrons unit is within 6\" of the bearer, models in that unit have the Feel false Pain 4+ ability against Psychic Attacks."
                 }
             ],
             "keywords": [
@@ -4846,7 +4846,7 @@
         },
         {
             "name": "Canoptek Tomb Stalker",
-            "forge-world": "Yes",
+            "forge-world": "true",
             "cost": [
                 "130"
             ],
@@ -4906,7 +4906,7 @@
                 {
                     "name": "Gloom Prism",
                     "type": "Aura",
-                    "rules": "While a friendly Necrons unit is within 6\" of the bearer, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks."
+                    "rules": "While a friendly Necrons unit is within 6\" of the bearer, models in that unit have the Feel false Pain 4+ ability against Psychic Attacks."
                 }
             ],
             "keywords": [
@@ -4927,7 +4927,7 @@
         },
         {
             "name": "Seraptek Heavy Construct",
-            "forge-world": "Yes",
+            "forge-world": "true",
             "cost": [
                 "540"
             ],
@@ -5052,14 +5052,14 @@
                         "Singularity generator",
                         "Singularity generator"
                     ],
-                    "restricted": "Yes"
+                    "restricted": "true"
                 }
             ],
             "flavour": "The Seraptek Heavy Construct wields energies that can disintegrate organic and mechanical matter. Despite its bulk, the Seraptek is an agile machine, exerting dominance over nearby Canoptek-class constructs. What purpose this colossus was originally intended for is unknown, but as a weapon of war it is truly devastating."
         },
         {
             "name": "Tesseract Ark",
-            "forge-world": "Yes",
+            "forge-world": "true",
             "cost": [
                 "130"
             ],
@@ -5190,7 +5190,7 @@
                         "Tesla cannon",
                         "Tesla cannon"
                     ],
-                    "restricted": "Yes"
+                    "restricted": "true"
                 },
                 {
                     "name": [
@@ -5201,7 +5201,7 @@
                         "Tesla cannon",
                         "Tesla cannon"
                     ],
-                    "restricted": "Yes"
+                    "restricted": "true"
                 }
             ],
             "flavour": "Tesseract Arks are rare war machines of immense power, containing a singularity chamber that holds in stasis a fragment of a dying star. Siphoning off this cosmic energy, the Tesseract Ark can unleash terrible destruction, blasting foes with solar fire or excoriating particle winds, all while shielding itself within a field of gravitational distortion."
