@@ -206,7 +206,8 @@
                     "restricted": "false"
                 }
             ],
-            "flavour": "Slow-moving but deadly, Annihilation Barges serve as anti-infantry fire support platforms. They are often deployed to watch over important strategic locations, gliding serenely into position upon a cushion of repulsion energies before unleashing furious storms of eldritch lightning from their massive cannons."
+            "flavour": "Slow-moving but deadly, Annihilation Barges serve as anti-infantry fire support platforms. They are often deployed to watch over important strategic locations, gliding serenely into position upon a cushion of repulsion energies before unleashing furious storms of eldritch lightning from their massive cannons.",
+            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99120110064_CatacombAnnihilationBargeLead.jpg"
         },
         {
             "name": "Anrakyr the Traveller",
@@ -288,7 +289,8 @@
             "leads": [
                 "Immortals"
             ],
-            "flavour": "Anrakyr voyages from one tomb world to the next at the head of his veteran Pyrrhian Eternals. His tachyon arrow can unleash an unstoppable thunderbolt of energy, capable of shattering mountains, and his will is so great that he can even seize temporary control of his enemies' engines of war."
+            "flavour": "Anrakyr voyages from one tomb world to the next at the head of his veteran Pyrrhian Eternals. His tachyon arrow can unleash an unstoppable thunderbolt of energy, capable of shattering mountains, and his will is so great that he can even seize temporary control of his enemies' engines of war.",
+            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99800110017_AnrakyrNEW01.jpg"
         },
         {
             "name": "C'tan Shard of the Deceiver",
@@ -375,7 +377,8 @@
                     "name": "Enslaved Star God",
                     "rules": "This model cannot be your *Warlord*."
                 }
-            ]
+            ],
+            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99810110003_TheDeceiverNEW01.jpg"
         },
         {
             "name": "C'tan Shard of the Nightbringer",
@@ -473,7 +476,8 @@
                     "name": "Enslaved Star God",
                     "rules": "This model cannot be your *Warlord*."
                 }
-            ]
+            ],
+            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99810110004_TheNightbringerNEW01.jpg"
         },
         {
             "name": "C'tan Shard of the Void Dragon",
@@ -597,7 +601,8 @@
                     "name": "Enslaved Star God",
                     "rules": "This model cannot be your *Warlord*."
                 }
-            ]
+            ],
+            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99120110054_CTanShardoftheVoidDragonLead.jpg"
         },
         {
             "name": "Canoptek Doomstalker",
@@ -689,7 +694,8 @@
                 "Doomstalker limbs"
             ],
             "wargear-options": [],
-            "flavour": "Canoptek Doomstalkers stride with eerie grace. Whether prowling their masters' armouries as tireless sentinels or providing mobile fire support to the Necron legions, the Doomstalkers annihilate all those who dare stand against them with searing salvoes from their doomsday blasters."
+            "flavour": "Canoptek Doomstalkers stride with eerie grace. Whether prowling their masters' armouries as tireless sentinels or providing mobile fire support to the Necron legions, the Doomstalkers annihilate all those who dare stand against them with searing salvoes from their doomsday blasters.",
+            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99120110045_CanoptekDoomstalkerLead.jpg"
         },
         {
             "name": "Canoptek Reanimator",
@@ -757,7 +763,8 @@
                 "Reanimator's claws"
             ],
             "wargear-options": [],
-            "flavour": "Canoptek Reanimators prowl the Necron lines, shooting out ethereal beams swarming with nanoscarabs. Necrons touched by these eerie lights stagger to their feet, resurrected, repaired and ready to fight again. Foes are less fortunate, wailing in agony as their atoms are torn apart and recombined in a hideous, gory fashion."
+            "flavour": "Canoptek Reanimators prowl the Necron lines, shooting out ethereal beams swarming with nanoscarabs. Necrons touched by these eerie lights stagger to their feet, resurrected, repaired and ready to fight again. Foes are less fortunate, wailing in agony as their atoms are torn apart and recombined in a hideous, gory fashion.",
+            "image": "https://www.games-workshop.com/resources/catalog/product/threeSixty/99120110072_NecronsRoyalCourtOTT2360/01-01.jpg"
         },
         {
             "name": "Canoptek Scarab Swarms",
@@ -822,7 +829,8 @@
                 "Feeder mandibles"
             ],
             "wargear-options": [],
-            "flavour": "Canoptek Scarabs attack in skimming swarms. They descend upon the enemy with high-pitched chitters before breaking down infantry and tanks alike into raw energy with their feeder mandibles. Often attacking as the first wave of a Necron assault, these mechanical insectoids spread fear and destruction."
+            "flavour": "Canoptek Scarabs attack in skimming swarms. They descend upon the enemy with high-pitched chitters before breaking down infantry and tanks alike into raw energy with their feeder mandibles. Often attacking as the first wave of a Necron assault, these mechanical insectoids spread fear and destruction.",
+            "image": "https://www.games-workshop.com/resources/catalog/product/threeSixty/60010199034_NecronScarabsSpin1360/01.jpg"
         },
         {
             "name": "Canoptek Spyders",
@@ -923,7 +931,8 @@
                     "restricted": "false"
                 }
             ],
-            "flavour": "Canoptek Spyders are formidable control-and-repair constructs, augmented with battlefield support systems. Whether blasting enemies with particle beamers, warding off empyric energies with gloom prisms or fabricating and unleashing fresh waves of Canoptek Scarabs, they are a force to be reckoned with."
+            "flavour": "Canoptek Spyders are formidable control-and-repair constructs, augmented with battlefield support systems. Whether blasting enemies with particle beamers, warding off empyric energies with gloom prisms or fabricating and unleashing fresh waves of Canoptek Scarabs, they are a force to be reckoned with.",
+            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99120110061_CanoptekSpyderLead.jpg"
         },
         {
             "name": "Canoptek Wraiths",
@@ -1032,7 +1041,8 @@
                 }
             ],
             "leads": [],
-            "flavour": ""
+            "flavour": "These constructs serve as the eyes and ears of their masters while tomb worlds slumber, and as spectral assassins once their armies march out to war. Their dimensional destabilisation matrices allow them to phase in and out of reality, passing through solid objects and sliding their talons through armour, flesh and bone.",
+            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99120110060_NECCanoptekWraithsLead.jpg"
         },
         {
             "name": "Catacomb Command Barge",
@@ -1164,7 +1174,8 @@
                     "restricted": "false"
                 }
             ],
-            "flavour": "Some Necron nobles ride to battle enthroned on Catacomb Command Barges. These armoured skimmers beam out carrier waves that bear a noble's orders directly to the dynasty's legions, while also providing them with quantum shielding, heavy gauss firepower and a fast-moving platform from which to fight."
+            "flavour": "Some Necron nobles ride to battle enthroned on Catacomb Command Barges. These armoured skimmers beam out carrier waves that bear a noble's orders directly to the dynasty's legions, while also providing them with quantum shielding, heavy gauss firepower and a fast-moving platform from which to fight.",
+            "image": "https://www.games-workshop.com/resources/catalog/product/920x950/99120110064_CatacombCommandBargeLead.jpg"
         },
         {
             "name": "Chronomancer",
@@ -1244,7 +1255,8 @@
                 "Lychguard",
                 "Necron Warriors"
             ],
-            "flavour": "Chronomancers are Crypteks who harness temporal energies, their aeonstaves slowing down or speeding up weaponised time. Their timesplinter mantles use crystallised moments to confound enemy blows, while their chronometrons hasten allies through time itself"
+            "flavour": "Chronomancers are Crypteks who harness temporal energies, their aeonstaves slowing down or speeding up weaponised time. Their timesplinter mantles use crystallised moments to confound enemy blows, while their chronometrons hasten allies through time itself",
+            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99070110003_NECChronomancerLead.jpg"
         },
         {
             "name": "Convergence of Dominion",
@@ -1308,7 +1320,8 @@
             ],
             "wargear-options": [],
             "deployment": "When this unit is first set up on the battlefield, its models do not have to be set up in Unit Coherency. Instead, each model must be set up wholly within 12\" of one other model from its unit. From that point on, each model in this unit is treated as a separate unit.",
-            "flavour": "Starsteles were placed upon worlds as territorial markers and silent guardians by jealous Necron nobles. Over the millennia they have become forgotten archaeological curios, or feared sources of superstitious rumour about vanishments and strange lights. Now they awaken again as their masters do."
+            "flavour": "Starsteles were placed upon worlds as territorial markers and silent guardians by jealous Necron nobles. Over the millennia they have become forgotten archaeological curios, or feared sources of superstitious rumour about vanishments and strange lights. Now they awaken again as their masters do.",
+            "image": "https://www.games-workshop.com/resources/catalog/product/threeSixty/99120110066_NecronsConvergeanceOfDominionOTT3360/01-01.jpg"
         },
         {
             "name": "Cryptothralls",
@@ -1385,7 +1398,8 @@
                     "name": "Cryptek Retinue",
                     "rules": "At the start of the Declare Battle Formations step, this unit can join one other unit from your army that is being led by a *Cryptek Infantry* model (a unit cannot have more than one *Cryptothralls* unit joined to it). If it does, until the end of the battle, every model in this unit counts as being part of that Bodyguard unit, and that Bodyguard unit's Starting Strength is increased accordingly."
                 }
-            ]
+            ],
+            "image": "https://www.games-workshop.com/resources/catalog/product/threeSixty/99120110072_NecronsRoyalCourtOTT5360/01-01.jpg"
         },
         {
             "name": "Deathmarks",
@@ -1457,7 +1471,8 @@
                 "Close combat weapon"
             ],
             "wargear-options": [],
-            "flavour": "false target can evade the Deathmarks. Watching from dimensional oubliettes, these expert snipers track enemy movements, communications and even teleport signatures before striking. They do so in a blaze of synaptic disintegrator fire that shreds not only their victims' bodies, but also their very minds. "
+            "flavour": "false target can evade the Deathmarks. Watching from dimensional oubliettes, these expert snipers track enemy movements, communications and even teleport signatures before striking. They do so in a blaze of synaptic disintegrator fire that shreds not only their victims' bodies, but also their very minds.",
+            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99120110057_NECImmortalsGroup2.jpg"
         },
         {
             "name": "Doomscythe",
@@ -1546,7 +1561,8 @@
                 "Armoured bulk"
             ],
             "wargear-options": [],
-            "flavour": "The Doom Scythe is a terror weapon whose wailing engines evoke atavistic horror in the luckless foe. Their primary armament, the heavy death ray, is more frightening still, for wherever its searing energy beam carves through the enemy's ranks, it leaves nothing but blasted wreckage in its wake."
+            "flavour": "The Doom Scythe is a terror weapon whose wailing engines evoke atavistic horror in the luckless foe. Their primary armament, the heavy death ray, is more frightening still, for wherever its searing energy beam carves through the enemy's ranks, it leaves nothing but blasted wreckage in its wake.",
+            "image": "https://www.games-workshop.com/resources/catalog/product/920x950/99120110065_DoomScytheLead.jpg"
         },
         {
             "name": "Doomsday Ark",
@@ -1637,7 +1653,8 @@
                 "Armoured bulk"
             ],
             "wargear-options": [],
-            "flavour": "The Doomsday Ark is a direct-fire plasma artillery piece so powerful that it can threaten even the super-heavy war engines of the lesser races. This vehicle is solely dedicated to overwhelming long-ranged firepower, even diverting energy from its motive functions in order to unleash absolute obliteration upon the foe."
+            "flavour": "The Doomsday Ark is a direct-fire plasma artillery piece so powerful that it can threaten even the super-heavy war engines of the lesser races. This vehicle is solely dedicated to overwhelming long-ranged firepower, even diverting energy from its motive functions in order to unleash absolute obliteration upon the foe.",
+            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99120110063_NECDoomsdayArkLead.jpg"
         },
         {
             "name": "Flayed Ones",
@@ -1698,7 +1715,8 @@
                 "Flayer claws"
             ],
             "wargear-options": [],
-            "flavour": "Flayed Ones keen shrill hunting cries as they fall upon the foe, talons flashing. Infected with the gruesome flayer virus, the Flayed Ones attempt to gorge themselves upon the flesh and blood of their butchered foes, gore drizzling through their mechanical forms as they seek to slake a thirst they can never quench."
+            "flavour": "Flayed Ones keen shrill hunting cries as they fall upon the foe, talons flashing. Infected with the gruesome flayer virus, the Flayed Ones attempt to gorge themselves upon the flesh and blood of their butchered foes, gore drizzling through their mechanical forms as they seek to slake a thirst they can never quench.",
+            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99120110056_NECFlayedOnesLead.jpg"
         },
         {
             "name": "Ghost Ark",
@@ -1774,7 +1792,8 @@
             ],
             "wargear-options": [],
             "transport": "This model has a transport capacity of 10 Necron Warrior models and 1 Necrons Infantry Character model.",
-            "flavour": "Ghost Arks are repair barges that glide amidst the ranks of the Necron legions, gathering up and repairing those androids too wrecked to reconstruct themselves and keep fighting. These vehicles are often pressed into service as armoured transports, advancing to disgorge fresh waves of fully repaired Necrons directly into the fight."
+            "flavour": "Ghost Arks are repair barges that glide amidst the ranks of the Necron legions, gathering up and repairing those androids too wrecked to reconstruct themselves and keep fighting. These vehicles are often pressed into service as armoured transports, advancing to disgorge fresh waves of fully repaired Necrons directly into the fight.",
+            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99120110063_NECGhostArkLead.jpg"
         },
         {
             "name": "Hexmark Destroyer",
@@ -1850,7 +1869,8 @@
                 "Close combat weapon"
             ],
             "wargear-options": [],
-            "flavour": "Hexmark Destroyers were once Deathmarks. Bursting from their dimensional oubliettes like ambush predators, these hunchbacked monsters unleash inescapable hails of enmitic fire. Independent ocular targeting and optimised firing patterns leave their prey with false escape."
+            "flavour": "Hexmark Destroyers were once Deathmarks. Bursting from their dimensional oubliettes like ambush predators, these hunchbacked monsters unleash inescapable hails of enmitic fire. Independent ocular targeting and optimised firing patterns leave their prey with false escape.",
+            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99120110048_HexmarkDestroyerLead.jpg"
         },
         {
             "name": "Illuminor Szeras",
@@ -1942,7 +1962,8 @@
                 "Impaling legs"
             ],
             "wargear-options": [],
-            "flavour": "Illuminor Szeras is a ghoulish bio-scientist who haunts the battlefield to gather luckless living specimens. He is a master of technomantic lore and android augmentation, employing horrible arcanoscientific instruments to disassemble his enemies, even as he fortifies the living metal forms of his allies."
+            "flavour": "Illuminor Szeras is a ghoulish bio-scientist who haunts the battlefield to gather luckless living specimens. He is a master of technomantic lore and android augmentation, employing horrible arcanoscientific instruments to disassemble his enemies, even as he fortifies the living metal forms of his allies.",
+            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99120110049_IlluminorSzerasLead.jpg"
         },
         {
             "name": "Immortals",
@@ -2031,7 +2052,8 @@
                     "restricted": "true"
                 }
             ],
-            "flavour": "Once the shook troops of the Necrontyr, Immortals still provide their masters with a powerful core of skilled soldiery millennia later. More advanced than Necron Warriors, they can employ a number of strategies even without command, and their firepower makes them deadly in close or midrange engagements."
+            "flavour": "Once the shook troops of the Necrontyr, Immortals still provide their masters with a powerful core of skilled soldiery millennia later. More advanced than Necron Warriors, they can employ a number of strategies even without command, and their firepower makes them deadly in close or midrange engagements.",
+            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99120110057_NECImmortalsLead.jpg"
         },
         {
             "name": "Imotekh the Stormlord",
@@ -2125,7 +2147,8 @@
                 "Lychguard",
                 "Necron Warriors"
             ],
-            "flavour": "Imotekh is a sublimely skilled strategist, wielding his armies with hyperlogical skill and unleashing deadly strategic ploys. In battle he incinerates enemies with his Gauntlet of Fire, blasts them with pan-dimensional energies from his Staff of the Destroyer or humbles them in punishing one-on-one duels."
+            "flavour": "Imotekh is a sublimely skilled strategist, wielding his armies with hyperlogical skill and unleashing deadly strategic ploys. In battle he incinerates enemies with his Gauntlet of Fire, blasts them with pan-dimensional energies from his Staff of the Destroyer or humbles them in punishing one-on-one duels.",
+            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99800110006_ImotekhTheStormlordNEW01.jpg"
         },
         {
             "name": "Lokhust Destroyers",
@@ -2199,7 +2222,8 @@
                 "Close combat weapon"
             ],
             "wargear-options": [],
-            "flavour": "Lokhust Destroyers rely on speed and firepower to annihilate any life they encounter. Their repulsor-sled bodies and augmented kinetic compensators ensure they can fire on the move without reduction in efficiency, and their speed allows them to run even the swiftest prey to ground."
+            "flavour": "Lokhust Destroyers rely on speed and firepower to annihilate any life they encounter. Their repulsor-sled bodies and augmented kinetic compensators ensure they can fire on the move without reduction in efficiency, and their speed allows them to run even the swiftest prey to ground.",
+            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99120110070_NecronDestroyerretoolLead.jpg"
         },
         {
             "name": "Lokhust Heavy Destroyers",
@@ -2292,7 +2316,8 @@
                     "restricted": "false"
                 }
             ],
-            "flavour": "The Destroyer Cults think nothing of sacrificing their physical forms to optimise themselves for slaughter. Lokhust Heavy Destroyers skim to battle upon repulsor-sled bodies, their upper limbs bound into gauss destructors or enmitic exterminators with which they decimate their foes with devastating blasts from afar"
+            "flavour": "The Destroyer Cults think nothing of sacrificing their physical forms to optimise themselves for slaughter. Lokhust Heavy Destroyers skim to battle upon repulsor-sled bodies, their upper limbs bound into gauss destructors or enmitic exterminators with which they decimate their foes with devastating blasts from afar",
+            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99120110044_LokhustHeavyDestroyerLead.jpg"
         },
         {
             "name": "Lokhust Lord",
@@ -2406,7 +2431,8 @@
                 "Lokhust Destroyers",
                 "Lokhust Heavy Destroyers"
             ],
-            "flavour": "Lokhust Lords skim into battle on swift grav-sled bodies. Driven by nihilistic hatred, their every optimised strike slaughters swathes of the foe. Meanwhile, should the enemy wound a Lokhust Lord, in return they must watch in despair as minute repair-scarabs spill from his phylactery in a silvery tide to repair his rent form."
+            "flavour": "Lokhust Lords skim into battle on swift grav-sled bodies. Driven by nihilistic hatred, their every optimised strike slaughters swathes of the foe. Meanwhile, should the enemy wound a Lokhust Lord, in return they must watch in despair as minute repair-scarabs spill from his phylactery in a silvery tide to repair his rent form.",
+            "image": "https://www.alphaomegahobby.com/cdn/shop/products/99800110014_DestroyerLordPackNEW01_500x.jpg?v=1571659123"
         },
         {
             "name": "Lord",
@@ -2511,7 +2537,8 @@
                 "Lychguard",
                 "Necron Warriors"
             ],
-            "flavour": "The Royal Courts of Necron dynasties include many lesser lords amongst their number, while fringeworld forces may be led by such beings. They are possessed of formidable cunning and martial strength, and the resurrection orbs they carry to war can overcharge the self-repair systems of nearby Necrons."
+            "flavour": "The Royal Courts of Necron dynasties include many lesser lords amongst their number, while fringeworld forces may be led by such beings. They are possessed of formidable cunning and martial strength, and the resurrection orbs they carry to war can overcharge the self-repair systems of nearby Necrons.",
+            "image": "https://battlegroundgaming.co.uk/cdn/shop/products/unnamed_800x.jpg?v=1617826546"
         },
         {
             "name": "Lychguard",
@@ -2592,7 +2619,8 @@
                     "restricted": "true"
                 }
             ],
-            "flavour": "Incapable of disloyalty and clad in forms as resilient and resplendent as their masters', Lychguard are the ultimate protectors. Whether reaping the foe with warscythes or advancing with dispersion shields locked and hyperphase swords thrumming, at close quarters these bodyguards are nigh on unstoppable."
+            "flavour": "Incapable of disloyalty and clad in forms as resilient and resplendent as their masters', Lychguard are the ultimate protectors. Whether reaping the foe with warscythes or advancing with dispersion shields locked and hyperphase swords thrumming, at close quarters these bodyguards are nigh on unstoppable.",
+            "image": "https://www.games-workshop.com/resources/catalog/product/920x950/99120110012_LychguardNEW04.jpg"
         },
         {
             "name": "Monolith",
@@ -2705,7 +2733,8 @@
                     "restricted": "true"
                 }
             ],
-            "flavour": "A Monolith is capable of skimming across the battlefield, or even descending from space. It can slaughter foes with its array of potent weapons, heal damage with the living metal of its hull and even teleport Necron reinforcements into battle through its shimmering eternity gate."
+            "flavour": "A Monolith is capable of skimming across the battlefield, or even descending from space. It can slaughter foes with its array of potent weapons, heal damage with the living metal of its hull and even teleport Necron reinforcements into battle through its shimmering eternity gate.",
+            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99120110043_NECMonolithLead.jpg"
         },
         {
             "name": "Necron Warriors",
@@ -2794,7 +2823,8 @@
                     "restricted": "false"
                 }
             ],
-            "flavour": "Necron Warriors attack in rank upon shambling rank. Individually little more than mindless automata, they are relentless and deadly when commanded en masse. The Warriors' metallic bodies can self-repair from even the most hideous damage, while their unceasing volleys of fire butcher the foe with mechanical efficiency"
+            "flavour": "Necron Warriors attack in rank upon shambling rank. Individually little more than mindless automata, they are relentless and deadly when commanded en masse. The Warriors' metallic bodies can self-repair from even the most hideous damage, while their unceasing volleys of fire butcher the foe with mechanical efficiency",
+            "image": "https://www.games-workshop.com/resources/catalog/product/threeSixty/60010199034_NecronWarriorsSpin2360/01.jpg"
         },
         {
             "name": "Nemesor Zahndrekh",
@@ -2873,7 +2903,8 @@
                 "Lychguard",
                 "Necron Warriors"
             ],
-            "flavour": "Nemesor Zahndrekh is one of the finest generals in the Sautekh Dynasty, expertly directing his own warriors while neutralising his enemies' every gambit. This is especially impressive considering his degraded engrammatic state, which has left him convinced he still lives and breathes during the time of the Necrontyr."
+            "flavour": "Nemesor Zahndrekh is one of the finest generals in the Sautekh Dynasty, expertly directing his own warriors while neutralising his enemies' every gambit. This is especially impressive considering his degraded engrammatic state, which has left him convinced he still lives and breathes during the time of the Necrontyr.",
+            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99800110001_NemesorZahndrekhNEW01.jpg"
         },
         {
             "name": "Night Scythe",
@@ -2951,7 +2982,8 @@
             ],
             "wargear-options": [],
             "transport": "This model has a transport capacity of 1 *Necrons Infantry* unit.",
-            "flavour": "Many Necron invasions begin with Night Scythes flitting through a world's void defences. Potent aerial fighters in their own right, Night Scythes also employ invasion beams to generate captive wormholes through which invading infantry can march direct from distant Necron tomb worlds to begin their conquests anew."
+            "flavour": "Many Necron invasions begin with Night Scythes flitting through a world's void defences. Potent aerial fighters in their own right, Night Scythes also employ invasion beams to generate captive wormholes through which invading infantry can march direct from distant Necron tomb worlds to begin their conquests anew.",
+            "image": "https://www.games-workshop.com/resources/catalog/product/920x950/99120110065_NightScytheLead.jpg"
         },
         {
             "name": "Obelisk",
@@ -3032,7 +3064,8 @@
                 "Armoured bulk"
             ],
             "wargear-options": [],
-            "flavour": "The Necron Obelisk is a slab-sided war engine designed to ensure air superiority. When enemy aircraft draw near, the Obelisk unleashes a powerful gravitic pulse that races out through the skies over the battlefield and swats the foe's fighters and airborne troops to the ground like luckless insects."
+            "flavour": "The Necron Obelisk is a slab-sided war engine designed to ensure air superiority. When enemy aircraft draw near, the Obelisk unleashes a powerful gravitic pulse that races out through the skies over the battlefield and swats the foe's fighters and airborne troops to the ground like luckless insects.",
+            "image": "https://www.games-workshop.com/resources/catalog/product/920x950/99120110026_NecronObelisk01.jpg"
         },
         {
             "name": "Ophydian Destroyers",
@@ -3101,7 +3134,8 @@
                     "per": "3"
                 }
             ],
-            "flavour": "Repugnant to other Necrons, Ophydian Destroyers echo elements of servile Canoptek Wraiths and reviled Flayed Ones in their murder-optimised bodies. Tunnelling through solid ferrocrete with frenzied violence and flickers of dimensional displacement, they burst into view to ambush, hack and rend their prey apart."
+            "flavour": "Repugnant to other Necrons, Ophydian Destroyers echo elements of servile Canoptek Wraiths and reviled Flayed Ones in their murder-optimised bodies. Tunnelling through solid ferrocrete with frenzied violence and flickers of dimensional displacement, they burst into view to ambush, hack and rend their prey apart.",
+            "image": "https://www.games-workshop.com/resources/catalog/product/threeSixty/99120110053_NecronsOrphydianDestroyersOTT1360/01-01.jpg"
         },
         {
             "name": "Orikan the Diviner",
@@ -3172,7 +3206,8 @@
                 "Lychguard",
                 "Necron Warriors"
             ],
-            "flavour": "Orikan is a master astromancer, using his knowledge of astral conjunctions to predict the tides of battle and empower himself with cosmic energies. He supplements these skills with chronomantic abilities that allow him to see events before they happen and know just where to aim his blows."
+            "flavour": "Orikan is a master astromancer, using his knowledge of astral conjunctions to predict the tides of battle and empower himself with cosmic energies. He supplements these skills with chronomantic abilities that allow him to see events before they happen and know just where to aim his blows.",
+            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99800110016_OrikanTheDivinerNEW01.jpg"
         },
         {
             "name": "Overlord",
@@ -3322,7 +3357,8 @@
                 "Lychguard",
                 "Necron Warriors"
             ],
-            "flavour": "Overlords lead the Necron dynasties in battle. Their android minds are tremendously swift, their bodies implacably resilient and their weapons eldritch, ancient and lethal. Yet it is the Overlords' indomitable wills that are perhaps their most fearsome assets, for with these they drive entire armies to war"
+            "flavour": "Overlords lead the Necron dynasties in battle. Their android minds are tremendously swift, their bodies implacably resilient and their weapons eldritch, ancient and lethal. Yet it is the Overlords' indomitable wills that are perhaps their most fearsome assets, for with these they drive entire armies to war",
+            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99070110004_NECOverlordLead.jpg"
         },
         {
             "name": "Plasmancer",
@@ -3399,7 +3435,8 @@
                 "Lychguard",
                 "Necron Warriors"
             ],
-            "flavour": "Plasmancers are unsubtle annihilators. They are capable of wielding energy as a weapon itself rather than needing to bind it to other forms. Arcs of unstable lightning leap from their forms to wrack nearby foes, and with a gesture these Crypteks can channel those same energies into searing ranged blasts."
+            "flavour": "Plasmancers are unsubtle annihilators. They are capable of wielding energy as a weapon itself rather than needing to bind it to other forms. Arcs of unstable lightning leap from their forms to wrack nearby foes, and with a gesture these Crypteks can channel those same energies into searing ranged blasts.",
+            "image": "https://www.games-workshop.com/resources/catalog/product/threeSixty/99120110072_NecronsRoyalCourtOTT3360/01-01.jpg"
         },
         {
             "name": "Psychomancer",
@@ -3477,7 +3514,8 @@
                 "Lychguard",
                 "Necron Warriors"
             ],
-            "flavour": "Psychomancers study the science of fear. They are expert manipulators, conjuring phantasms and temporary hard-light constructs that trigger primal survival instincts in their victims' minds, or overload even the most advanced sensoria. false being is safe from the creeping tendrils of the Psychomancer's art."
+            "flavour": "Psychomancers study the science of fear. They are expert manipulators, conjuring phantasms and temporary hard-light constructs that trigger primal survival instincts in their victims' minds, or overload even the most advanced sensoria. false being is safe from the creeping tendrils of the Psychomancer's art.",
+            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99120110073_NECPsychomancerLead.jpg"
         },
         {
             "name": "Royal Warden",
@@ -3556,7 +3594,8 @@
                 "Immortals",
                 "Necron Warriors"
             ],
-            "flavour": "Royal Wardens ensure their lord's will is carried out by the dynasty's vast armies. They possess the initiative to adapt the strategies of the phalanxes under their command with engrammatic logic. While they retain independence of thought, protocols buried deep within their living metal cortices render them unquestioningly loyal."
+            "flavour": "Royal Wardens ensure their lord's will is carried out by the dynasty's vast armies. They possess the initiative to adapt the strategies of the phalanxes under their command with engrammatic logic. While they retain independence of thought, protocols buried deep within their living metal cortices render them unquestioningly loyal.",
+            "image": "https://wh40k.lexicanum.com/mediawiki/images/thumb/d/d3/Necron_Royal_Warden.jpg/900px-Necron_Royal_Warden.jpg"
         },
         {
             "name": "Skorpekh Destroyers",
@@ -3623,7 +3662,8 @@
                     "per": "3"
                 }
             ],
-            "flavour": "Skorpekh Destroyers favour overwhelming close-quarters violence to slaughter their victims. Though ungainly off the battlefield, in combat their tripod limbs allow them to pass through enemy lines in a madcap pirouette of slashing hyperphase blades, nigh on impossible to evade or parry."
+            "flavour": "Skorpekh Destroyers favour overwhelming close-quarters violence to slaughter their victims. Though ungainly off the battlefield, in combat their tripod limbs allow them to pass through enemy lines in a madcap pirouette of slashing hyperphase blades, nigh on impossible to evade or parry.",
+            "image": "https://www.games-workshop.com/resources/catalog/product/threeSixty/99120110051_NecronSkorpekhDestroyersOTT1360/01-01.jpg"
         },
         {
             "name": "Skorpekh Lord",
@@ -3712,7 +3752,8 @@
             "leads": [
                 "Skorpekh Destroyers"
             ],
-            "flavour": "Skorpekh Lords have fallen far from their noble beginnings, allowing an obsession with slaughter to twist their bodies and minds. Lurching forward on tripod bodies, their enmitic annihilators blast victims messily apart as their claws and blades lash out to reap a crimson harvest across the battlefield."
+            "flavour": "Skorpekh Lords have fallen far from their noble beginnings, allowing an obsession with slaughter to twist their bodies and minds. Lurching forward on tripod bodies, their enmitic annihilators blast victims messily apart as their claws and blades lash out to reap a crimson harvest across the battlefield.",
+            "image": "https://www.games-workshop.com/resources/catalog/product/threeSixty/99120110072_NecronsRoyalCourtOTT1360/01-01.jpg"
         },
         {
             "name": "Technomancer",
@@ -3806,7 +3847,8 @@
                 "Lychguard",
                 "Necron Warriors"
             ],
-            "flavour": "Technomancers possess the power to augment and swiftly repair Necron units in the field. Some Technomancers use Canoptek cloaks to flit swiftly to wherever they are needed most, while others employ the nanoscarab beams of their Canoptek control nodes to augment from afar."
+            "flavour": "Technomancers possess the power to augment and swiftly repair Necron units in the field. Some Technomancers use Canoptek cloaks to flit swiftly to wherever they are needed most, while others employ the nanoscarab beams of their Canoptek control nodes to augment from afar.",
+            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99070110005_NECCryptekLead.jpg"
         },
         {
             "name": "Tesseract Vault",
@@ -3931,7 +3973,8 @@
                 "Armoured bulk"
             ],
             "wargear-options": [],
-            "flavour": "These super-heavy war engines channel the furious might of imprisoned Transcendent C'tan Shards, unleashing one unnatural phenomenon after another upon the foe. Yet should they ever be destroyed and the C'tan inside freed, the god-shard's wrath will be great indeed, and all should fear its rampage."
+            "flavour": "These super-heavy war engines channel the furious might of imprisoned Transcendent C'tan Shards, unleashing one unnatural phenomenon after another upon the foe. Yet should they ever be destroyed and the C'tan inside freed, the god-shard's wrath will be great indeed, and all should fear its rampage.",
+            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99120110026_NecronTesseract01.jpg"
         },
         {
             "name": "The Silent King",
@@ -4100,7 +4143,8 @@
                     "name": "Triarchal Menhirs",
                     "rules": "If this unit's Szarekh model is destroyed, all of this unit's remaining Triarchal Menhir models are also destroyed."
                 }
-            ]
+            ],
+            "image": "https://www.games-workshop.com/resources/catalog/product/920x950/99120110047_NECSzarekhSilentKingLead.jpg"
         },
         {
             "name": "Tomb Blades",
@@ -4239,7 +4283,8 @@
                     "restricted": "Nebuloscope"
                 }
             ],
-            "flavour": "Tomb Blades are fast assault skimmers whose spiralling attack patterns are based on fractal hyperlogic. They are well armed, often afforded extra protection by the addition of darkness-generating shadowlooms or armoured shieldvanes. Others employ nebuloscopes to target the foe through even solid fortifications."
+            "flavour": "Tomb Blades are fast assault skimmers whose spiralling attack patterns are based on fractal hyperlogic. They are well armed, often afforded extra protection by the addition of darkness-generating shadowlooms or armoured shieldvanes. Others employ nebuloscopes to target the foe through even solid fortifications.",
+            "image": "https://www.games-workshop.com/resources/catalog/product/920x950/99120110019_TombBladesNEW03.jpg"
         },
         {
             "name": "Transcendent C'tan",
@@ -4326,7 +4371,8 @@
                     "name": "Enslaved Star God",
                     "rules": "This model cannot be your *Warlord*."
                 }
-            ]
+            ],
+            "image": "https://www.games-workshop.com/resources/catalog/product/920x950/99120110026_NecronTesseract04.jpg"
         },
         {
             "name": "Trazyn the Infinite",
@@ -4396,7 +4442,8 @@
                 "Lychguard",
                 "Necron Warriors"
             ],
-            "flavour": "A thief of moments in history, Trazyn takes to the battlefield to acquire that which cunning cannot secure. His Empathic Obliterator triggers psionic shock waves that kill not only his immediate victim, but those of a like mind nearby, while his ability to leap from one surrogate body to the next ensures he is hard to slay indeed."
+            "flavour": "A thief of moments in history, Trazyn takes to the battlefield to acquire that which cunning cannot secure. His Empathic Obliterator triggers psionic shock waves that kill not only his immediate victim, but those of a like mind nearby, while his ability to leap from one surrogate body to the next ensures he is hard to slay indeed.",
+            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99800110009_TrazynTheInfiniteNEW01.jpg"
         },
         {
             "name": "Triach Praetorians",
@@ -4497,7 +4544,8 @@
                     "restricted": "true"
                 }
             ],
-            "flavour": "Triarch Praetorians fight tirelessly to uphold the ancient dynastic codes of their race. Whether blasting the foe with antimatter particles, impaling them on their flickering voidblades or immolating them with their rods of covenant, the Praetorians' gravity displacement packs and combat prowess make them truly deadly."
+            "flavour": "Triarch Praetorians fight tirelessly to uphold the ancient dynastic codes of their race. Whether blasting the foe with antimatter particles, impaling them on their flickering voidblades or immolating them with their rods of covenant, the Praetorians' gravity displacement packs and combat prowess make them truly deadly.",
+            "image": "https://www.games-workshop.com/resources/catalog/product/920x950/99120110012_TriarchPraetoriansNEW02.jpg"
         },
         {
             "name": "Triach Stalker",
@@ -4620,7 +4668,8 @@
                     "restricted": "true"
                 }
             ],
-            "flavour": "Triarch Stalkers are agile combat walkers whose heavy firepower makes them excellent tank-hunters and anti-infantry assault units both. As though their focused blasts of energy and flame were not enough, they can also augment the targeting of nearby Necron forces to further punish the foe."
+            "flavour": "Triarch Stalkers are agile combat walkers whose heavy firepower makes them excellent tank-hunters and anti-infantry assault units both. As though their focused blasts of energy and flame were not enough, they can also augment the targeting of nearby Necron forces to further punish the foe.",
+            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99120110058_NecronTriarchStalkerLead.jpg"
         },
         {
             "name": "Vargard Obyron",
@@ -4689,7 +4738,8 @@
                 "Lychguard",
                 "Necron Warriors"
             ],
-            "flavour": "Obyron is Nemesor Zahndrekh's devoted bodyguard. He is a tremendously skilled close-quarters combatant. Moreover, thanks to his ghostwalk mantle, he is always ready to teleport back to his master's side and place his resilient living metal form between Zahndrekh and harm, striking the foe down before they can react. "
+            "flavour": "Obyron is Nemesor Zahndrekh's devoted bodyguard. He is a tremendously skilled close-quarters combatant. Moreover, thanks to his ghostwalk mantle, he is always ready to teleport back to his master's side and place his resilient living metal form between Zahndrekh and harm, striking the foe down before they can react.",
+            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99800110013_VargardObyronNEW01.jpg"
         },
         {
             "name": "Canoptek Acanthrites",
@@ -4763,7 +4813,8 @@
                 "Voidblade"
             ],
             "wargear-options": [],
-            "flavour": "Canoptek Acanthrites are created for a single purpose: the destruction of those who have dared to claim the ancient empire of the Necrontyr. Acanthrites' articulated bodies are armed with hyper-phased voidblades and high-powered thermal cutting beams, enabling them to carve through and dissemble solid matter as though it were not there."
+            "flavour": "Canoptek Acanthrites are created for a single purpose: the destruction of those who have dared to claim the ancient empire of the Necrontyr. Acanthrites' articulated bodies are armed with hyper-phased voidblades and high-powered thermal cutting beams, enabling them to carve through and dissemble solid matter as though it were not there.",
+            "image": "https://wh40k.lexicanum.com/mediawiki/images/thumb/2/29/Acanthrites.jpg/300px-Acanthrites.jpg"
         },
         {
             "name": "Canoptek Tomb Sentinel",
@@ -4842,7 +4893,8 @@
                 "Gloom Prism"
             ],
             "wargear-options": [],
-            "flavour": "Both guardian and aggressor, the Tomb Sentinel is a heavily modified variant of the Tomb Stalker, which forgoes that device's close-combat ability in favour of an exile cannon. This ancient weapon casts its target into other dimensional realms beyond the material universe, removing trespassers and upstarts as though they never existed."
+            "flavour": "Both guardian and aggressor, the Tomb Sentinel is a heavily modified variant of the Tomb Stalker, which forgoes that device's close-combat ability in favour of an exile cannon. This ancient weapon casts its target into other dimensional realms beyond the material universe, removing trespassers and upstarts as though they never existed.",
+            "image": "https://www.forgeworld.co.uk/resources/catalog/product/920x950/99590110010_NECRONCANOPTEKTOMBSENTINEL3.jpg"
         },
         {
             "name": "Canoptek Tomb Stalker",
@@ -4923,7 +4975,8 @@
                 "Gloom Prism"
             ],
             "wargear-options": [],
-            "flavour": "Armed with gauss weaponry and rows of razor-sharp legs, Tomb Stalkers are unliving machines built to protect the sepulchres of Necron lords. Its arcane senses can detect life through hundreds of metres of solid rock, and once its prey has been detected, it closes in for the kill, using a form of phase field to part matter like water."
+            "flavour": "Armed with gauss weaponry and rows of razor-sharp legs, Tomb Stalkers are unliving machines built to protect the sepulchres of Necron lords. Its arcane senses can detect life through hundreds of metres of solid rock, and once its prey has been detected, it closes in for the kill, using a form of phase field to part matter like water.",
+            "image": "https://static.wikia.nocookie.net/warhammer40k/images/8/89/Tomb-stalker.jpg/revision/latest?cb=20130331065018"
         },
         {
             "name": "Seraptek Heavy Construct",
@@ -5055,7 +5108,8 @@
                     "restricted": "true"
                 }
             ],
-            "flavour": "The Seraptek Heavy Construct wields energies that can disintegrate organic and mechanical matter. Despite its bulk, the Seraptek is an agile machine, exerting dominance over nearby Canoptek-class constructs. What purpose this colossus was originally intended for is unknown, but as a weapon of war it is truly devastating."
+            "flavour": "The Seraptek Heavy Construct wields energies that can disintegrate organic and mechanical matter. Despite its bulk, the Seraptek is an agile machine, exerting dominance over nearby Canoptek-class constructs. What purpose this colossus was originally intended for is unknown, but as a weapon of war it is truly devastating.",
+            "image": "https://www.forgeworld.co.uk/resources/catalog/product/920x950/99560110018_NecronSeraptekHvyConstrBody01.jpg"
         },
         {
             "name": "Tesseract Ark",
@@ -5204,7 +5258,8 @@
                     "restricted": "true"
                 }
             ],
-            "flavour": "Tesseract Arks are rare war machines of immense power, containing a singularity chamber that holds in stasis a fragment of a dying star. Siphoning off this cosmic energy, the Tesseract Ark can unleash terrible destruction, blasting foes with solar fire or excoriating particle winds, all while shielding itself within a field of gravitational distortion."
+            "flavour": "Tesseract Arks are rare war machines of immense power, containing a singularity chamber that holds in stasis a fragment of a dying star. Siphoning off this cosmic energy, the Tesseract Ark can unleash terrible destruction, blasting foes with solar fire or excoriating particle winds, all while shielding itself within a field of gravitational distortion.",
+            "image": "https://www.forgeworld.co.uk/resources/catalog/product/920x950/99590110011_NecronTesseractArk01.jpg"
         }
     ]
 }
