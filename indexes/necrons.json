@@ -4754,7 +4754,7 @@
         },
         {
             "name": "Canoptek Acanthrites",
-            "forge-world": "true",
+            "forgeWorld": "true",
             "cost": [
                 "85",
                 "170"
@@ -4829,7 +4829,7 @@
         },
         {
             "name": "Canoptek Tomb Sentinel",
-            "forge-world": "true",
+            "forgeWorld": "true",
             "cost": [
                 "115"
             ],
@@ -4909,7 +4909,7 @@
         },
         {
             "name": "Canoptek Tomb Stalker",
-            "forge-world": "true",
+            "forgeWorld": "true",
             "cost": [
                 "130"
             ],
@@ -4991,7 +4991,7 @@
         },
         {
             "name": "Seraptek Heavy Construct",
-            "forge-world": "true",
+            "forgeWorld": "true",
             "cost": [
                 "540"
             ],
@@ -5124,7 +5124,7 @@
         },
         {
             "name": "Tesseract Ark",
-            "forge-world": "true",
+            "forgeWorld": "true",
             "cost": [
                 "130"
             ],
