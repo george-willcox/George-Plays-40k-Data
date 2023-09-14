@@ -290,7 +290,8 @@
                 "Immortals"
             ],
             "flavour": "Anrakyr voyages from one tomb world to the next at the head of his veteran Pyrrhian Eternals. His tachyon arrow can unleash an unstoppable thunderbolt of energy, capable of shattering mountains, and his will is so great that he can even seize temporary control of his enemies' engines of war.",
-            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99800110017_AnrakyrNEW01.jpg"
+            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99800110017_AnrakyrNEW01.jpg",
+            "image-transform": "translate(-7px, 6px) scale(2);"
         },
         {
             "name": "C'tan Shard of the Deceiver",
@@ -378,7 +379,8 @@
                     "rules": "This model cannot be your *Warlord*."
                 }
             ],
-            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99810110003_TheDeceiverNEW01.jpg"
+            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99810110003_TheDeceiverNEW01.jpg",
+            "image-transform": "translate(10px, 67px) scale(3)"
         },
         {
             "name": "C'tan Shard of the Nightbringer",
@@ -477,7 +479,8 @@
                     "rules": "This model cannot be your *Warlord*."
                 }
             ],
-            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99810110004_TheNightbringerNEW01.jpg"
+            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99810110004_TheNightbringerNEW01.jpg",
+            "image-transform": "translate(-10px, 63px) scale(3)"
         },
         {
             "name": "C'tan Shard of the Void Dragon",
@@ -602,7 +605,8 @@
                     "rules": "This model cannot be your *Warlord*."
                 }
             ],
-            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99120110054_CTanShardoftheVoidDragonLead.jpg"
+            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99120110054_CTanShardoftheVoidDragonLead.jpg",
+            "image-transform": "translate(-1px, 30px) scale(2.5)"
         },
         {
             "name": "Canoptek Doomstalker",
@@ -1963,7 +1967,8 @@
             ],
             "wargear-options": [],
             "flavour": "Illuminor Szeras is a ghoulish bio-scientist who haunts the battlefield to gather luckless living specimens. He is a master of technomantic lore and android augmentation, employing horrible arcanoscientific instruments to disassemble his enemies, even as he fortifies the living metal forms of his allies.",
-            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99120110049_IlluminorSzerasLead.jpg"
+            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99120110049_IlluminorSzerasLead.jpg",
+            "image-transform": "translate(0px, 20px) scale(1.8)"
         },
         {
             "name": "Immortals",
@@ -2148,7 +2153,8 @@
                 "Necron Warriors"
             ],
             "flavour": "Imotekh is a sublimely skilled strategist, wielding his armies with hyperlogical skill and unleashing deadly strategic ploys. In battle he incinerates enemies with his Gauntlet of Fire, blasts them with pan-dimensional energies from his Staff of the Destroyer or humbles them in punishing one-on-one duels.",
-            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99800110006_ImotekhTheStormlordNEW01.jpg"
+            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99800110006_ImotekhTheStormlordNEW01.jpg",
+            "image-transform": "translate(-2px, 5px) scale(1.5)"
         },
         {
             "name": "Lokhust Destroyers",
@@ -2904,7 +2910,8 @@
                 "Necron Warriors"
             ],
             "flavour": "Nemesor Zahndrekh is one of the finest generals in the Sautekh Dynasty, expertly directing his own warriors while neutralising his enemies' every gambit. This is especially impressive considering his degraded engrammatic state, which has left him convinced he still lives and breathes during the time of the Necrontyr.",
-            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99800110001_NemesorZahndrekhNEW01.jpg"
+            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99800110001_NemesorZahndrekhNEW01.jpg",
+            "image-transform": "translate(0px, -5px) scale(1.8)"
         },
         {
             "name": "Night Scythe",
@@ -3207,7 +3214,8 @@
                 "Necron Warriors"
             ],
             "flavour": "Orikan is a master astromancer, using his knowledge of astral conjunctions to predict the tides of battle and empower himself with cosmic energies. He supplements these skills with chronomantic abilities that allow him to see events before they happen and know just where to aim his blows.",
-            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99800110016_OrikanTheDivinerNEW01.jpg"
+            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99800110016_OrikanTheDivinerNEW01.jpg",
+            "image-transform": "scale(2.5)"
         },
         {
             "name": "Overlord",
@@ -4144,7 +4152,8 @@
                     "rules": "If this unit's Szarekh model is destroyed, all of this unit's remaining Triarchal Menhir models are also destroyed."
                 }
             ],
-            "image": "https://www.games-workshop.com/resources/catalog/product/920x950/99120110047_NECSzarekhSilentKingLead.jpg"
+            "image": "https://www.games-workshop.com/resources/catalog/product/920x950/99120110047_NECSzarekhSilentKingLead.jpg",
+            "image-transform": "translate(-3px, 5px) scale(2.5)"
         },
         {
             "name": "Tomb Blades",
@@ -4443,7 +4452,8 @@
                 "Necron Warriors"
             ],
             "flavour": "A thief of moments in history, Trazyn takes to the battlefield to acquire that which cunning cannot secure. His Empathic Obliterator triggers psionic shock waves that kill not only his immediate victim, but those of a like mind nearby, while his ability to leap from one surrogate body to the next ensures he is hard to slay indeed.",
-            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99800110009_TrazynTheInfiniteNEW01.jpg"
+            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99800110009_TrazynTheInfiniteNEW01.jpg",
+            "image-transform": "translate(0px, -2px) scale(1.9)"
         },
         {
             "name": "Triach Praetorians",
@@ -4739,7 +4749,8 @@
                 "Necron Warriors"
             ],
             "flavour": "Obyron is Nemesor Zahndrekh's devoted bodyguard. He is a tremendously skilled close-quarters combatant. Moreover, thanks to his ghostwalk mantle, he is always ready to teleport back to his master's side and place his resilient living metal form between Zahndrekh and harm, striking the foe down before they can react.",
-            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99800110013_VargardObyronNEW01.jpg"
+            "image": "https://www.games-workshop.com/resources/catalog/product/600x620/99800110013_VargardObyronNEW01.jpg",
+            "image-transform": "translate(13px, 10px) scale(2)"
         },
         {
             "name": "Canoptek Acanthrites",
