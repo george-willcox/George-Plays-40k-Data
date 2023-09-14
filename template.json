@@ -115,7 +115,9 @@
             "leads": [],
             "warlord": "",
             "transport": "",
-            "flavour": ""
+            "flavour": "",
+            "other-rules": [],
+            "image": ""
         }
     ]
 }
