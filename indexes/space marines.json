@@ -3,7 +3,7 @@
     "subtitle": "Adeptus Astartes",
     "folder": "Space Marines",
     "category": "Imperium",
-    "army-rule": {
+    "armyRule": {
         "name": "Oath of Moment",
         "rules": "If your Army Faction is *Adeptus Astartes*, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, each time a model from your army with this ability makes an attack that targets that enemy unit, you can re-roll the Hit roll and you can re-roll the Wound roll.",
         "flavour": "In battle, Space Marines swear mighty oaths to destroy the enemies of the Emperor and uphold the honour of their Chapter, and such vows are sacrosanct. When the Angels of Death strike, they do so with the precision of a surgeon and the force of a thunderbolt. Experience and strategic expertise help them to read the shifting shape of the battle with post-human speed and clarity, directing their wrath towards one priority target after another. Command assets are annihilated, leaving the enemy reeling leaderless. Heavy armour, potent artillery and the vaunted elites of the foe’s forces are laid waste with horrifying speed, until the Emperor’s Angels of Death stand victorious over a field of smouldering wreckage and bolt-riddled corpses, and honour is finally satisfied."
@@ -101,11 +101,11 @@
                 "OC": ""
             },
             "invuln": "",
-            "ranged-weapons": [
+            "rangedWeapons": [
                 {
                     "name": "",
                     "abilities": [],
-                    "Range": "",
+                    "range": "",
                     "A": "",
                     "BS": "",
                     "S": "",
@@ -113,11 +113,11 @@
                     "D": ""
                 }
             ],
-            "melee-weapons": [
+            "meleeWeapons": [
                 {
                     "name": "",
                     "abilities": [],
-                    "Range": "Melee",
+                    "range": "Melee",
                     "A": "",
                     "WS": "",
                     "S": "",
@@ -125,23 +125,23 @@
                     "D": ""
                 }
             ],
-            "core-abilities": [],
-            "faction-abilities": [],
+            "coreAbilities": [],
+            "factionAbilities": [],
             "abilities": [
                 {
                     "name": "",
                     "rules": ""
                 }
             ],
-            "wargear-abilities": [],
+            "wargearAbilities": [],
             "damaged": {
                 "wounds": "",
                 "rules": ""
             },
             "keywords": [],
-            "faction-keywords": [],
+            "factionKeywords": [],
             "equipment": [""],
-            "wargear-options": [
+            "wargearOptions": [
                 {
                     "name": "",
                     "replaces": "",

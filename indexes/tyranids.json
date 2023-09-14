@@ -1,7 +1,7 @@
 {
     "name": "Tyranids",
     "category": "Xenos",
-    "army-rule": [{
+    "armyRule": [{
         "name": "Synapse",
         "flavour": "Some Tyranids serve as synaptic conduits or nodal relays through which a portion of the Hive Mind’s iron will flows, overriding the natural instincts of the swarm to direct the teeming warrior-beasts to function as a single, gestalt organism on the battlefield.",
         "rules": "If your Army Faction is *Tyranids*, while a *Tyranids* unit from your army is within 6\" of one or more *Synapse* models from your army, that unit is said to be within Synapse Range of your army. Each time a *Tyranids* unit from your army takes a Battle-shock test, if it is within Synapse Range of your army, take that test on 3D6 instead of 2D6."
@@ -84,11 +84,11 @@
                 "OC": ""
             },
             "invuln": "",
-            "ranged-weapons": [
+            "rangedWeapons": [
                 {
                     "name": "",
                     "abilities": [],
-                    "Range": "",
+                    "range": "",
                     "A": "",
                     "BS": "",
                     "S": "",
@@ -96,11 +96,11 @@
                     "D": ""
                 }
             ],
-            "melee-weapons": [
+            "meleeWeapons": [
                 {
                     "name": "",
                     "abilities": [],
-                    "Range": "Melee",
+                    "range": "Melee",
                     "A": "",
                     "WS": "",
                     "S": "",
@@ -108,22 +108,22 @@
                     "D": ""
                 }
             ],
-            "core-abilities": [],
-            "faction-abilities": ["Synapse"],
+            "coreAbilities": [],
+            "factionAbilities": ["Synapse"],
             "abilities": [
                 {
                     "name": "",
                     "rules": ""
                 }
             ],
-            "wargear-abilities": [],
+            "wargearAbilities": [],
             "keywords": ["Infantry", "Great Devourer", "Barbgaunts"],
-            "faction-keywords": ["Tyranids"],
+            "factionKeywords": ["Tyranids"],
             "equipment": [
                 "Bio-cannon",
                 "Xenos claws and teeth"
             ],
-            "wargear-options": [],
+            "wargearOptions": [],
             "flavour": "Barbgaunts are little more than living weapons, their bodies and bio-cannons slaved to the will of a pulsating ganglio-parasite that piggybacks them into battle. There, they unleash volleys of chitinous barbs that detonate with the fury of violent muscle-spasms and transfix nearby victims with hails of jagged projectiles."
         },
         {
@@ -143,11 +143,11 @@
                 "OC": ""
             },
             "invuln": "4+",
-            "ranged-weapons": [
+            "rangedWeapons": [
                 {
                     "name": "",
                     "abilities": [],
-                    "Range": "",
+                    "range": "",
                     "A": "",
                     "BS": "",
                     "S": "",
@@ -155,11 +155,11 @@
                     "D": ""
                 }
             ],
-            "melee-weapons": [
+            "meleeWeapons": [
                 {
                     "name": "",
                     "abilities": [],
-                    "Range": "Melee",
+                    "range": "Melee",
                     "A": "",
                     "WS": "",
                     "S": "",
@@ -167,22 +167,22 @@
                     "D": ""
                 }
             ],
-            "core-abilities": ["Deadly Demise D3", "Leader"],
-            "faction-abilities": ["Shadow in the Warp", "Synapse"],
+            "coreAbilities": ["Deadly Demise D3", "Leader"],
+            "factionAbilities": ["Shadow in the Warp", "Synapse"],
             "abilities": [
                 {
                     "name": "",
                     "rules": ""
                 }
             ],
-            "wargear-abilities": [],
+            "wargearAbilities": [],
             "keywords": ["Monster", "Character", "Psyker", "Great Devourer", "Synapse", "Hive Tyrant"],
-            "faction-keywords": ["Tyranids"],
+            "factionKeywords": ["Tyranids"],
             "equipment": [
                 "Monstrous bonesword and lash whip",
                 "Monstrous scything talons"
             ],
-            "wargear-options": [
+            "wargearOptions": [
                 {
                     "name": "Heavy venom cannon",
                     "replaces": "Monstrous bonesword and lash whip",
@@ -237,11 +237,11 @@
                 "Ld": "",
                 "OC": ""
             },
-            "ranged-weapons": [
+            "rangedWeapons": [
                 {
                     "name": "",
                     "abilities": [],
-                    "Range": "",
+                    "range": "",
                     "A": "",
                     "BS": "",
                     "S": "",
@@ -249,11 +249,11 @@
                     "D": ""
                 }
             ],
-            "melee-weapons": [
+            "meleeWeapons": [
                 {
                     "name": "",
                     "abilities": [],
-                    "Range": "Melee",
+                    "range": "Melee",
                     "A": "",
                     "WS": "",
                     "S": "",
@@ -261,22 +261,22 @@
                     "D": ""
                 }
             ],
-            "core-abilities": [],
-            "faction-abilities": ["Synapse"],
+            "coreAbilities": [],
+            "factionAbilities": ["Synapse"],
             "abilities": [
                 {
                     "name": "Skulking Horrors",
                     "rules": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D6\"."
                 }
             ],
-            "wargear-abilities": [],
+            "wargearAbilities": [],
             "keywords": ["Infantry", "Battleline", "Great Devourer", "Endless Multitude", "Termagants"],
-            "faction-keywords": ["Tyranids"],
+            "factionKeywords": ["Tyranids"],
             "equipment": [
                 "Fleshborer",
                 "Xenos claws and teeth"
             ],
-            "wargear-options": [
+            "wargearOptions": [
                 {
                     "name": "Termagant devourer",
                     "replaces": "Fleshborer",

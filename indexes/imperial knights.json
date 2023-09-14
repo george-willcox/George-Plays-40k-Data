@@ -2,7 +2,7 @@
     "name": "Imperial Knights",
     "category": "Imperium",
     "export": "Imperium",
-    "army-rule": {
+    "armyRule": {
         "name": "",
         "flavour": "",
         "rules": ""
@@ -67,11 +67,11 @@
                 "OC": ""
             },
             "invuln": "",
-            "ranged-weapons": [
+            "rangedWeapons": [
                 {
                     "name": "",
                     "abilities": [],
-                    "Range": "",
+                    "range": "",
                     "A": "",
                     "BS": "",
                     "S": "",
@@ -79,11 +79,11 @@
                     "D": ""
                 }
             ],
-            "melee-weapons": [
+            "meleeWeapons": [
                 {
                     "name": "",
                     "abilities": [],
-                    "Range": "Melee",
+                    "range": "Melee",
                     "A": "",
                     "WS": "",
                     "S": "",
@@ -91,23 +91,23 @@
                     "D": ""
                 }
             ],
-            "core-abilities": [],
-            "faction-abilities": [],
+            "coreAbilities": [],
+            "factionAbilities": [],
             "abilities": [
                 {
                     "name": "",
                     "rules": ""
                 }
             ],
-            "wargear-abilities": [],
+            "wargearAbilities": [],
             "damaged": {
                 "wounds": "",
                 "rules": ""
             },
             "keywords": [],
-            "faction-keywords": [],
+            "factionKeywords": [],
             "equipment": [""],
-            "wargear-options": [
+            "wargearOptions": [
                 {
                     "name": "",
                     "replaces": "",

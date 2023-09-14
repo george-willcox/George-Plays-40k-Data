@@ -3,7 +3,7 @@ Data files for 40k
 
 ## <u>*This is work in progress, the schema is not finalised*</u>
 
-All units must have at least: name, cost, composition, keywords, faction-keywords, equipment, and wargear-options.
+All units must have at least: name, cost, composition, keywords, factionKeywords, equipment, and wargearOptions.
 If a unit, that otherwise could be, cannot be a warlord, it must have the field `"warlord": "No"`.
 All submitted units must have at least this, other fields can be added later and are not essential for functionality.
 
